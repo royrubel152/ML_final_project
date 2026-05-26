@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 from scraper import load_all_sources
 from rag import get_or_build_index, retrieve, build_rag_prompt
 from sessions import load_history, save_history, delete_session, cleanup_expired
+from models.schemas import ChatRequest, ChatResponse, FeedbackRequest, ResetRequest
 
 # ── Config ────────────────────────────────────────────────────────
 load_dotenv()
@@ -33,52 +34,42 @@ genai.configure(api_key=API_KEY)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("mba_advisor")
 
-# ── System prompt (rules + format only — no content stuffing) ─────
+# ── System prompt ─────────────────────────────────────────────────
 SYSTEM_PROMPT = """אתה בוט יועץ אקדמי של תוכנית MBA בבית הספר לעסקים של האוניברסיטה העברית.
 
 =====================
 חוקים קריטיים
 =====================
-1. ענה ONLY על בסיס המקטעים הרשמיים שיסופקו בכל שאלה.
+1. ענה אך ורק על בסיס המקטעים שיסופקו בכל שאלה.
 2. אל תמציא, אל תנחש, ואל תשתמש בידע חיצוני.
-3. אם המידע לא מופיע במקטעים — אמור: "המידע אינו זמין במקורות הרשמיים. יש לפנות למזכירות התלמידים."
+3. אם המידע לא מופיע במקטעים — כתוב: "המידע אינו זמין במקורות הרשמיים. יש לפנות למזכירות התלמידים."
 4. ענה בעברית בלבד.
-
-ANTI-HALLUCINATION:
-- בסעיף "ציטוט" — העתק ONLY טקסט שמופיע מילה במילה במקטעים שסופקו.
-- אם אין ציטוט מדויק — כתוב: "לא נמצא ציטוט מדויק."
-- לעולם אל תמציא מספרי עמודים.
+5. אם השאלה אינה קשורה ל-MBA של האוניברסיטה העברית — ענה: "שאלה זו אינה בתחום הייעוץ שלי."
 
 =====================
-פורמט תגובה חובה
+פורמט תגובה
 =====================
 
-מבוא:
-משפט קצר מותאם לשאלה
+**תשובה:**
+תשובה ישירה וברורה. כלול נתונים מהמקטעים כגון קודי קורסים, שמות מרצים, זמנים, ציונים — ישירות בגוף הטקסט, ללא גרשיים.
 
-פרטי סטודנט:
-- אם יש מידע → לציין
-- אם חסר מידע רלוונטי → שאל לפני שתענה
+**פרטים נוספים:**
+טבלה או רשימה אם יש מספר פריטים (קורסים, תנאים וכו')
 
-תשובה:
-- ברורה וישירה (4-5 משפטים)
-- בדיקת תנאי קדם אם רלוונטי
+**קישור:**
+קישור רלוונטי מהמקטעים אם קיים
 
-ציטוט:
-מילה במילה מהמקטעים בלבד. אם לא קיים — "לא נמצא ציטוט מדויק."
-
-קישור:
-קישור ישיר מהמקטעים
-
-כתב ויתור:
+**כתב ויתור:**
 שימו לב, מענה זה ניתן על-ידי בוט. יש לאמת את התשובה במזכירות התלמידים.
 """
 
 # ── Citation verifier ─────────────────────────────────────────────
 def verify_citations(reply: str, context: str) -> str:
-    for quote in re.findall(r'"([^"]{20,})"', reply):
+    # Only check very long quoted strings (100+ chars) — prevents false positives
+    # on Hebrew abbreviations like ד"ר or short course names
+    for quote in re.findall(r'"([^"]{100,})"', reply):
         if quote.strip() not in context:
-            reply = reply.replace(f'"{quote}"', '"[ציטוט לא אומת — פנה למזכירות]"')
+            reply = reply.replace(f'"{quote}"', '[יש לאמת מידע זה מול המקורות הרשמיים]')
     return reply
 
 # ── Global state ──────────────────────────────────────────────────
@@ -122,15 +113,19 @@ async def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 
-@app.post("/chat")
-@limiter.limit("15/minute")
-async def chat(request: Request):
-    data = await request.json()
-    user_message = data.get("message", "").strip()
-    session_id = data.get("session_id", "default")
+OFF_TOPIC_REPLY = (
+    "שאלה זו אינה בתחום הייעוץ שלי. "
+    "אני מסייע אך ורק בנושאי תוכנית MBA של האוניברסיטה העברית — "
+    "קבלה, מסלולים, פטורים, שכר לימוד ותקנון אקדמי. "
+    "לשאלות אחרות, פנה למזכירות התלמידים."
+)
 
-    if not user_message:
-        return JSONResponse({"error": "הודעה ריקה"}, status_code=400)
+
+@app.post("/chat", response_model=ChatResponse)
+@limiter.limit("15/minute")
+async def chat(request: Request, body: ChatRequest):
+    user_message = body.message
+    session_id = body.session_id
 
     logger.info(json.dumps({
         "event": "chat",
@@ -150,24 +145,37 @@ async def chat(request: Request):
             None, lambda: retrieve(user_message, index, chunks)
         )
 
-        # 2 — Build augmented prompt with retrieved context
+        # 2 — Off-topic gate: no matching chunks means the question is out of scope
+        if not relevant:
+            logger.info(json.dumps({
+                "event": "off_topic",
+                "session_id": session_id[:8],
+                "ts": datetime.utcnow().isoformat()
+            }))
+            return JSONResponse({
+                "reply": OFF_TOPIC_REPLY,
+                "sources_used": [],
+                "chunks_found": 0,
+            })
+
+        # 3 — Build augmented prompt with retrieved context
         augmented = build_rag_prompt(user_message, relevant)
 
-        # 3 — Load conversation history and rebuild chat
+        # 4 — Load conversation history (capped to last 10 turns) and rebuild chat
         history = load_history(session_id)
         session = model.start_chat(history=history)
 
-        # 4 — Send augmented message (sync SDK in executor)
+        # 5 — Send augmented message (sync SDK in executor)
         response = await loop.run_in_executor(
             None, partial(session.send_message, augmented)
         )
         reply = response.text
 
-        # 5 — Verify citations against retrieved context
+        # 6 — Verify citations against retrieved context
         context_text = " ".join(c["text"] for c in relevant)
         reply = verify_citations(reply, context_text)
 
-        # 6 — Persist updated history
+        # 7 — Persist updated history
         updated_history = list(session.history)
         serializable = [
             {"role": m.role, "parts": [p.text for p in m.parts]}
@@ -190,22 +198,35 @@ async def chat(request: Request):
 
 
 @app.post("/feedback")
-async def feedback(request: Request):
-    data = await request.json()
+async def feedback(request: Request, body: FeedbackRequest):
     logger.info(json.dumps({
         "event": "feedback",
-        "session_id": data.get("session_id", "")[:8],
-        "value": data.get("value"),
+        "session_id": body.session_id[:8],
+        "value": body.value,
         "ts": datetime.utcnow().isoformat()
     }))
     return JSONResponse({"status": "ok"})
 
 
 @app.post("/reset")
-async def reset(request: Request):
-    data = await request.json()
-    delete_session(data.get("session_id", "default"))
+async def reset(body: ResetRequest):
+    delete_session(body.session_id)
     return JSONResponse({"status": "ok"})
+
+
+@app.get("/courses")
+async def courses():
+    chunks = state.get("chunks", [])
+    names = set()
+    pattern = re.compile(r"^\s*-\s+\d+:\s+(.+?)\s+\(")
+    for chunk in chunks:
+        for line in chunk["text"].split("\n"):
+            m = pattern.match(line)
+            if m:
+                name = m.group(1).strip()
+                if name:
+                    names.add(name)
+    return JSONResponse({"courses": sorted(names)})
 
 
 @app.get("/health")

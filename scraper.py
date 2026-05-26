@@ -45,7 +45,7 @@ def _run_subprocess() -> str:
         capture_output=True,
         text=True,
         encoding="utf-8",
-        timeout=120,
+        timeout=600,
     )
     for line in result.stderr.splitlines():
         print(line)

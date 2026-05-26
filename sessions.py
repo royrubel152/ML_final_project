@@ -10,6 +10,7 @@ import time
 
 SESSIONS_DIR = os.path.join("data", "sessions")
 TTL_HOURS = 2
+MAX_HISTORY_TURNS = 10  # keep last 5 user + 5 model turns to cap token growth
 
 
 def _path(session_id: str) -> str:
@@ -29,7 +30,8 @@ def load_history(session_id: str) -> list[dict]:
         if age_hours > TTL_HOURS:
             os.remove(path)
             return []
-        return data.get("history", [])
+        history = data.get("history", [])
+        return history[-MAX_HISTORY_TURNS:]
     except Exception:
         return []
 

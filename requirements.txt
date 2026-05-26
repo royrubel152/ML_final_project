@@ -11,3 +11,6 @@ playwright
 slowapi
 faiss-cpu
 numpy
+pydantic-settings
+pytest
+httpx
