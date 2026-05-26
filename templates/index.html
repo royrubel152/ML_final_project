@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>יועץ MBA | האוניברסיטה העברית</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="app-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-circle">MBA</div>
+        <div>
+          <div class="sidebar-title">יועץ אקדמי</div>
+          <div class="sidebar-sub">האוניברסיטה העברית</div>
+        </div>
+      </div>
+
+      <div class="sidebar-section-label">מקורות רשמיים</div>
+
+      <nav class="sources-nav">
+        <a href="https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf" target="_blank" class="source-link">
+          <span class="source-icon">📄</span>
+          <span>תקנון אקדמי</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/ptorim" target="_blank" class="source-link">
+          <span class="source-icon">✅</span>
+          <span>פטורים</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/mba/admittance" target="_blank" class="source-link">
+          <span class="source-icon">🎓</span>
+          <span>קבלה לתוכנית</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/mba/specializations" target="_blank" class="source-link">
+          <span class="source-icon">📊</span>
+          <span>התמחויות</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/Accelerated-study-track" target="_blank" class="source-link">
+          <span class="source-icon">⚡</span>
+          <span>מסלול מואץ</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/Accelerated-study-track-all" target="_blank" class="source-link">
+          <span class="source-icon">📋</span>
+          <span>כל קורסי המסלול המואץ</span>
+          <span class="ext-icon">↗</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-section-label" style="margin-top:24px;">שאלות נפוצות</div>
+      <div class="quick-questions">
+        <button class="quick-btn" data-q="מה תנאי הקבלה לתוכנית MBA?">תנאי קבלה</button>
+        <button class="quick-btn" data-q="אילו התמחויות קיימות בתוכנית?">התמחויות</button>
+        <button class="quick-btn" data-q="איך מגישים בקשה לפטור מקורס?">פטורים</button>
+        <button class="quick-btn" data-q="מה המסלול המואץ ומי יכול להתקבל?">מסלול מואץ</button>
+      </div>
+
+      <div class="sidebar-footer">
+        <div class="disclaimer-box">
+          המידע מבוסס על מקורות רשמיים בלבד.<br/>לאימות — פנה למזכירות התלמידים.
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main chat area -->
+    <main class="chat-main">
+      <header class="chat-header">
+        <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+        <div class="header-center">
+          <span class="header-title">יועץ MBA</span>
+          <span class="status-dot"></span>
+          <span class="status-text">מחובר</span>
+        </div>
+        <button class="reset-btn" id="resetBtn" title="שיחה חדשה">שיחה חדשה ↺</button>
+      </header>
+
+      <div class="disclaimer-banner">
+        ⚠️ מענה זה ניתן על-ידי בוט בלבד. יש לאמת כל מידע מול מזכירות התלמידים לפני קבלת החלטה.
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+        <div class="welcome-card">
+          <div class="welcome-icon">🎓</div>
+          <h2>שלום! אני הבוט היועץ האקדמי של תוכנית MBA</h2>
+          <p>אני יכול לעזור בשאלות הנוגעות לתקנון, פטורים, קבלה, התמחויות ומסלולי לימוד.</p>
+          <div class="welcome-hint">
+            <strong>לתשובה מדויקת, אנא ציין:</strong>
+            <ul>
+              <li>תואר ראשון (מה למדת?)</li>
+              <li>שנת לימודים (ראשונה / שנייה)</li>
+              <li>התמחות מבוקשת</li>
+              <li>ממוצע ציונים (אם רלוונטי)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="input-wrapper">
+          <input type="text" id="userInput" placeholder="הקלד את שאלתך כאן..." autocomplete="off" />
+          <button id="sendBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="input-note">הבוט עונה בעברית בלבד על בסיס מקורות רשמיים</div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Mobile sidebar overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
