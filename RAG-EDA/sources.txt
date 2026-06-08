@@ -1,0 +1,39 @@
+# Sources for Hebrew University MBA RAG EDA
+# Format: <group>\t<url>
+# Groups: bschool | shnaton_roadmap | shnaton_specialization
+
+# ── bschool.huji.ac.il — Official MBA site (6 sources) ────────────────────────
+bschool	https://bschool.huji.ac.il/mba/admittance
+bschool	https://bschool.huji.ac.il/mba/specializations
+bschool	https://bschool.huji.ac.il/ptorim
+bschool	https://bschool.huji.ac.il/Accelerated-study-track
+bschool	https://bschool.huji.ac.il/Accelerated-study-track-all
+bschool	https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf
+
+# ── Shnaton — MBA roadmaps (7 sources) ────────────────────────────────────────
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/322-3220
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/322-3222
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/322-3792
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/322-8168
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/826-3254
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/826-3255
+shnaton_roadmap	https://shnaton.huji.ac.il/roadmap/943-3894
+
+# ── Shnaton — Specializations (17 sources) ────────────────────────────────────
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3111
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3113
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3114
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3121
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3123
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3234
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3331
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3333
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3441
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3443
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3551
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3552
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3661
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3662
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3663
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3664
+shnaton_specialization	https://shnaton.huji.ac.il/specialization/3798

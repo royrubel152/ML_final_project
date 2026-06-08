@@ -1,0 +1,1251 @@
+{
+  "id": 52,
+  "code": "3333",
+  "name": {
+    "he": "התמחות בהתנהגות ארגונית ומנהל משאבי אנוש - ראשית",
+    "en": "Major specialization- Organizational Behavior and Human Resources Management"
+  },
+  "learningProgramName": {
+    "he": "מוסמך",
+    "en": "Master's "
+  },
+  "learningProgramDisplayName": {
+    "he": "תואר שני",
+    "en": "Second degree"
+  },
+  "learningProgramSortOrder": 2,
+  "thresholds": [],
+  "academicInfo": {
+    "specializationId": 52,
+    "minPointsTotal": null,
+    "maxPointsTotal": null,
+    "scopeAcademicInfo": {
+      "he": "התמחות ראשית, יש ללמוד 24 נ\"ז מקורסי ההתמחות.",
+      "en": ""
+    },
+    "studiesScopeSections": []
+  },
+  "thresholds_detail": [
+    {
+      "id": 6200,
+      "thresholdCode": 961833,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 2,
+      "maxNaz": 2,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב - קורס חובה שיש ללמוד בשנת הלימודים האחרונה ללימודי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13411,
+          "name": {
+            "he": "חקר ארגונים",
+            "en": "Organizational Studies "
+          },
+          "code": "55914",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "e3aaa338a324f05d3b829e9aca20caad",
+          "remark": "קורס חובה בהתמחות בהתנהגות ארגונית. מומלץ ללמוד קורס זה במקביל לסמינר.\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6264,
+      "thresholdCode": 961904,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 6,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה א - בהתמחות ראשית יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות. \r\n\r\nקורסים אלו יש ללמוד בשנת הלימודים הראשונה ללימודי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 1345,
+          "name": {
+            "he": "תאוריות ארגוניות",
+            "en": "Theories of Organization "
+          },
+          "code": "55998",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "קורס חובה לשנה א' בהתמחות בהתנהגות ארגונית\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 96.05555555555556,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1464,
+          "name": {
+            "he": "שיטות מחקר כמותיות בהתנהגות ארגונית",
+            "en": "Quantitative Research Methods in Organizational Behavior "
+          },
+          "code": "55954",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6265,
+      "thresholdCode": 961909,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 24,
+      "maxCourseCount": null,
+      "hebrewNote": "שנים א או ב - קורסי בחירה של ההתמחות בהתנהגות ארגונית\r\n\r\nלצורך השלמת 24 נ\"ז בלימודי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 56255,
+          "name": {
+            "he": "ארגונים וגלובליזציה: ניהול, תרבות ועבודה בעידן משתנה",
+            "en": "Organizations and Globalization: Management, Culture, and Work in a Changing Era"
+          },
+          "code": "55544",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.76923076923077,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56253,
+          "name": {
+            "he": "בין תיאוריה למעשה א': קבוצות והנחיית קבוצות",
+            "en": "Between Theory and Practice: Groups and Group Facilitation"
+          },
+          "code": "53782",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.375,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 9635,
+          "name": {
+            "he": "מבט נרטיבי על ארגונים ותהליכי התארגנות",
+            "en": "A Narrative Perspective on Organizations and Orgenizing"
+          },
+          "code": "55671",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 98.125,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 20229,
+          "name": {
+            "he": "פרקטיקום בהתנהגות ארגונית: מחקר ייעוץ ופיתוח ארגוני",
+            "en": "Practicum in organizational behavior, development and research "
+          },
+          "code": "53635",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 4,
+          "teacherCode": "a286d509b08438791ebcc5ff35e68dda",
+          "remark": "קורס הפרקטיקום משלב למידה עיונית בכיתה עם התנסות מעשית בארגון העוסק במחקר,\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56256,
+          "name": {
+            "he": "בין תיאוריה למעשה ב׳: קבוצות והנחיית קבוצות",
+            "en": "Between theory and practice: Groups and group facilitation"
+          },
+          "code": "53783",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 13365,
+          "name": {
+            "he": "הקשבה בארגונים: מיומנויות בניהול",
+            "en": "Managerial Listening Skills"
+          },
+          "code": "55741",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": " קורס ייעודי במסלול המורחב בהתנהגות ארגונית במגמה ל\"ייעוץ ארגוני\". תלמידי שנה ג' בתואר ראשון, באישור המרצה בלבד.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57101,
+          "name": {
+            "he": "כשהעסקי פוגש חברתי: יצירת ערך כלכלי-חברתי",
+            "en": "When Business Meets Social Impact: Creating Economic–Social Value"
+          },
+          "code": "55611",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 34579,
+          "name": {
+            "he": "עקרונות ניהול משא ומתן",
+            "en": "Effective Negotiation Management"
+          },
+          "code": "55309",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": "e39fb6d52e5d6f0e6cb89c818c7153ac",
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 469838,
+          "name": {
+            "he": "הלימת אדם - עבודה",
+            "en": "Person- Work Fit"
+          },
+          "code": "55947",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 508440,
+          "name": {
+            "he": "תרבות ארגונית",
+            "en": "Organizational Culture"
+          },
+          "code": "55654",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9440,
+      "thresholdCode": 966882,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה סמינרים",
+        "en": "Mandatory Seminars"
+      },
+      "subChapterOrder": 4,
+      "notIncludeInShnaton": false,
+      "minNaz": 4,
+      "maxNaz": 4,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב' - סמינר יש ללמוד בשנת הלימודים האחרונה ללימודי ההתמחות.",
+      "englishNote": null,
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 5560,
+          "name": {
+            "he": "סמינר -אישיות ומצב בניבוי התנהגות",
+            "en": "Seminar – Personality and Situations in Predicting Behavior"
+          },
+          "code": "55827",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 4,
+          "teacherCode": "24c08f3043812978f3221bfb2d835716",
+          "remark": "",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9478,
+      "thresholdCode": 967054,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 37,
+      "maxCourseCount": null,
+      "hebrewNote": "קורסי בחירה של ההתמחות בהתנהגות ארגונית",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 56255,
+          "name": {
+            "he": "ארגונים וגלובליזציה: ניהול, תרבות ועבודה בעידן משתנה",
+            "en": "Organizations and Globalization: Management, Culture, and Work in a Changing Era"
+          },
+          "code": "55544",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.76923076923077,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56253,
+          "name": {
+            "he": "בין תיאוריה למעשה א': קבוצות והנחיית קבוצות",
+            "en": "Between Theory and Practice: Groups and Group Facilitation"
+          },
+          "code": "53782",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.375,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 9635,
+          "name": {
+            "he": "מבט נרטיבי על ארגונים ותהליכי התארגנות",
+            "en": "A Narrative Perspective on Organizations and Orgenizing"
+          },
+          "code": "55671",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 98.125,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 20229,
+          "name": {
+            "he": "פרקטיקום בהתנהגות ארגונית: מחקר ייעוץ ופיתוח ארגוני",
+            "en": "Practicum in organizational behavior, development and research "
+          },
+          "code": "53635",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 4,
+          "teacherCode": "a286d509b08438791ebcc5ff35e68dda",
+          "remark": "קורס הפרקטיקום משלב למידה עיונית בכיתה עם התנסות מעשית בארגון העוסק במחקר,\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56256,
+          "name": {
+            "he": "בין תיאוריה למעשה ב׳: קבוצות והנחיית קבוצות",
+            "en": "Between theory and practice: Groups and group facilitation"
+          },
+          "code": "53783",
+          "departmentId": 83,
+          "departmentName": {
+            "he": "סוציולוגיה ואנתרופולוגיה",
+            "en": "Sociology & Anthropology"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 13365,
+          "name": {
+            "he": "הקשבה בארגונים: מיומנויות בניהול",
+            "en": "Managerial Listening Skills"
+          },
+          "code": "55741",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": " קורס ייעודי במסלול המורחב בהתנהגות ארגונית במגמה ל\"ייעוץ ארגוני\". תלמידי שנה ג' בתואר ראשון, באישור המרצה בלבד.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57101,
+          "name": {
+            "he": "כשהעסקי פוגש חברתי: יצירת ערך כלכלי-חברתי",
+            "en": "When Business Meets Social Impact: Creating Economic–Social Value"
+          },
+          "code": "55611",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 469838,
+          "name": {
+            "he": "הלימת אדם - עבודה",
+            "en": "Person- Work Fit"
+          },
+          "code": "55947",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 508440,
+          "name": {
+            "he": "תרבות ארגונית",
+            "en": "Organizational Culture"
+          },
+          "code": "55654",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9484,
+      "thresholdCode": 967137,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 6,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "בהתמחות ראשית יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 1345,
+          "name": {
+            "he": "תאוריות ארגוניות",
+            "en": "Theories of Organization "
+          },
+          "code": "55998",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "קורס חובה לשנה א' בהתמחות בהתנהגות ארגונית\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 96.05555555555556,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1464,
+          "name": {
+            "he": "שיטות מחקר כמותיות בהתנהגות ארגונית",
+            "en": "Quantitative Research Methods in Organizational Behavior "
+          },
+          "code": "55954",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9506,
+      "thresholdCode": 967419,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה סמינרים",
+        "en": "Mandatory Seminars"
+      },
+      "subChapterOrder": 4,
+      "notIncludeInShnaton": false,
+      "minNaz": 4,
+      "maxNaz": 4,
+      "maxCourseCount": null,
+      "hebrewNote": null,
+      "englishNote": null,
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 5560,
+          "name": {
+            "he": "סמינר -אישיות ומצב בניבוי התנהגות",
+            "en": "Seminar – Personality and Situations in Predicting Behavior"
+          },
+          "code": "55827",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 4,
+          "teacherCode": "24c08f3043812978f3221bfb2d835716",
+          "remark": "",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9534,
+      "thresholdCode": 967805,
+      "fromToAcademicYear": [
+        2
+      ],
+      "displayAcademicYear": 2,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 2,
+      "maxNaz": 2,
+      "maxCourseCount": null,
+      "hebrewNote": "בהתמחות ראשית יש ללמוד לפחות 24 נ\"ז.",
+      "englishNote": ".",
+      "specializationId": 52,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13411,
+          "name": {
+            "he": "חקר ארגונים",
+            "en": "Organizational Studies "
+          },
+          "code": "55914",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "e3aaa338a324f05d3b829e9aca20caad",
+          "remark": "קורס חובה בהתמחות בהתנהגות ארגונית. מומלץ ללמוד קורס זה במקביל לסמינר.\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1578 @@
+{
+  "id": 60,
+  "code": "3664",
+  "name": {
+    "he": "התמחות בניהול ביו-רפואי - ראשית",
+    "en": "Major specialization- Biomed"
+  },
+  "learningProgramName": {
+    "he": "מוסמך",
+    "en": "Master's "
+  },
+  "learningProgramDisplayName": {
+    "he": "תואר שני",
+    "en": "Second degree"
+  },
+  "learningProgramSortOrder": 2,
+  "thresholds": [],
+  "academicInfo": {
+    "specializationId": 60,
+    "minPointsTotal": null,
+    "maxPointsTotal": null,
+    "scopeAcademicInfo": {
+      "he": "יש ללמוד 24 נ\"ז בקורסי ההתמחות. \r\nקורס 55793 (למי שאינו פטור)לא נכלל במניין הנ\"ז לתואר.",
+      "en": ""
+    },
+    "studiesScopeSections": []
+  },
+  "thresholds_detail": [
+    {
+      "id": 6197,
+      "thresholdCode": 961825,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 4,
+      "maxNaz": 4,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב- בהתמחות ראשית יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות. ברשימה זו קורסי חובה לשנת הלימודים האחרונה ללימודי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13817,
+          "name": {
+            "he": "יזמות ביו רפואית",
+            "en": "Biomedical Entrepreurship"
+          },
+          "code": "55871",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "  הקורס יתקיים בקמפוס ספרא, גבעת רם  ",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 92.88235294117646,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6689,
+          "name": {
+            "he": "סוגיות במימון מיזם ביו רפואי",
+            "en": "Topics in Financing of BioMed Startup"
+          },
+          "code": "55780",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "יתקיימו 4 מפגשים מקוונים. הקורס יילמד בקמפוס ספרא\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6257,
+      "thresholdCode": 961895,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 2,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה א - קורסי תשתית. קורס חובה שאינו נכלל בשקלול לתואר מוסמך ומהווה תנאי קדם לקורסי ההתמחות.\r\n\r\nקורס זה נלמד מעבר ל 48 נ\"ז הנדרש ויש לסיימו בשנת הלימודים הראשונה. בעבור פטור מקורס זה, אין צורך להשלים קורס חלופי.",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 11783,
+          "name": {
+            "he": "מבוא למדעי החיים והרפואה",
+            "en": "Introduction to Life Sciences and Medicine "
+          },
+          "code": "55876",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "זמני ההוראה ייקבעו ע\"י המרצה.   בקורס יתקיימו 2-3 מפגשים עם מרצה הקורס שיתואמו עם הסטודנטים בקורס.\nמעבר לכך, הקורס מתנהל בצורה של לימוד עצמי עם 10 מבדקי בית שמרכיבים את הציון הכללי בקורס.\nקורס זה הינו קורס תשתית ואינו נכנס לשקלול. \nיש ללמוד קורס זה בשנה הראשונה לתואר.  ",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6258,
+      "thresholdCode": 961896,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 12,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה א - התמחות בניהול ביו-רפואי. התמחות ראשית בלבד, יש ללמוד יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות.  \r\n\r\nקורסים אלו יש ללמוד בשנה הראשונה ללימודי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 24042,
+          "name": {
+            "he": "מבוא לפיתוח תרופות ומכשור רפואי א",
+            "en": "Introduction to Medical Drug and Device Development A"
+          },
+          "code": "55878",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "בסמסטר א הקורס יתקיים בעין כרם הרשמה לקורס זה מחייבת הרשמה לקורס ההמשך 55879\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 3846,
+          "name": {
+            "he": "עקרונות במחקר ביו רפואי",
+            "en": "Principles in Biomedical Research"
+          },
+          "code": "55874",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בעין כרם. אם יהיה תלמיד דובר אנגלית הקורס ינתן באנגלית.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 98.36363636363636,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 17888,
+          "name": {
+            "he": "הבטחת איכות, רגולציה ומו\"פ קליני",
+            "en": "Quality Assurance and Regulatory Aspects of the Biomed Enterprise"
+          },
+          "code": "55870",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס ייתקיים באופן מקוון.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 25892,
+          "name": {
+            "he": "מבוא לפיתוח תרופות ומכשור רפואי ב'",
+            "en": "Introduction to Medical Drug and Device Development B"
+          },
+          "code": "55879",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "בסמסטר ב', הקורס יתקיים באופן מקוון + מספר מפגשים בגבעת רם. קורס זה הינו המשך לקןרס 55878\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8762,
+          "name": {
+            "he": "ניהול ידע וקניין רוחני",
+            "en": "Knowledge management and intellectual property"
+          },
+          "code": "55781",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים באופן מקוון + 4 מפגשים פרונטליים בגבעת רם\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6259,
+      "thresholdCode": 961897,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 14,
+      "maxCourseCount": null,
+      "hebrewNote": ". קורסי בחירה של ההתמחות בניהול ביו-רפואי",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 6291,
+          "name": {
+            "he": "בריאות דיגיטלית",
+            "en": "Digital Health"
+          },
+          "code": "55783",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בקמפוס גבעת רם\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 91.33333333333333,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 13973,
+          "name": {
+            "he": "תורת ההחלטות",
+            "en": "Decision Theory"
+          },
+          "code": "55739",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 77.5,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57059,
+          "name": {
+            "he": "אסטרטגיות השקעה של קרנות גידור",
+            "en": "Accounting Hedge Funds  Strategies "
+          },
+          "code": "55609",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1862,
+          "name": {
+            "he": "שיווק ביו רפואי",
+            "en": "Biomed Marketing "
+          },
+          "code": "55755",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בקמפוס ספרא - גבעת רם.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 20145,
+          "name": {
+            "he": "תחרות ורגולציה בכלכלה הישראלית",
+            "en": "Competition and Regulation in the Israeli Economy"
+          },
+          "code": "55976",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 507826,
+          "name": {
+            "he": "אסטרטגיה תאגידית",
+            "en": "Corporate Strategies "
+          },
+          "code": "55659",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 463530,
+          "name": {
+            "he": "כלכלה מאקרו לתלמידי ביומד",
+            "en": "Macroeconomics for Biomed Students"
+          },
+          "code": "55842",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9497,
+      "thresholdCode": 967319,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 14,
+      "maxCourseCount": null,
+      "hebrewNote": ". קורסי בחירה של ההתמחות בניהול ביו-רפואי",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 6291,
+          "name": {
+            "he": "בריאות דיגיטלית",
+            "en": "Digital Health"
+          },
+          "code": "55783",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בקמפוס גבעת רם\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 91.33333333333333,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 13973,
+          "name": {
+            "he": "תורת ההחלטות",
+            "en": "Decision Theory"
+          },
+          "code": "55739",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 77.5,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57059,
+          "name": {
+            "he": "אסטרטגיות השקעה של קרנות גידור",
+            "en": "Accounting Hedge Funds  Strategies "
+          },
+          "code": "55609",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1862,
+          "name": {
+            "he": "שיווק ביו רפואי",
+            "en": "Biomed Marketing "
+          },
+          "code": "55755",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בקמפוס ספרא - גבעת רם.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 20145,
+          "name": {
+            "he": "תחרות ורגולציה בכלכלה הישראלית",
+            "en": "Competition and Regulation in the Israeli Economy"
+          },
+          "code": "55976",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 507826,
+          "name": {
+            "he": "אסטרטגיה תאגידית",
+            "en": "Corporate Strategies "
+          },
+          "code": "55659",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 463530,
+          "name": {
+            "he": "כלכלה מאקרו לתלמידי ביומד",
+            "en": "Macroeconomics for Biomed Students"
+          },
+          "code": "55842",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9498,
+      "thresholdCode": 967335,
+      "fromToAcademicYear": [
+        2
+      ],
+      "displayAcademicYear": 2,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 1,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": ". בהתמחות ראשית יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות. ברשימה זו קורסי חובה:",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13817,
+          "name": {
+            "he": "יזמות ביו רפואית",
+            "en": "Biomedical Entrepreurship"
+          },
+          "code": "55871",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "  הקורס יתקיים בקמפוס ספרא, גבעת רם  ",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 92.88235294117646,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7057,
+          "name": {
+            "he": "פרויקט גמר ביזמות ביו-רפואית BioInnovation - א'",
+            "en": "Final Project in Biomedical Entrepreneurship - BioInnovation A"
+          },
+          "code": "55941",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "הקורס ינתן בקמפוס י' ספרא, בגבעת רם הרשמה לקורס זה מחייבת הרשמה לקורס ההמשך 55944\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6689,
+          "name": {
+            "he": "סוגיות במימון מיזם ביו רפואי",
+            "en": "Topics in Financing of BioMed Startup"
+          },
+          "code": "55780",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "יתקיימו 4 מפגשים מקוונים. הקורס יילמד בקמפוס ספרא\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 25160,
+          "name": {
+            "he": "פרוייקט גמר ביזמות ביו-רפואית BioInnovation - ב'",
+            "en": "Final Project in Biomedical Entrepreneurship - BioInnovation B"
+          },
+          "code": "55944",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "קורס זה הינו המשך לקורס 55941\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9505,
+      "thresholdCode": 967418,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 2,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": ". קורסי תשתית. קורסי התשתית הינם קורסי חובה ואינם נכללים בשקלול לתואר מוסמך. קורסים אלו נלמדים מעבר ל 48 נ\"ז הנדרשים ויש לסיימם בשנת הלימודים הראשונה. בעבור פטורים מקורסים אלו, אין צורך להשלים קורסים חלופיים.",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 11783,
+          "name": {
+            "he": "מבוא למדעי החיים והרפואה",
+            "en": "Introduction to Life Sciences and Medicine "
+          },
+          "code": "55876",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "זמני ההוראה ייקבעו ע\"י המרצה.   בקורס יתקיימו 2-3 מפגשים עם מרצה הקורס שיתואמו עם הסטודנטים בקורס.\nמעבר לכך, הקורס מתנהל בצורה של לימוד עצמי עם 10 מבדקי בית שמרכיבים את הציון הכללי בקורס.\nקורס זה הינו קורס תשתית ואינו נכנס לשקלול. \nיש ללמוד קורס זה בשנה הראשונה לתואר.  ",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9525,
+      "thresholdCode": 967703,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 12,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "התמחות בניהול ביו-רפואי. התמחות ראשית בלבד, יש ללמוד יש ללמוד לפחות 24 נ\"ז מקורסי ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 24042,
+          "name": {
+            "he": "מבוא לפיתוח תרופות ומכשור רפואי א",
+            "en": "Introduction to Medical Drug and Device Development A"
+          },
+          "code": "55878",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "בסמסטר א הקורס יתקיים בעין כרם הרשמה לקורס זה מחייבת הרשמה לקורס ההמשך 55879\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 3846,
+          "name": {
+            "he": "עקרונות במחקר ביו רפואי",
+            "en": "Principles in Biomedical Research"
+          },
+          "code": "55874",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים בעין כרם. אם יהיה תלמיד דובר אנגלית הקורס ינתן באנגלית.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 98.36363636363636,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 17888,
+          "name": {
+            "he": "הבטחת איכות, רגולציה ומו\"פ קליני",
+            "en": "Quality Assurance and Regulatory Aspects of the Biomed Enterprise"
+          },
+          "code": "55870",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס ייתקיים באופן מקוון.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 25892,
+          "name": {
+            "he": "מבוא לפיתוח תרופות ומכשור רפואי ב'",
+            "en": "Introduction to Medical Drug and Device Development B"
+          },
+          "code": "55879",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "בסמסטר ב', הקורס יתקיים באופן מקוון + מספר מפגשים בגבעת רם. קורס זה הינו המשך לקןרס 55878\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8762,
+          "name": {
+            "he": "ניהול ידע וקניין רוחני",
+            "en": "Knowledge management and intellectual property"
+          },
+          "code": "55781",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים באופן מקוון + 4 מפגשים פרונטליים בגבעת רם\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9553,
+      "thresholdCode": 967872,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובת בחירה",
+        "en": "Required Electives"
+      },
+      "subChapterOrder": 15,
+      "notIncludeInShnaton": false,
+      "minNaz": 4,
+      "maxNaz": 8,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב - ניתן ללמוד את 55941 יחד עם 55944 או את 76105. עבור קורס 76105 יש להגיש מועמדות אצל פרופ' דן גלאי במייל  dan.galai@mail.huji.ac.il\r\n\r\nקורסים אלו יש ללמוד בשנת הלימודים האחרונה לתואר.",
+      "englishNote": null,
+      "specializationId": 60,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13841,
+          "name": {
+            "he": "יזמות בהנדסה ביו-רפואית",
+            "en": "BIO-DESIGN"
+          },
+          "code": "76105",
+          "departmentId": 207,
+          "departmentName": {
+            "he": "ביולוגיה תאית והתפתחותית",
+            "en": "Cellular & Developmental Biology"
+          },
+          "facultyName": {
+            "he": "פקולטה למתמטיקה ולמדעי הטבע",
+            "en": "Faculty of Sciences"
+          },
+          "academicPoints": 8,
+          "teacherCode": null,
+          "remark": "סטודנטים המעוניינים להירשם לקורס צריכים לפנות למורה החוג במייל: yaakov.nahmias@mail.huji.ac.il\r\n\r\n \r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מפוצל",
+          "courseStructureID": 9,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 112,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7057,
+          "name": {
+            "he": "פרויקט גמר ביזמות ביו-רפואית BioInnovation - א'",
+            "en": "Final Project in Biomedical Entrepreneurship - BioInnovation A"
+          },
+          "code": "55941",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "הקורס ינתן בקמפוס י' ספרא, בגבעת רם הרשמה לקורס זה מחייבת הרשמה לקורס ההמשך 55944\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 25160,
+          "name": {
+            "he": "פרוייקט גמר ביזמות ביו-רפואית BioInnovation - ב'",
+            "en": "Final Project in Biomedical Entrepreneurship - BioInnovation B"
+          },
+          "code": "55944",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": "60befc87d96c7351a383cfe0900d0523",
+          "remark": "קורס זה הינו המשך לקורס 55941\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    }
+  ]
+}

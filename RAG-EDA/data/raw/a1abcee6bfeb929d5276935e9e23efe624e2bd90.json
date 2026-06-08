@@ -1,0 +1,368 @@
+{
+  "id": 424,
+  "roadmapCode": "322-8168",
+  "scopeName": {
+    "he": "דוקטורט",
+    "en": "Doctor"
+  },
+  "diplomaDegreeTypeName": {
+    "he": ".Ph.D",
+    "en": ".Ph.D"
+  },
+  "departmentId": 102,
+  "departmentName": {
+    "he": "מנהל עסקים",
+    "en": "Business Administration"
+  },
+  "facultyName": null,
+  "learningProgramName": {
+    "he": "ד\"ר לפילוסופיה",
+    "en": ".Ph.D"
+  },
+  "learningProgramDisplayName": {
+    "he": "תואר שלישי",
+    "en": "Third degree"
+  },
+  "learningProgramSortOrder": 5,
+  "roadmap": {
+    "id": 1622,
+    "name": {
+      "he": "מנהל עסקים",
+      "en": "Business Administration"
+    },
+    "code": "322-8168"
+  },
+  "thresholds": [],
+  "specializations": [],
+  "specializationIds": null,
+  "academicInfo": null,
+  "thresholds_detail": [
+    {
+      "id": 8692,
+      "thresholdCode": 964543,
+      "fromToAcademicYear": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "displayAcademicYear": 3,
+      "learningProgramCode": "005",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 5,
+      "maxCourseCount": null,
+      "hebrewNote": ".",
+      "englishNote": ".",
+      "specializationId": null,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 5635,
+          "name": {
+            "he": "סמינר מחלקתי - דוקטורנטים",
+            "en": "Seminar -Ph.D"
+          },
+          "code": "55857",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הסמינר יתקיים בין השעות 12:15-13:30\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458454,
+          "name": {
+            "he": "סמינר מחלקתי בהתנהגות ארגונית",
+            "en": "Faculty Seminar in Organizational Behavior"
+          },
+          "code": "55926",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 461975,
+          "name": {
+            "he": "סמינר מחלקתי מולטידסיפלינרי",
+            "en": "Multidisciplinary departmental seminar"
+          },
+          "code": "55931",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 8781,
+      "thresholdCode": 964632,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "005",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 5,
+      "maxCourseCount": null,
+      "hebrewNote": ".",
+      "englishNote": ".",
+      "specializationId": null,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 5635,
+          "name": {
+            "he": "סמינר מחלקתי - דוקטורנטים",
+            "en": "Seminar -Ph.D"
+          },
+          "code": "55857",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "הסמינר יתקיים בין השעות 12:15-13:30\r\n",
+          "coursePeriod": 5,
+          "coursePeriodName": {
+            "he": "שנתי",
+            "en": "Yearly"
+          },
+          "coursePeriodOrder": 3,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458454,
+          "name": {
+            "he": "סמינר מחלקתי בהתנהגות ארגונית",
+            "en": "Faculty Seminar in Organizational Behavior"
+          },
+          "code": "55926",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 461975,
+          "name": {
+            "he": "סמינר מחלקתי מולטידסיפלינרי",
+            "en": "Multidisciplinary departmental seminar"
+          },
+          "code": "55931",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 11087,
+      "thresholdCode": 974129,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "005",
+      "subChapter": {
+        "he": "קורסים כלליים",
+        "en": "General Courses"
+      },
+      "subChapterOrder": 74,
+      "notIncludeInShnaton": true,
+      "minNaz": 0,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "נבחר קורס שאינו חלק מתוכנית הלימודים שלך  יש לבחור ולסמן את אחד מאגדי החוג/ים הנלמד/ים או לסמן כקורס עודף בצד הימני של המסך",
+      "englishNote": "You have selected a course that is not part of your study program  Please assign it to one of your department program bundles, or mark it as an excess course on the right side of the screen",
+      "specializationId": null,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 18048,
+          "name": {
+            "he": "דו\"ח התקדמות-תלמידי מחקר",
+            "en": "RESEARCH STUDENTS PROGRESS REPORT"
+          },
+          "code": "74500",
+          "departmentId": 374,
+          "departmentName": {
+            "he": "אחר",
+            "en": "Other"
+          },
+          "facultyName": null,
+          "academicPoints": 0,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "מטלה",
+          "courseStructureID": 29,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "005",
+          "totalHours": 0,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    }
+  ]
+}

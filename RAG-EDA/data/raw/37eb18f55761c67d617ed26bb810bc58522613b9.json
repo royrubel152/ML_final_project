@@ -1,0 +1,4113 @@
+{
+  "id": 46,
+  "code": "3113",
+  "name": {
+    "he": "התמחות במימון ובנקאות ראשית",
+    "en": "Major Specialization-Finance and Banking"
+  },
+  "learningProgramName": {
+    "he": "מוסמך",
+    "en": "Master's "
+  },
+  "learningProgramDisplayName": {
+    "he": "תואר שני",
+    "en": "Second degree"
+  },
+  "learningProgramSortOrder": 2,
+  "thresholds": [],
+  "academicInfo": {
+    "specializationId": 46,
+    "minPointsTotal": null,
+    "maxPointsTotal": null,
+    "scopeAcademicInfo": {
+      "he": "התמחות ראשית, יש ללמוד 24 נ\"ז מקורסי ההתמחות.",
+      "en": ""
+    },
+    "studiesScopeSections": []
+  },
+  "thresholds_detail": [
+    {
+      "id": 6202,
+      "thresholdCode": 961835,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובת בחירה סמינרים",
+        "en": "Required Electives: Seminars"
+      },
+      "subChapterOrder": 19,
+      "notIncludeInShnaton": false,
+      "minNaz": 3,
+      "maxNaz": 22,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב- סמינר יש ללמוד בשנת הלימודים האחרונה ללימודי התמחות.\r\n\r\nיש ללמוד לפחות סמינר אחד מהרשימה. לסמינר 55989 יש להירשם ביחד עם 55990.",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 13841,
+          "name": {
+            "he": "יזמות בהנדסה ביו-רפואית",
+            "en": "BIO-DESIGN"
+          },
+          "code": "76105",
+          "departmentId": 207,
+          "departmentName": {
+            "he": "ביולוגיה תאית והתפתחותית",
+            "en": "Cellular & Developmental Biology"
+          },
+          "facultyName": {
+            "he": "פקולטה למתמטיקה ולמדעי הטבע",
+            "en": "Faculty of Sciences"
+          },
+          "academicPoints": 8,
+          "teacherCode": null,
+          "remark": "סטודנטים המעוניינים להירשם לקורס צריכים לפנות למורה החוג במייל: yaakov.nahmias@mail.huji.ac.il\r\n\r\n \r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מפוצל",
+          "courseStructureID": 9,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 112,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 29450,
+          "name": {
+            "he": "ניהול קרן השקעות א",
+            "en": "Investment Fund Management A"
+          },
+          "code": "55989",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": "רישום לקורס 55989 מחייב רישום לקורס ההמשך 55990. יש לשלוח קו\"ח, גליון ציונים, תמונת פספורט למרצה הקורס לפני השיעור הראשון. בשיעור הראשון יתקיימו ראיונות קבלה\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 17802,
+          "name": {
+            "he": "בחירת תיקי השקעות",
+            "en": "Investments and Portfolio Theory "
+          },
+          "code": "55847",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "קורס זה מיועד לתלמידים בשנה האחרונה לתואר.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 22921,
+          "name": {
+            "he": "ניהול קרן השקעות ב",
+            "en": "Investment Fund Management B"
+          },
+          "code": "55990",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": "קורס זה הינו המשך לקורס 55989\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 5811,
+          "name": {
+            "he": "סמינר בחשבונאות ומידע פיננסי",
+            "en": "Accounting and Financial Information "
+          },
+          "code": "55952",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 4,
+          "teacherCode": null,
+          "remark": "לרישום לסמינר, למי שאיננו בהתמחות של \"ניהול פיננסי\", יש לפנות לבקשת אישור מהמרצה\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 507804,
+          "name": {
+            "he": "השקעות מוסדיות בנדל״ן, תשתיות וקרנות השקעה פרטיות: סמינר מחקרי אמפירי",
+            "en": "Institutional Investment in Real Estate, Infrastructure, and Private Equity: An Empirical Research Seminar"
+          },
+          "code": "55652",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6203,
+      "thresholdCode": 961836,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 6,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה ב- בהתמחות ראשית במימון יש ללמוד 24 נ\"ז מתוך קורסי ההתמחות. להלן קורסי חובה לשנת הלימודים האחרונה של ההתמחות.",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 17620,
+          "name": {
+            "he": "אג\"חים",
+            "en": "Fixed Income  Securities"
+          },
+          "code": "55728",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 80.5774647887324,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18583,
+          "name": {
+            "he": "אופציות ונכסים מותנים",
+            "en": "Options and Contingent Claims"
+          },
+          "code": "55709",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 6266,
+      "thresholdCode": 961910,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 9,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "שנה א -  בהתמחות ראשית במימון יש ללמוד 24 נ\"ז מתוך קורסי ההתמחות. בשנה א יש ללמוד את שלושת קורסי החובה, המהווים תנאי קדם לסמינרים הנלמדים בשנה ב. קורס 55813 מחליף מתשפ\"ג את קורס החובה 55812 (ניתוח נתונים לקבלת החלטות)\r\n\r\nיש ללמוד את הקורס \"מבוא למימון\" 55904  .בשנה א' סמסמטר א'.\r\n\r\nיש ללמוד את הקורס 55902 \"מבוא לחשבונאות\" בשנה א",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 20346,
+          "name": {
+            "he": "אקונומטריקה למימון",
+            "en": "Econometrics for Finance"
+          },
+          "code": "55813",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 95.21052631578948,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 14323,
+          "name": {
+            "he": "השקעות וניירות ערך",
+            "en": "Investments and Securities "
+          },
+          "code": "55846",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 3,
+          "coursePeriodName": {
+            "he": "סמסטר א או ב",
+            "en": "Semester A or B"
+          },
+          "coursePeriodOrder": 2,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 91.25,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8007,
+          "name": {
+            "he": "ניהול פיננסי",
+            "en": "Financial Management "
+          },
+          "code": "55832",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 8628,
+      "thresholdCode": 964478,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "004",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 95,
+      "maxCourseCount": null,
+      "hebrewNote": "שנים א או ב - קורסי בחירה להתמחות במימון ובנקאות לצורך השלמת 24 נ\"ז בהתמחות במימון.",
+      "englishNote": null,
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 56234,
+          "name": {
+            "he": "HUBS Aid – בנייה ויישום של תכנית שיקום לעסקים קטנים ובינוניים בישראל",
+            "en": "HUBS Aid - Design and Implementation of a Rehabilitation Program for Small and Medium Businesses in Israel"
+          },
+          "code": "55678",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "ישנה חובת נוכחות בכל השיעורים\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 93.8695652173913,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 20155,
+          "name": {
+            "he": "אסטרטגיות השקעה חדשניות והשלכות על הדיווח החשבונאי",
+            "en": "Advanced tools for Managers of investment portfolio with options and Accounting Disclosure"
+          },
+          "code": "55899",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.63636363636364,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57046,
+          "name": {
+            "he": "היכרות מקרוב עם מרכז הכספים של גרמניה",
+            "en": "Visiting the Frankfurt Money Center"
+          },
+          "code": "55610",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "סטודנט שלא יגיש את מטלות הקורס, יקבל ציון 0.\r\n\r\nהרשמה דרך מזכירות החוג, לאחר אישור מרצה.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "סיור לימודי בחו\"ל",
+          "courseStructureID": 60,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 96.3,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 957,
+          "name": {
+            "he": "השקעות אימפקט",
+            "en": "Impact Investment"
+          },
+          "code": "55696",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יינתן באנגלית\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 88.04166666666667,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 14156,
+          "name": {
+            "he": "חידושים פיננסים לפיתוח כלכלי",
+            "en": "Financial Innovations  for Economic Development"
+          },
+          "code": "55721",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "תלמיד יוכל לבחור אם להגיש את העבודה בעברית או באנגלית. חלק מהשיעורים יועברו באופן מקוון.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 13841,
+          "name": {
+            "he": "יזמות בהנדסה ביו-רפואית",
+            "en": "BIO-DESIGN"
+          },
+          "code": "76105",
+          "departmentId": 207,
+          "departmentName": {
+            "he": "ביולוגיה תאית והתפתחותית",
+            "en": "Cellular & Developmental Biology"
+          },
+          "facultyName": {
+            "he": "פקולטה למתמטיקה ולמדעי הטבע",
+            "en": "Faculty of Sciences"
+          },
+          "academicPoints": 8,
+          "teacherCode": null,
+          "remark": "סטודנטים המעוניינים להירשם לקורס צריכים לפנות למורה החוג במייל: yaakov.nahmias@mail.huji.ac.il\r\n\r\n \r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מפוצל",
+          "courseStructureID": 9,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 112,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 4192,
+          "name": {
+            "he": "מכרזים ומכירות פומביות",
+            "en": "Auctions - Theory and Practice"
+          },
+          "code": "55809",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "מי שלמד את הקורס מסחר ופרסום אלקטרוניים 55773 אינו ראשי ללמוד קורס זה.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 85.8,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 34617,
+          "name": {
+            "he": "משקיעים מוסדיים ושוק ההון",
+            "en": "Institutional Investors and Capital Markets"
+          },
+          "code": "55306",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.90697674418605,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 5580,
+          "name": {
+            "he": "ניהול סיכונים ושוק ההון",
+            "en": "Risk Management and Capital Markets"
+          },
+          "code": "55856",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.25714285714285,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8961,
+          "name": {
+            "he": "ניתוח חברות והערכת שווי",
+            "en": "Business Analysis Valuation"
+          },
+          "code": "55817",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.9047619047619,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6726,
+          "name": {
+            "he": "סוגיות עכשוויות בחשבונאות בשוק ההון הישראלי",
+            "en": "Contemporary Matters in Accounting and the Israeli Capital Market"
+          },
+          "code": "55753",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 92.94444444444444,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 445,
+          "name": {
+            "he": "תכנות ב-VBA",
+            "en": "VBA Programming"
+          },
+          "code": "54255",
+          "departmentId": 138,
+          "departmentName": {
+            "he": "מדעי החברה - תכנית מיוחדת",
+            "en": "Social Sciences - Special Program"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס מתאים לתלמידים ללא רקע קודם בתכנות ועם ידע בסיסי ב-Excel. התרגיל הוא רשות וללא נ\"ז. ישנה חובת הגשת תרגילים בקורס. לתלמידי תואר בוגר הלומדים במקביל מדעי-המחשב, אין אפשרות להשתתף בקורס זה. תלמידי תואר בוגר במנהל-עסקים הלומדים קורס זה, לא יכולים ללמוד את הקורסים 55124 או 53160.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מפוצל",
+          "courseStructureID": 9,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 82.66666666666667,
+          "sugToar": "001",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 30786,
+          "name": {
+            "he": "תנו לנתונים לדבר: יצירת אסטרטגיה עסקית מבוססת נתונים",
+            "en": "Let the Data Talk: Creating a Data Based Business Strategy"
+          },
+          "code": "55988",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "סטודנטים שלומדים את קורס 55810 אינם רשאים ללמוד קורס זה.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 85.75,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18583,
+          "name": {
+            "he": "אופציות ונכסים מותנים",
+            "en": "Options and Contingent Claims"
+          },
+          "code": "55709",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57059,
+          "name": {
+            "he": "אסטרטגיות השקעה של קרנות גידור",
+            "en": "Accounting Hedge Funds  Strategies "
+          },
+          "code": "55609",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56912,
+          "name": {
+            "he": "אקטיביזם של בעלי מניות וממשל תאגידי",
+            "en": "Shareholder Activism and Corporate Governance: How it impacts shareholder value"
+          },
+          "code": "55607",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "שפת הוראה - אנגלית\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 92.8,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18312,
+          "name": {
+            "he": "בינה מלאכותית ועסקים",
+            "en": "AI & Business"
+          },
+          "code": "55996",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 56894,
+          "name": {
+            "he": "יישומים מתקדמים ומחקר בדיווח כספי ",
+            "en": "Advanced Applications and Research in Financial Reporting"
+          },
+          "code": "55608",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 11044,
+          "name": {
+            "he": "כלכלה, שווקים ועסקים במזרח אסיה",
+            "en": "Business  Markets & Economic Growth in East"
+          },
+          "code": "55403",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים באנגלית . קורס מוסמך שפתוח גם לתלמידי בוגר שנה ג' מינהל עסקים ומזרח אסיה.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57101,
+          "name": {
+            "he": "כשהעסקי פוגש חברתי: יצירת ערך כלכלי-חברתי",
+            "en": "When Business Meets Social Impact: Creating Economic–Social Value"
+          },
+          "code": "55611",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 30282,
+          "name": {
+            "he": "מימון והשקעות בנדל\"ן",
+            "en": "Real Estate Finance and Investment"
+          },
+          "code": "55969",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7410,
+          "name": {
+            "he": "מערכות פיננסיות מסביב לעולם",
+            "en": "Stock Markets and Financial Systems around the World "
+          },
+          "code": "55977",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יינתן באנגלית. הקורס חובה לתלמידי כלכלה פיננסית.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7277,
+          "name": {
+            "he": "נושאים בכלכלה פיננסית ב'",
+            "en": "Topics in Financial Economics B"
+          },
+          "code": "55710",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": " \r\n\r\n \r\n\r\n \r\n\r\nמועדים מדויקים לקורס טרם נקבעו\r\n\r\n \r\n\r\n \r\n\r\n \r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6079,
+          "name": {
+            "he": "ניהול השקעות כמותי",
+            "en": "Financial Analytics"
+          },
+          "code": "55720",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57016,
+          "name": {
+            "he": "סודות בחברה? ניהול תחת פערי מידע",
+            "en": "Secrets in Organizations? Management Under Information Gaps"
+          },
+          "code": "55660",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.2,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1238,
+          "name": {
+            "he": "פינטק",
+            "en": "Fintech"
+          },
+          "code": "55735",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 633,
+          "name": {
+            "he": "תחרות ומבנה שווקים",
+            "en": "Competition and Market Structure "
+          },
+          "code": "55916",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 470394,
+          "name": {
+            "he": "בנקאות ורגולציה",
+            "en": "Regulation and Banking"
+          },
+          "code": "55770",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472729,
+          "name": {
+            "he": "חזית טכנולוגיות התשלומים",
+            "en": "The PayTech Frontier"
+          },
+          "code": "55409",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": "2dabe48275fba4286f3459a0489001b9",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 466363,
+          "name": {
+            "he": "חידושים פיננסיים - מחקר יישומי",
+            "en": "Financial Innovations - Applied Research"
+          },
+          "code": "55680",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 467866,
+          "name": {
+            "he": "יזמות בפינטק",
+            "en": "Entrepreneurship in FinTech"
+          },
+          "code": "55691",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 462110,
+          "name": {
+            "he": "ישומים והרחבות בהערכת תשואה, שווי ושמאות מקרקעין",
+            "en": "Applications and Extensions Valuation, value and real estate appraisals"
+          },
+          "code": "55831",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 463530,
+          "name": {
+            "he": "כלכלה מאקרו לתלמידי ביומד",
+            "en": "Macroeconomics for Biomed Students"
+          },
+          "code": "55842",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 465097,
+          "name": {
+            "he": "כלכלת עסקים ב' (מאקרו)",
+            "en": "Business Economics B (Macro)"
+          },
+          "code": "55751",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 469287,
+          "name": {
+            "he": "מדע המידע למימון",
+            "en": "Data Science for Finance"
+          },
+          "code": "55759",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464487,
+          "name": {
+            "he": "מימון המונים ושווקים אלטרנטיביים",
+            "en": "Crowdfunding and Alternative Markets "
+          },
+          "code": "55775",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "da6da59abb7041cb5eaed65d24af7bfc",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464339,
+          "name": {
+            "he": "מימון יזמות - מתקדם",
+            "en": "Entrepreneurial Finance"
+          },
+          "code": "55766",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464043,
+          "name": {
+            "he": "ניהול וניתוח אשראי",
+            "en": "Credit Analysis and  Management"
+          },
+          "code": "55534",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472816,
+          "name": {
+            "he": "סדנה ביזמות בפינטק",
+            "en": "Finnovation"
+          },
+          "code": "55541",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 6,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 84,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 474229,
+          "name": {
+            "he": "סדנה ביזמות בפינטק ",
+            "en": "Finnovation "
+          },
+          "code": "55966",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472662,
+          "name": {
+            "he": "קריאה מודרכת לתלמידים מתקדמים במימון ו/או בכלכלה פיננסית",
+            "en": "Reading Class for Advanced Students in Financial Economics"
+          },
+          "code": "55789",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458715,
+          "name": {
+            "he": "קרנות נאמנות",
+            "en": "Mutual Funds"
+          },
+          "code": "55663",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458810,
+          "name": {
+            "he": "רגולציה פיננסית לשיפור השווקים: עקרונות, מוסדות, יישומים",
+            "en": "Financial Regulation to Improve Markets: Principles, Institutions, Applications"
+          },
+          "code": "55718",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458607,
+          "name": {
+            "he": "שוק ההון בישראל – מאחורי הקלעים ועד לקדמת הבמה",
+            "en": "Capital Markets in Israel – Behind the Scenes and into the Limelight"
+          },
+          "code": "55723",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 459315,
+          "name": {
+            "he": "תורת המשחקים",
+            "en": "Game theory"
+          },
+          "code": "55731",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9490,
+      "thresholdCode": 967220,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 6,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": ". בהתמחות ראשית במימון יש ללמוד 24 נ\"ז מתוך קורסי ההתמחות. בשנה א יש ללמוד את שלושת קורסי החובה, המהווים תנאי קדם לסמינרים הנלמדים בשנה ב.  קורס 55813 מחליף מתשפ\"ג את קורס החובה 55812 (ניתוח נתונים לקבלת החלטות)",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 17620,
+          "name": {
+            "he": "אג\"חים",
+            "en": "Fixed Income  Securities"
+          },
+          "code": "55728",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 80.5774647887324,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18583,
+          "name": {
+            "he": "אופציות ונכסים מותנים",
+            "en": "Options and Contingent Claims"
+          },
+          "code": "55709",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9507,
+      "thresholdCode": 967435,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובת בחירה סמינרים",
+        "en": "Required Electives: Seminars"
+      },
+      "subChapterOrder": 19,
+      "notIncludeInShnaton": false,
+      "minNaz": 3,
+      "maxNaz": 22,
+      "maxCourseCount": null,
+      "hebrewNote": ". יש ללמוד לפחות סמינר אחד מהרשימה. לסמינר 55989 יש להירשם ביחד עם 55990.",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 29450,
+          "name": {
+            "he": "ניהול קרן השקעות א",
+            "en": "Investment Fund Management A"
+          },
+          "code": "55989",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": "רישום לקורס 55989 מחייב רישום לקורס ההמשך 55990. יש לשלוח קו\"ח, גליון ציונים, תמונת פספורט למרצה הקורס לפני השיעור הראשון. בשיעור הראשון יתקיימו ראיונות קבלה\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 17802,
+          "name": {
+            "he": "בחירת תיקי השקעות",
+            "en": "Investments and Portfolio Theory "
+          },
+          "code": "55847",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "קורס זה מיועד לתלמידים בשנה האחרונה לתואר.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 22921,
+          "name": {
+            "he": "ניהול קרן השקעות ב",
+            "en": "Investment Fund Management B"
+          },
+          "code": "55990",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": "קורס זה הינו המשך לקורס 55989\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 5811,
+          "name": {
+            "he": "סמינר בחשבונאות ומידע פיננסי",
+            "en": "Accounting and Financial Information "
+          },
+          "code": "55952",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 4,
+          "teacherCode": null,
+          "remark": "לרישום לסמינר, למי שאיננו בהתמחות של \"ניהול פיננסי\", יש לפנות לבקשת אישור מהמרצה\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סמינריון",
+          "courseStructureID": 10,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 56,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 507804,
+          "name": {
+            "he": "השקעות מוסדיות בנדל״ן, תשתיות וקרנות השקעה פרטיות: סמינר מחקרי אמפירי",
+            "en": "Institutional Investment in Real Estate, Infrastructure, and Private Equity: An Empirical Research Seminar"
+          },
+          "code": "55652",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9511,
+      "thresholdCode": 967487,
+      "fromToAcademicYear": [
+        1,
+        2
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "בחירה",
+        "en": "Electives"
+      },
+      "subChapterOrder": 39,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": 95,
+      "maxCourseCount": null,
+      "hebrewNote": "קורסי בחירה להתמחות במימון ובנקאות",
+      "englishNote": null,
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 20155,
+          "name": {
+            "he": "אסטרטגיות השקעה חדשניות והשלכות על הדיווח החשבונאי",
+            "en": "Advanced tools for Managers of investment portfolio with options and Accounting Disclosure"
+          },
+          "code": "55899",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.63636363636364,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 957,
+          "name": {
+            "he": "השקעות אימפקט",
+            "en": "Impact Investment"
+          },
+          "code": "55696",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יינתן באנגלית\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 88.04166666666667,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 14156,
+          "name": {
+            "he": "חידושים פיננסים לפיתוח כלכלי",
+            "en": "Financial Innovations  for Economic Development"
+          },
+          "code": "55721",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "תלמיד יוכל לבחור אם להגיש את העבודה בעברית או באנגלית. חלק מהשיעורים יועברו באופן מקוון.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 4192,
+          "name": {
+            "he": "מכרזים ומכירות פומביות",
+            "en": "Auctions - Theory and Practice"
+          },
+          "code": "55809",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "מי שלמד את הקורס מסחר ופרסום אלקטרוניים 55773 אינו ראשי ללמוד קורס זה.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 85.8,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 34617,
+          "name": {
+            "he": "משקיעים מוסדיים ושוק ההון",
+            "en": "Institutional Investors and Capital Markets"
+          },
+          "code": "55306",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.90697674418605,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 5580,
+          "name": {
+            "he": "ניהול סיכונים ושוק ההון",
+            "en": "Risk Management and Capital Markets"
+          },
+          "code": "55856",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 90.25714285714285,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8961,
+          "name": {
+            "he": "ניתוח חברות והערכת שווי",
+            "en": "Business Analysis Valuation"
+          },
+          "code": "55817",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 89.9047619047619,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6726,
+          "name": {
+            "he": "סוגיות עכשוויות בחשבונאות בשוק ההון הישראלי",
+            "en": "Contemporary Matters in Accounting and the Israeli Capital Market"
+          },
+          "code": "55753",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 92.94444444444444,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 445,
+          "name": {
+            "he": "תכנות ב-VBA",
+            "en": "VBA Programming"
+          },
+          "code": "54255",
+          "departmentId": 138,
+          "departmentName": {
+            "he": "מדעי החברה - תכנית מיוחדת",
+            "en": "Social Sciences - Special Program"
+          },
+          "facultyName": {
+            "he": "פקולטה למדעי החברה",
+            "en": "Faculty of Social Sciences"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס מתאים לתלמידים ללא רקע קודם בתכנות ועם ידע בסיסי ב-Excel. התרגיל הוא רשות וללא נ\"ז. ישנה חובת הגשת תרגילים בקורס. לתלמידי תואר בוגר הלומדים במקביל מדעי-המחשב, אין אפשרות להשתתף בקורס זה. תלמידי תואר בוגר במנהל-עסקים הלומדים קורס זה, לא יכולים ללמוד את הקורסים 55124 או 53160.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מפוצל",
+          "courseStructureID": 9,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 82.66666666666667,
+          "sugToar": "001",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 30786,
+          "name": {
+            "he": "תנו לנתונים לדבר: יצירת אסטרטגיה עסקית מבוססת נתונים",
+            "en": "Let the Data Talk: Creating a Data Based Business Strategy"
+          },
+          "code": "55988",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "סטודנטים שלומדים את קורס 55810 אינם רשאים ללמוד קורס זה.\r\n",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 85.75,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18583,
+          "name": {
+            "he": "אופציות ונכסים מותנים",
+            "en": "Options and Contingent Claims"
+          },
+          "code": "55709",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57059,
+          "name": {
+            "he": "אסטרטגיות השקעה של קרנות גידור",
+            "en": "Accounting Hedge Funds  Strategies "
+          },
+          "code": "55609",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 18312,
+          "name": {
+            "he": "בינה מלאכותית ועסקים",
+            "en": "AI & Business"
+          },
+          "code": "55996",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 11044,
+          "name": {
+            "he": "כלכלה, שווקים ועסקים במזרח אסיה",
+            "en": "Business  Markets & Economic Growth in East"
+          },
+          "code": "55403",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יתקיים באנגלית . קורס מוסמך שפתוח גם לתלמידי בוגר שנה ג' מינהל עסקים ומזרח אסיה.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 57101,
+          "name": {
+            "he": "כשהעסקי פוגש חברתי: יצירת ערך כלכלי-חברתי",
+            "en": "When Business Meets Social Impact: Creating Economic–Social Value"
+          },
+          "code": "55611",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "סדנה",
+          "courseStructureID": 18,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 30282,
+          "name": {
+            "he": "מימון והשקעות בנדל\"ן",
+            "en": "Real Estate Finance and Investment"
+          },
+          "code": "55969",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7410,
+          "name": {
+            "he": "מערכות פיננסיות מסביב לעולם",
+            "en": "Stock Markets and Financial Systems around the World "
+          },
+          "code": "55977",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "הקורס יינתן באנגלית. הקורס חובה לתלמידי כלכלה פיננסית.\r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 7277,
+          "name": {
+            "he": "נושאים בכלכלה פיננסית ב'",
+            "en": "Topics in Financial Economics B"
+          },
+          "code": "55710",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": " \r\n\r\n \r\n\r\n \r\n\r\nמועדים מדויקים לקורס טרם נקבעו\r\n\r\n \r\n\r\n \r\n\r\n \r\n",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 6079,
+          "name": {
+            "he": "ניהול השקעות כמותי",
+            "en": "Financial Analytics"
+          },
+          "code": "55720",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 1238,
+          "name": {
+            "he": "פינטק",
+            "en": "Fintech"
+          },
+          "code": "55735",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 633,
+          "name": {
+            "he": "תחרות ומבנה שווקים",
+            "en": "Competition and Market Structure "
+          },
+          "code": "55916",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 470394,
+          "name": {
+            "he": "בנקאות ורגולציה",
+            "en": "Regulation and Banking"
+          },
+          "code": "55770",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472729,
+          "name": {
+            "he": "חזית טכנולוגיות התשלומים",
+            "en": "The PayTech Frontier"
+          },
+          "code": "55409",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": "2dabe48275fba4286f3459a0489001b9",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 466363,
+          "name": {
+            "he": "חידושים פיננסיים - מחקר יישומי",
+            "en": "Financial Innovations - Applied Research"
+          },
+          "code": "55680",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 467866,
+          "name": {
+            "he": "יזמות בפינטק",
+            "en": "Entrepreneurship in FinTech"
+          },
+          "code": "55691",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 462110,
+          "name": {
+            "he": "ישומים והרחבות בהערכת תשואה, שווי ושמאות מקרקעין",
+            "en": "Applications and Extensions Valuation, value and real estate appraisals"
+          },
+          "code": "55831",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 463530,
+          "name": {
+            "he": "כלכלה מאקרו לתלמידי ביומד",
+            "en": "Macroeconomics for Biomed Students"
+          },
+          "code": "55842",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 465097,
+          "name": {
+            "he": "כלכלת עסקים ב' (מאקרו)",
+            "en": "Business Economics B (Macro)"
+          },
+          "code": "55751",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 469287,
+          "name": {
+            "he": "מדע המידע למימון",
+            "en": "Data Science for Finance"
+          },
+          "code": "55759",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464487,
+          "name": {
+            "he": "מימון המונים ושווקים אלטרנטיביים",
+            "en": "Crowdfunding and Alternative Markets "
+          },
+          "code": "55775",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "da6da59abb7041cb5eaed65d24af7bfc",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464339,
+          "name": {
+            "he": "מימון יזמות - מתקדם",
+            "en": "Entrepreneurial Finance"
+          },
+          "code": "55766",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 464043,
+          "name": {
+            "he": "ניהול וניתוח אשראי",
+            "en": "Credit Analysis and  Management"
+          },
+          "code": "55534",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 2,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472816,
+          "name": {
+            "he": "סדנה ביזמות בפינטק",
+            "en": "Finnovation"
+          },
+          "code": "55541",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 6,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 84,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 474229,
+          "name": {
+            "he": "סדנה ביזמות בפינטק ",
+            "en": "Finnovation "
+          },
+          "code": "55966",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": "44ee3eac3969c7f77cc040dd139d98b8",
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 472662,
+          "name": {
+            "he": "קריאה מודרכת לתלמידים מתקדמים במימון ו/או בכלכלה פיננסית",
+            "en": "Reading Class for Advanced Students in Financial Economics"
+          },
+          "code": "55789",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458715,
+          "name": {
+            "he": "קרנות נאמנות",
+            "en": "Mutual Funds"
+          },
+          "code": "55663",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 1,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 14,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458810,
+          "name": {
+            "he": "רגולציה פיננסית לשיפור השווקים: עקרונות, מוסדות, יישומים",
+            "en": "Financial Regulation to Improve Markets: Principles, Institutions, Applications"
+          },
+          "code": "55718",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 2,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 28,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 458607,
+          "name": {
+            "he": "שוק ההון בישראל – מאחורי הקלעים ועד לקדמת הבמה",
+            "en": "Capital Markets in Israel – Behind the Scenes and into the Limelight"
+          },
+          "code": "55723",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 459315,
+          "name": {
+            "he": "תורת המשחקים",
+            "en": "Game theory"
+          },
+          "code": "55731",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": null,
+          "coursePeriod": null,
+          "coursePeriodName": null,
+          "coursePeriodOrder": null,
+          "courseStructureType": null,
+          "courseStructureID": null,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": null,
+          "totalHours": 42,
+          "isLearning": 0,
+          "statusCourseCode": null,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 9514,
+      "thresholdCode": 967537,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "009",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 9,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "בהתמחות ראשית במימון יש ללמוד 24 נ\"ז מתוך קורסי ההתמחות. בשנה א יש ללמוד את שלושת קורסי החובה, המהווים תנאי קדם לסמינרים הנלמדים בשנה ב. קורס 55813 מחליף מתשפ\"ג את קורס החובה 55812 (ניתוח נתונים לקבלת החלטות)\r\n\r\nיש ללמוד את הקורס \"מבוא למימון\" 55904  .בשנה א' סמסמטר א'.\r\n\r\nיש ללמוד את הקורס 55902 \"מבוא לחשבונאות\" בשנה א",
+      "englishNote": ".",
+      "specializationId": 46,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 20346,
+          "name": {
+            "he": "אקונומטריקה למימון",
+            "en": "Econometrics for Finance"
+          },
+          "code": "55813",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 1,
+          "coursePeriodName": {
+            "he": "סמסטר א",
+            "en": "Semester A"
+          },
+          "coursePeriodOrder": 1,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 95.21052631578948,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 14323,
+          "name": {
+            "he": "השקעות וניירות ערך",
+            "en": "Investments and Securities "
+          },
+          "code": "55846",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 3,
+          "coursePeriodName": {
+            "he": "סמסטר א או ב",
+            "en": "Semester A or B"
+          },
+          "coursePeriodOrder": 2,
+          "courseStructureType": "שעור",
+          "courseStructureID": 6,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 91.25,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        },
+        {
+          "id": 8007,
+          "name": {
+            "he": "ניהול פיננסי",
+            "en": "Financial Management "
+          },
+          "code": "55832",
+          "departmentId": 102,
+          "departmentName": {
+            "he": "מנהל עסקים",
+            "en": "Business Administration"
+          },
+          "facultyName": {
+            "he": "ביה\"ס למנהל עסקים",
+            "en": "Business School"
+          },
+          "academicPoints": 3,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 2,
+          "coursePeriodName": {
+            "he": "סמסטר ב",
+            "en": "Semester B"
+          },
+          "coursePeriodOrder": 4,
+          "courseStructureType": "שעור ותרגיל מאוחד",
+          "courseStructureID": 8,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": null,
+          "sugToar": "004",
+          "totalHours": 42,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    }
+  ]
+}

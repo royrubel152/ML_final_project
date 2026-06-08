@@ -1,0 +1,123 @@
+{
+  "id": 423,
+  "roadmapCode": "322-3792",
+  "scopeName": {
+    "he": "משלים למחקר",
+    "en": "Supp Doctor"
+  },
+  "diplomaDegreeTypeName": {
+    "he": ".SUPP PHD",
+    "en": ".SUPP PHD"
+  },
+  "departmentId": 102,
+  "departmentName": {
+    "he": "מנהל עסקים",
+    "en": "Business Administration"
+  },
+  "facultyName": null,
+  "learningProgramName": {
+    "he": "השלמה למחקר",
+    "en": ".Supplementary Ph.D "
+  },
+  "learningProgramDisplayName": null,
+  "learningProgramSortOrder": 12,
+  "roadmap": {
+    "id": 1621,
+    "name": {
+      "he": "מנהל עסקים",
+      "en": "Business Administration"
+    },
+    "code": "322-3792"
+  },
+  "thresholds": [],
+  "specializations": [],
+  "specializationIds": null,
+  "academicInfo": null,
+  "thresholds_detail": [
+    {
+      "id": 9203,
+      "thresholdCode": 965083,
+      "fromToAcademicYear": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "013",
+      "subChapter": {
+        "he": "חובה",
+        "en": "Mandatory"
+      },
+      "subChapterOrder": 1,
+      "notIncludeInShnaton": false,
+      "minNaz": 0,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": null,
+      "englishNote": null,
+      "specializationId": null,
+      "thresholdYear": 2026,
+      "courses": [
+        {
+          "id": 50283,
+          "name": {
+            "he": "עבודת גמר - מוסמך",
+            "en": "FINAL THESIS"
+          },
+          "code": "74132",
+          "departmentId": 374,
+          "departmentName": {
+            "he": "אחר",
+            "en": "Other"
+          },
+          "facultyName": null,
+          "academicPoints": 0,
+          "teacherCode": null,
+          "remark": "",
+          "coursePeriod": 3,
+          "coursePeriodName": {
+            "he": "סמסטר א או ב",
+            "en": "Semester A or B"
+          },
+          "coursePeriodOrder": 2,
+          "courseStructureType": "עבודת גמר",
+          "courseStructureID": 53,
+          "startDate": null,
+          "endDate": null,
+          "lastYearGradeAvg": 94.2466,
+          "sugToar": "004",
+          "totalHours": 0,
+          "isLearning": 1,
+          "statusCourseCode": 1,
+          "year": 2026,
+          "groups": [],
+          "studySessionTypeName": null
+        }
+      ]
+    },
+    {
+      "id": 13883,
+      "thresholdCode": 985427,
+      "fromToAcademicYear": [
+        1
+      ],
+      "displayAcademicYear": 1,
+      "learningProgramCode": "013",
+      "subChapter": {
+        "he": "קורסים כלליים",
+        "en": "General Courses"
+      },
+      "subChapterOrder": 74,
+      "notIncludeInShnaton": true,
+      "minNaz": 0,
+      "maxNaz": null,
+      "maxCourseCount": null,
+      "hebrewNote": "נבחר קורס שאינו חלק מתוכנית הלימודים שלך  יש לבחור ולסמן את אחד מאגדי החוג/ים הנלמד/ים או לסמן כקורס עודף בצד הימני של המסך",
+      "englishNote": "You have selected a course that is not part of your study program  Please assign it to one of your department program bundles, or mark it as an excess course on the right side of the screen",
+      "specializationId": null,
+      "thresholdYear": 2026,
+      "courses": []
+    }
+  ]
+}

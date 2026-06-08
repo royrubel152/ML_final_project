@@ -1,0 +1,34 @@
+{
+  "url": "https://shnaton.huji.ac.il/roadmap/322-8168",
+  "group": "shnaton_roadmap",
+  "title": "מנהל עסקים",
+  "headings": [
+    {
+      "level": 1,
+      "text": "מנהל עסקים"
+    },
+    {
+      "level": 2,
+      "text": "קורסי התוכנית"
+    },
+    {
+      "level": 3,
+      "text": "שנה 3 — בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — קורסים כלליים"
+    }
+  ],
+  "tables_count": 1,
+  "list_items_count": 7,
+  "last_modified": null,
+  "content_type": "application/json",
+  "fetched_at": "2026-06-07T07:30:00.885356+00:00",
+  "size_bytes": 10686,
+  "extraction_warnings": []
+}

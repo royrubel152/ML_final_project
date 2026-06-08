@@ -1,0 +1,62 @@
+{
+  "url": "https://bschool.huji.ac.il/mba/specializations",
+  "group": "bschool",
+  "title": "התמחויות | בית הספר למנהל עסקים",
+  "headings": [
+    {
+      "level": 2,
+      "text": "אנליטיקה של נתוני עתק | Big Data Analytics"
+    },
+    {
+      "level": 2,
+      "text": "אסטרטגיה ויזמות"
+    },
+    {
+      "level": 2,
+      "text": "BioMed MBA - ניהול ביו-רפואי"
+    },
+    {
+      "level": 2,
+      "text": "התנהגות ארגונית ומנהל משאבי אנוש"
+    },
+    {
+      "level": 2,
+      "text": "חקר ביצועים"
+    },
+    {
+      "level": 2,
+      "text": "מדע המידע בניהול | Data Science for Business"
+    },
+    {
+      "level": 2,
+      "text": "מימון ובנקאות"
+    },
+    {
+      "level": 2,
+      "text": "מימון נדל״ן"
+    },
+    {
+      "level": 2,
+      "text": "ניהול פיננסי לחשבונאים"
+    },
+    {
+      "level": 2,
+      "text": "פינטק"
+    },
+    {
+      "level": 2,
+      "text": "שיווק"
+    },
+    {
+      "level": 2,
+      "text": "9c31c556f2eed17e4b3436a6286a5d3a"
+    }
+  ],
+  "tables_count": 0,
+  "list_items_count": 43,
+  "last_modified": "Wed, 03 Jun 2026 18:15:37 GMT",
+  "content_type": "text/html; charset=utf-8",
+  "fetched_at": "2026-06-03T18:34:58.166196+00:00",
+  "size_bytes": 121454,
+  "extraction_warnings": []
+}

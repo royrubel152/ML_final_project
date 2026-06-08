@@ -1,0 +1,50 @@
+{
+  "url": "https://shnaton.huji.ac.il/roadmap/322-3220",
+  "group": "shnaton_roadmap",
+  "title": "מנהל עסקים, מחקרי",
+  "headings": [
+    {
+      "level": 1,
+      "text": "מנהל עסקים, מחקרי"
+    },
+    {
+      "level": 2,
+      "text": "קורסי התוכנית"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — קורסים כלליים"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת קורסי השלמה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — בחירה"
+    },
+    {
+      "level": 2,
+      "text": "התמחויות במסלול"
+    }
+  ],
+  "tables_count": 1,
+  "list_items_count": 186,
+  "last_modified": null,
+  "content_type": "application/json",
+  "fetched_at": "2026-06-07T07:29:59.263655+00:00",
+  "size_bytes": 226579,
+  "extraction_warnings": []
+}

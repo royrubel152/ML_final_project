@@ -1,0 +1,66 @@
+{
+  "url": "https://shnaton.huji.ac.il/specialization/3123",
+  "group": "shnaton_specialization",
+  "title": "התמחות בשיווק - ראשית",
+  "headings": [
+    {
+      "level": 1,
+      "text": "התמחות בשיווק - ראשית"
+    },
+    {
+      "level": 2,
+      "text": "מידע אקדמי"
+    },
+    {
+      "level": 2,
+      "text": "קורסי ההתמחות"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה סמינרים"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובת בחירה סמינרים"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — חובה"
+    },
+    {
+      "level": 3,
+      "text": "שנה 1 — בחירה"
+    }
+  ],
+  "tables_count": 1,
+  "list_items_count": 50,
+  "last_modified": null,
+  "content_type": "application/json",
+  "fetched_at": "2026-06-07T08:08:52.502752+00:00",
+  "size_bytes": 69782,
+  "extraction_warnings": []
+}
