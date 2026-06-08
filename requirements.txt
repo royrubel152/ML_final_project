@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+google-generativeai
+python-dotenv
+jinja2
+python-multipart
+requests
+beautifulsoup4
+pdfplumber
+playwright
+slowapi
+faiss-cpu
+numpy
+pydantic-settings
+pytest
+httpx

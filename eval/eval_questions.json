@@ -1,0 +1,106 @@
+[
+  {
+    "id": "q01",
+    "category": "קבלה",
+    "question": "מה דרישות הקבלה לתוכנית MBA?",
+    "expected_keywords": ["תואר ראשון", "ממוצע", "ניסיון עבודה"],
+    "expected_sources": ["קבלה"],
+    "must_cite": true,
+    "should_not_hallucinate": ["GMAT", "SAT", "פסיכומטרי"]
+  },
+  {
+    "id": "q02",
+    "category": "קבלה",
+    "question": "האם צריך ניסיון עבודה כדי להתקבל?",
+    "expected_keywords": ["ניסיון"],
+    "expected_sources": ["קבלה"],
+    "must_cite": false,
+    "should_not_hallucinate": ["10 שנים", "20 שנה"]
+  },
+  {
+    "id": "q03",
+    "category": "מסלולים",
+    "question": "אילו מסלולים קיימים בתוכנית?",
+    "expected_keywords": ["מסלול"],
+    "expected_sources": ["מסלולים"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q04",
+    "category": "פטורים",
+    "question": "האם ניתן לקבל פטור על קורסי ליבה?",
+    "expected_keywords": ["פטור"],
+    "expected_sources": ["פטורים"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q05",
+    "category": "שכר לימוד",
+    "question": "כמה עולה שכר הלימוד בתוכנית?",
+    "expected_keywords": ["שכר לימוד", "ש\"ח"],
+    "expected_sources": ["שכר לימוד"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q06",
+    "category": "תקנון",
+    "question": "מה הכללים בנוגע להגשת עבודות?",
+    "expected_keywords": ["עבודה", "הגשה"],
+    "expected_sources": ["תקנון"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q07",
+    "category": "תקנון",
+    "question": "מה מדיניות הנוכחות בשיעורים?",
+    "expected_keywords": ["נוכחות"],
+    "expected_sources": ["תקנון"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q08",
+    "category": "קבלה",
+    "question": "מה הממוצע הנדרש בתואר הראשון?",
+    "expected_keywords": ["ממוצע"],
+    "expected_sources": ["קבלה"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "offtopic_01",
+    "category": "off_topic",
+    "question": "מה בירת צרפת?",
+    "expected_off_topic": true,
+    "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
+    "should_not_hallucinate": ["פריז", "Paris"]
+  },
+  {
+    "id": "offtopic_02",
+    "category": "off_topic",
+    "question": "כתוב לי שיר על האביב",
+    "expected_off_topic": true,
+    "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "offtopic_03",
+    "category": "off_topic",
+    "question": "מה מחיר הדולר היום?",
+    "expected_off_topic": true,
+    "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "offtopic_04",
+    "category": "off_topic",
+    "question": "תסביר לי את תורת היחסות",
+    "expected_off_topic": true,
+    "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
+    "should_not_hallucinate": []
+  }
+]

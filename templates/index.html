@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>יועץ MBA | האוניברסיטה העברית</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <div class="app-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-circle">MBA</div>
+        <div>
+          <div class="sidebar-title">יועץ אקדמי</div>
+          <div class="sidebar-sub">האוניברסיטה העברית</div>
+        </div>
+      </div>
+
+      <div class="sidebar-section-label">מקורות רשמיים</div>
+
+      <nav class="sources-nav">
+        <a href="https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf" target="_blank" class="source-link">
+          <span class="source-icon">📄</span>
+          <span>תקנון אקדמי</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/ptorim" target="_blank" class="source-link">
+          <span class="source-icon">✅</span>
+          <span>פטורים</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/mba/admittance" target="_blank" class="source-link">
+          <span class="source-icon">🎓</span>
+          <span>קבלה לתוכנית</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/mba/specializations" target="_blank" class="source-link">
+          <span class="source-icon">📊</span>
+          <span>התמחויות</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/Accelerated-study-track" target="_blank" class="source-link">
+          <span class="source-icon">⚡</span>
+          <span>מסלול מואץ</span>
+          <span class="ext-icon">↗</span>
+        </a>
+        <a href="https://bschool.huji.ac.il/Accelerated-study-track-all" target="_blank" class="source-link">
+          <span class="source-icon">📋</span>
+          <span>כל קורסי המסלול המואץ</span>
+          <span class="ext-icon">↗</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-section-label" style="margin-top:24px;">שאלות נפוצות</div>
+      <div class="quick-questions">
+        <button class="quick-btn" data-q="מה תנאי הקבלה לתוכנית MBA?">תנאי קבלה</button>
+        <button class="quick-btn" data-q="אילו התמחויות קיימות בתוכנית?">התמחויות</button>
+        <button class="quick-btn" data-q="איך מגישים בקשה לפטור מקורס?">פטורים</button>
+        <button class="quick-btn" data-q="מה המסלול המואץ ומי יכול להתקבל?">מסלול מואץ</button>
+      </div>
+
+      <div class="sidebar-section-label" style="margin-top:24px;">תכנון לימודים</div>
+      <button class="open-schedule-btn" onclick="openScheduleModal()">📅 פתח תכנון לימודים</button>
+
+
+<div class="sidebar-footer">
+        <div class="disclaimer-box">
+          המידע מבוסס על מקורות רשמיים בלבד.<br/>לאימות — פנה למזכירות התלמידים.
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main chat area -->
+    <main class="chat-main">
+      <header class="chat-header">
+        <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+        <div class="header-center">
+          <span class="header-title">יועץ MBA</span>
+          <span class="status-dot"></span>
+          <span class="status-text">מחובר</span>
+        </div>
+        <button class="reset-btn" id="resetBtn" title="שיחה חדשה">שיחה חדשה ↺</button>
+      </header>
+
+      <div class="disclaimer-banner">
+        ⚠️ מענה זה ניתן על-ידי בוט בלבד. יש לאמת כל מידע מול מזכירות התלמידים לפני קבלת החלטה.
+      </div>
+
+      <div class="chat-messages" id="chatMessages">
+
+        <!-- Onboarding wizard -->
+        <div class="onboarding-card" id="onboardingCard">
+          <div class="onboard-header">
+            <div class="onboard-icon">🎓</div>
+            <div class="onboard-title">שלום! אני היועץ האקדמי של MBA</div>
+            <div class="onboard-subtitle">3 שאלות קצרות כדי לתת לך תשובות מדויקות</div>
+            <div class="onboard-bar-wrap">
+              <div class="onboard-bar" id="onboardBar" style="width:25%"></div>
+            </div>
+            <div class="onboard-step-label" id="onboardLabel">שלב 1 מתוך 4</div>
+          </div>
+
+          <div class="onboard-body">
+            <!-- Step 1: Role -->
+            <div class="onboard-step" id="step1" style="display:block">
+              <div class="onboard-q">מי אתה?</div>
+              <div class="onboard-options">
+                <button class="onboard-btn" data-key="role" data-val="סטודנט פעיל ב-MBA">🎓<span>סטודנט פעיל</span></button>
+                <button class="onboard-btn" data-key="role" data-val="מתעניין בהרשמה ל-MBA">🔍<span>מתעניין בתוכנית</span></button>
+                <button class="onboard-btn" data-key="role" data-val="בוגר MBA">🏅<span>בוגר התוכנית</span></button>
+              </div>
+            </div>
+
+            <!-- Step 2: Year -->
+            <div class="onboard-step" id="step2" style="display:none">
+              <div class="onboard-q">באיזו שנה?</div>
+              <div class="onboard-options">
+                <button class="onboard-btn" data-key="year" data-val="שנה א'">📚<span>שנה א'</span></button>
+                <button class="onboard-btn" data-key="year" data-val="שנה ב'">📖<span>שנה ב'</span></button>
+                <button class="onboard-btn" data-key="year" data-val="לא רלוונטי">➖<span>לא רלוונטי</span></button>
+              </div>
+            </div>
+
+            <!-- Step 3: Dual specialization? -->
+            <div class="onboard-step" id="step3" style="display:none">
+              <div class="onboard-q">האם אתה לומד שתי התמחויות?</div>
+              <div class="onboard-options">
+                <button class="onboard-btn" data-key="dual" data-val="true">✅<span>כן — ראשית ומשנית</span></button>
+                <button class="onboard-btn" data-key="dual" data-val="false">➖<span>לא — התמחות אחת</span></button>
+              </div>
+            </div>
+
+            <!-- Step 4: Major specialization -->
+            <div class="onboard-step" id="step4" style="display:none">
+              <div class="onboard-q">מה ההתמחות הראשית שלך?</div>
+              <div class="onboard-options onboard-grid">
+                <button class="onboard-btn sm" data-key="spec" data-val="מימון ובנקאות">💰 מימון ובנקאות</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="שיווק">📣 שיווק</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="אסטרטגיה ויזמות">🚀 אסטרטגיה ויזמות</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="מדע המידע בניהול">📊 מדע המידע</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="אנליטיקה של נתוני עתק">🔢 ביג דאטה</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="פינטק">💳 פינטק</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="התנהגות ארגונית ומשאבי אנוש">👥 משאבי אנוש</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="חקר ביצועים">📈 חקר ביצועים</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="ניהול ביו-רפואי">🏥 ביו-רפואי</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="ניהול פיננסי לחשבונאים">🧾 ניהול פיננסי</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="מימון נדל&quot;ן">🏢 נדל"ן</button>
+                <button class="onboard-btn sm" data-key="spec" data-val="טרם החלטתי">❓ טרם החלטתי</button>
+              </div>
+            </div>
+
+            <!-- Step 5: Minor specialization (only if dual=true) -->
+            <div class="onboard-step" id="step5" style="display:none">
+              <div class="onboard-q">מה ההתמחות המשנית שלך?</div>
+              <div class="onboard-options onboard-grid">
+                <button class="onboard-btn sm" data-key="spec2" data-val="מימון ובנקאות">💰 מימון ובנקאות</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="שיווק">📣 שיווק</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="אסטרטגיה ויזמות">🚀 אסטרטגיה ויזמות</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="מדע המידע בניהול">📊 מדע המידע</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="אנליטיקה של נתוני עתק">🔢 ביג דאטה</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="פינטק">💳 פינטק</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="התנהגות ארגונית ומשאבי אנוש">👥 משאבי אנוש</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="חקר ביצועים">📈 חקר ביצועים</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="ניהול ביו-רפואי">🏥 ביו-רפואי</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="ניהול פיננסי לחשבונאים">🧾 ניהול פיננסי</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="מימון נדל&quot;ן">🏢 נדל"ן</button>
+                <button class="onboard-btn sm" data-key="spec2" data-val="טרם החלטתי">❓ טרם החלטתי</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="chat-input-area">
+        <div class="input-wrapper">
+          <input type="text" id="userInput" placeholder="הקלד את שאלתך כאן..." autocomplete="off" />
+          <button id="sendBtn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="input-note">הבוט עונה בעברית בלבד על בסיס מקורות רשמיים</div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Mobile sidebar overlay -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- Schedule Planner Modal -->
+  <div class="schedule-modal-overlay" id="scheduleModal" style="display:none">
+    <div class="schedule-modal">
+      <div class="schedule-modal-header">
+        <div class="schedule-modal-title">📅 תכנון לימודים</div>
+        <div class="schedule-modal-actions">
+          <button id="clearPlanBtn" class="sched-clear-btn">🗑 נקה הכל</button>
+          <button onclick="closeScheduleModal()" class="sched-close-btn">✕</button>
+        </div>
+      </div>
+      <div class="schedule-columns">
+        <div class="sched-col" id="col-1a">
+          <div class="sched-col-header"><div class="sched-col-year">שנה א׳</div>סמסטר א׳</div>
+          <div class="sched-courses-list" id="list-1a"></div>
+          <button class="sched-add-btn" onclick="openInlineAdd('1a')">+ הוסף קורס</button>
+        </div>
+        <div class="sched-col" id="col-1b">
+          <div class="sched-col-header"><div class="sched-col-year">שנה א׳</div>סמסטר ב׳</div>
+          <div class="sched-courses-list" id="list-1b"></div>
+          <button class="sched-add-btn" onclick="openInlineAdd('1b')">+ הוסף קורס</button>
+        </div>
+        <div class="sched-col" id="col-2a">
+          <div class="sched-col-header"><div class="sched-col-year">שנה ב׳</div>סמסטר א׳</div>
+          <div class="sched-courses-list" id="list-2a"></div>
+          <button class="sched-add-btn" onclick="openInlineAdd('2a')">+ הוסף קורס</button>
+        </div>
+        <div class="sched-col" id="col-2b">
+          <div class="sched-col-header"><div class="sched-col-year">שנה ב׳</div>סמסטר ב׳</div>
+          <div class="sched-courses-list" id="list-2b"></div>
+          <button class="sched-add-btn" onclick="openInlineAdd('2b')">+ הוסף קורס</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
