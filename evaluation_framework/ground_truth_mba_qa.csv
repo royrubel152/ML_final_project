@@ -1,0 +1,3 @@
+sample_id,question,ground_truth_answer,source_urls,category,secretary_tag
+qa_001,מהם קורסי החובה הכלליים שכל סטודנט MBA חייב ללמוד?,"קורסי החובה הכלליים כוללים: חשבונאות ניהולית, כלכלה מנהלית, סטטיסטיקה עסקית, מימון, שיווק, ניהול אסטרטגי, התנהגות ארגונית. כל קורס 2-3 נ""ז. ציון עובר 60.",https://shnaton.huji.ac.il/roadmap/322-3220,program_structure,
+qa_002,מה תנאי הקבלה לתוכנית MBA?,תואר ראשון ממוסד אקדמי מוכר עם ממוצע סביר וציון בחלק הכמותי של GMAT. יש להציג אישור זכאות עד חודש מפתיחת שנת הלימודים.,https://bschool.huji.ac.il/mba/admittance,admissions,

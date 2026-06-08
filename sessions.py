@@ -19,31 +19,44 @@ def _path(session_id: str) -> str:
     return os.path.join(SESSIONS_DIR, f"{safe_id}.json")
 
 
-def load_history(session_id: str) -> list[dict]:
+def _read_file(session_id: str) -> dict:
     path = _path(session_id)
     if not os.path.exists(path):
-        return []
+        return {}
     try:
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         age_hours = (time.time() - data.get("updated_at", 0)) / 3600
         if age_hours > TTL_HOURS:
             os.remove(path)
-            return []
-        history = data.get("history", [])
-        return history[-MAX_HISTORY_TURNS:]
+            return {}
+        return data
     except Exception:
-        return []
+        return {}
 
 
-def save_history(session_id: str, history: list[dict]):
+def load_history(session_id: str) -> list[dict]:
+    data = _read_file(session_id)
+    history = data.get("history", [])
+    return history[-MAX_HISTORY_TURNS:]
+
+
+def load_state(session_id: str) -> dict:
+    """Load conversation state: active specialization, topic, etc."""
+    return _read_file(session_id).get("state", {})
+
+
+def save_history(session_id: str, history: list[dict], state: dict = None):
     path = _path(session_id)
     try:
+        existing = _read_file(session_id)
+        payload = {
+            "history": history,
+            "updated_at": time.time(),
+            "state": state if state is not None else existing.get("state", {}),
+        }
         with open(path, "w", encoding="utf-8") as f:
-            json.dump({
-                "history": history,
-                "updated_at": time.time(),
-            }, f, ensure_ascii=False)
+            json.dump(payload, f, ensure_ascii=False)
     except Exception as e:
         print(f"[sessions] Save error: {e}")
 

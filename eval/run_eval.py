@@ -14,11 +14,13 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+sys.stdout.reconfigure(encoding="utf-8")
 
 QUESTIONS_FILE = Path(__file__).parent / "eval_questions.json"
 RESULTS_DIR = Path(__file__).parent / "results"
@@ -42,11 +44,12 @@ def run_mock_eval() -> list[dict]:
     with patch("app.load_all_sources", return_value="fake content"), \
          patch("app.get_or_build_index", return_value=(None, fixture_chunks)), \
          patch("app.genai.GenerativeModel", return_value=mock_model), \
-         patch("app.retrieve", side_effect=lambda q, idx, cks: retriever.retrieve(q)):
+         patch("app.retrieve_with_context",
+               side_effect=lambda q, idx, cks, active_spec_code=None, top_k=5: retriever.retrieve(q)):
 
         from app import app as fastapi_app
-        client = TestClient(fastapi_app)
-        return _run_questions(client, load_questions())
+        with TestClient(fastapi_app) as client:
+            return _run_questions(client, load_questions())
 
 
 def run_live_eval() -> list[dict]:
@@ -55,13 +58,15 @@ def run_live_eval() -> list[dict]:
 
     from fastapi.testclient import TestClient
     from app import app as fastapi_app
-    client = TestClient(fastapi_app)
-    return _run_questions(client, load_questions())
+    with TestClient(fastapi_app) as client:
+        return _run_questions(client, load_questions())
 
 
 def _run_questions(client, questions: list[dict]) -> list[dict]:
     results = []
-    for q in questions:
+    for i, q in enumerate(questions):
+        if i > 0:
+            time.sleep(4)  # stay under 15 req/min rate limit
         resp = client.post("/chat", json={
             "message": q["question"],
             "session_id": VALID_SESSION_ID,
@@ -74,6 +79,7 @@ def _run_questions(client, questions: list[dict]) -> list[dict]:
                 "question": q["question"],
                 "passed": False,
                 "error": f"HTTP {resp.status_code}",
+                "reply": "",
             })
             continue
 
@@ -97,6 +103,7 @@ def _run_questions(client, questions: list[dict]) -> list[dict]:
                 "contains_required": contains_required,
                 "hallucination_count": len(hallucinated),
                 "hallucinations": hallucinated,
+                "reply": reply[:500],
             })
             continue
 
@@ -122,6 +129,7 @@ def _run_questions(client, questions: list[dict]) -> list[dict]:
             "hallucination_count": len(hallucinated),
             "hallucinations": hallucinated,
             "chunks_found": chunks_found,
+            "reply": reply[:500],
         })
 
     return results
@@ -160,6 +168,8 @@ def print_report(results: list[dict], mode: str):
         else:
             detail = r.get("error", "")
         print(f"  [{status}] {r['id']:<14} ({cat:<12})  {detail}")
+        if not r["passed"] and r.get("reply"):
+            print(f"         reply: {r['reply'][:120]}")
 
     print(f"{'='*55}\n")
 

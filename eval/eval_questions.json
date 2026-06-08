@@ -72,6 +72,105 @@
     "should_not_hallucinate": []
   },
   {
+    "id": "q09",
+    "category": "חובה כלליים",
+    "question": "מהם קורסי החובה הכלליים שכל סטודנט MBA חייב ללמוד?",
+    "expected_keywords": ["חובה", "נקודות זכות", "קורס"],
+    "expected_sources": ["מנהל עסקים"],
+    "must_cite": true,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q10",
+    "category": "חובה כלליים",
+    "question": "אילו קורסים הם חובה ללא קשר להתמחות שבחרתי?",
+    "expected_keywords": ["חובה"],
+    "expected_sources": ["מנהל עסקים"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q11",
+    "category": "לוחות זמנים",
+    "question": "האם יש קורסים בימי שישי?",
+    "expected_keywords": ["אין", "שישי"],
+    "expected_sources": [],
+    "must_cite": false,
+    "should_not_hallucinate": ["המידע אינו זמין", "אינו זמין במקורות"]
+  },
+  {
+    "id": "q12",
+    "category": "התמחות",
+    "question": "אילו קורסי חובה יש בהתמחות פינטק?",
+    "expected_keywords": ["חובה", "פינטק"],
+    "expected_sources": ["פינטק"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q13",
+    "category": "התמחות",
+    "question": "אילו סמינרים קיימים בהתמחות ניהול שירותי בריאות?",
+    "expected_keywords": ["סמינר"],
+    "expected_sources": ["בריאות"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q14",
+    "category": "התמחות",
+    "question": "מה ניתן ללמוד בהתמחות מדיה דיגיטלית?",
+    "expected_keywords": ["מדיה", "דיגיטלית"],
+    "expected_sources": ["מדיה"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q15",
+    "category": "מרצים",
+    "question": "מי מרצה את קורסי הסמינריון בתוכנית?",
+    "expected_keywords": ["מרצה", "סמינר"],
+    "expected_sources": [],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q16",
+    "category": "לוחות זמנים",
+    "question": "מתי מתקיים קורס למידת מכונה?",
+    "expected_keywords": ["למידת מכונה"],
+    "expected_sources": [],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q17",
+    "category": "פטורים",
+    "question": "מה תהליך הגשת בקשת פטור מקורס חובה?",
+    "expected_keywords": ["פטור", "קורס"],
+    "expected_sources": ["פטורים"],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q18",
+    "category": "תקנון",
+    "question": "מה הציון המינימלי לעבור קורס חובה?",
+    "expected_keywords": ["60", "ציון"],
+    "expected_sources": [],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "q19",
+    "category": "תקנון",
+    "question": "מה קורה אם נכשלתי בקורס חובה?",
+    "expected_keywords": ["חובה"],
+    "expected_sources": [],
+    "must_cite": false,
+    "should_not_hallucinate": []
+  },
+  {
     "id": "offtopic_01",
     "category": "off_topic",
     "question": "מה בירת צרפת?",
@@ -99,6 +198,14 @@
     "id": "offtopic_04",
     "category": "off_topic",
     "question": "תסביר לי את תורת היחסות",
+    "expected_off_topic": true,
+    "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
+    "should_not_hallucinate": []
+  },
+  {
+    "id": "offtopic_05",
+    "category": "off_topic",
+    "question": "מה מחיר מניית אפל היום?",
     "expected_off_topic": true,
     "must_contain_one_of": ["אינה בתחום", "מזכירות", "MBA"],
     "should_not_hallucinate": []

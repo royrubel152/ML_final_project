@@ -1,0 +1,9 @@
+conversation_id,turn_index,role,content,is_final_truth_answer,ground_truth_answer,source_urls,category,archetype,secretary_tag
+conv_001,1,user,מה ההתמחויות הזמינות ב-MBA?,FALSE,,,program_structure,clarification_loop,
+conv_001,2,assistant,"ישנן מספר התמחויות: מימון ובנקאות, שיווק, מדע המידע, אנליטיקה, פינטק, ועוד. באיזו אתה מתעניין?",FALSE,,,program_structure,clarification_loop,
+conv_001,3,user,ספר לי על התמחות פינטק,FALSE,,,program_structure,clarification_loop,
+conv_001,4,assistant,התמחות פינטק כוללת קורסי חובה ובחירה בתחום הטכנולוגיה הפיננסית. יש ללמוד 24 נ""ז מקורסי ההתמחות.,TRUE,"התמחות בפינטק - ראשית כוללת: קורסי חובה בתחום טכנולוגיה פיננסית ומספר קורסי בחירה. נדרשות 24 נ""ז מקורסי ההתמחות.",https://shnaton.huji.ac.il/specialization/3798,program_structure,clarification_loop,
+conv_002,1,user,רציתי לשאול על פטורים,FALSE,,,exemptions,follow_up,
+conv_002,2,assistant,רשימת הפטורים מקורסי תשתית מוצגת באתר ומתעדכנת על פי לימודים קודמים. כל גליון ציונים נבחן באופן פרטני.,FALSE,,,exemptions,follow_up,
+conv_002,3,user,איך מגישים בקשת פטור?,FALSE,,,exemptions,follow_up,
+conv_002,4,assistant,יש לפנות למזכירות הפקולטה עם גליון הציונים ותוכנית הלימודים ממוסד הלימוד הקודם. ההחלטה נעשית באופן פרטני.,TRUE,"הגשת בקשת פטור: יש לפנות למזכירות הפקולטה ולהציג גליון ציונים ותוכנית לימודים. הפטורים מוענקים אך ורק על פי שיקול פרטני לפי הערכת הגוף המוסמך.",https://bschool.huji.ac.il/ptorim,exemptions,follow_up,
