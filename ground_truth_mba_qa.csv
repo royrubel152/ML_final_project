@@ -1,101 +1,1041 @@
-﻿id,category,question_he,answer_he,source_urls,needs_secretary_review,secretary_tag,notes
-mba_gt_001,admissions,איך נרשמים ללימודי MBA?,"נרשמים באופן מקוון דרך אתר האוניברסיטה העברית, כולל תשלום דמי רישום. לאחר הרישום ניתן לדון במועמדות לפי תנאי הקבלה של בית הספר.",https://bschool.huji.ac.il/mba/admittance; secretariat-provided,TRUE,,
-mba_gt_002,admissions,עד מתי אפשר להירשם לשנת תשפ״ז?,"בדף תנאי הקבלה מופיע שמועד ההרשמה לשנת תשפ״ז הוא עד 16.08.2026. מאחר שמועד הרשמה הוא נתון שמתעדכן, מומלץ לאמת באתר לפני שליחת תשובה סופית.",https://bschool.huji.ac.il/mba/admittance,TRUE,,תאריך רגיש לעדכון.
-mba_gt_003,admissions,האם חייבים GMAT כדי להתקבל?,"תנאי הקבלה כוללים ציון בחלק הכמותי של GMAT, אך יש מקרים שבהם ניתן להגיש בקשה לשקילת מועמדות ללא GMAT. הפטור אינו אוטומטי ותלוי בהחלטת ועדת הקבלה.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_004,admissions,באילו מקרים אפשר לבקש מועמדות ללא GMAT?,"אפשר להגיש בקשה אם עומדים באחד התנאים המפורטים באתר, כגון תואר ראשון כמותי בציון מתאים, תואר שני כמותי, תלמידי מחקר, בעלי דוקטורט, בוגרי הכנה למוסמך או מנהלים בכירים לפי התנאים. ההחלטה הסופית היא של ועדת הקבלה.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_005,admissions,"אם אני עומד בתנאי פטור מ-GMAT, האם אני פטור בוודאות?","לא. גם כאשר מתקיים תנאי שמאפשר להגיש בקשה, הפטור מ-GMAT ניתן לפי שיקול ועדת הקבלה ועל סמך מכלול נתוני המועמד או המועמדת.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_006,admissions,איזה ציון GMAT כמותי נדרש?,"לפי האתר, נדרש צירוף של ציון תואר ראשון וציון כמותי ב-GMAT בסכום 130 ומעלה, ובכל מקרה ציון 40 ומעלה בחלק הכמותי, או לפי המדרג החדש 163 ומעלה. קיימת גם חלופה של ציון 48 כמותי, או 80 במדרג החדש, יחד עם אישור זכאות לתואר.",https://bschool.huji.ac.il/mba/admittance,TRUE,,מספרים דורשים תיקוף מזכירות.
-mba_gt_007,admissions,האם צריך פטור מאנגלית?,"כן. תנאי הגשת המועמדות כוללים פטור מלימודי אנגלית, בנוסף לתואר ראשון ממוסד מוכר ולדרישות ה-GMAT או בקשת פטור ממנו.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_008,admissions,עוד אין לי אישור זכאות לתואר ראשון. אפשר להתקבל על תנאי?,"לפי תנאי הקבלה, מתקבלים על תנאי צריכים להציג אישור זכאות לתואר הראשון עד חודש מיום פתיחת שנת הלימודים.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_009,admissions,אפשר להתחיל MBA בסמסטר ב׳?,"לפי המענה התפעולי של המזכירות, אין הרשמה בסמסטר ב׳. לימודי MBA נמשכים ארבעה סמסטרים ומתחילים במסגרת שנת הלימודים.",secretariat-provided; https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_010,admissions,למי פונים על תנאי קבלה ולמי על תכנית הלימודים?,"בדף תנאי הקבלה מופיעה מאיה דגן-אשכנזי לפניות על תנאי קבלה, ובנפרד כתובת mbac@savion.huji.ac.il לפרטים על תכנית הלימודים. כדאי להפנות לפי נושא הפנייה.",https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_011,program_structure,כמה נ״ז צריך להשלים ב-MBA רגיל?,במסלול העיוני הרגיל תכנית ה-MBA כוללת 48 נ״ז בדיוק. במקרים חריגים בלבד התקנון מציין אפשרות לאישור עד 51 נ״ז.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_012,program_structure,איך מתחלקות 48 נקודות הזכות?,"ברירת המחדל לסטודנטים ללא פטורים היא 24 נ״ז קורסי חובה כלליים ועוד 24 נ״ז לימודי התמחות ראשית. קורסי תשתית במתמטיקה וסטטיסטיקה, אם נדרשים, נלמדים בנוסף ואינם נספרים ל-48 נ״ז.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_013,program_structure,האם מתמטיקה וסטטיסטיקה נספרים לתואר?,"לא. קורסי התשתית במתמטיקה וסטטיסטיקה אינם נספרים במניין 48 נ״ז של התואר, כרוכים בתשלום נוסף, ונדרש לעבור אותם בציון 60 לפחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_014,program_structure,מהם קורסי החובה הכלליים?,"קורסי החובה הכלליים הם שמונה קורסים של 3 נ״ז: כלכלת עסקים א׳, מבוא לחשבונאות, התנהגות ארגונית ומנהל משאבי אנוש, אסטרטגיה עסקית, מבוא למימון, נתונים וטכנולוגיה בעסקים - MBA, ניהול השיווק ומודלים כמותיים בניהול.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
-mba_gt_015,program_structure,מה ציון העובר בקורסי חובה כלליים?,"לפי התקנון והשנתון, ציון עובר בקורסי החובה הכלליים הוא 60 ומעלה. במסלולים מיוחדים יש לבדוק אם קיימות דרישות נוספות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
-mba_gt_016,program_structure,האם לכל קורסי החובה יש תנאי קדם?,"לא. לשלושת קורסי החובה הראשונים אין תנאי קדם, אך שאר קורסי החובה דורשים ידע מקדים ונלמדים רק לאחר השלמת תנאי הקדם.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_017,program_structure,מה כוללים לימודי התמחות?,"לימודי התמחות כוללים קורסי חובה של ההתמחות, קורסי בחירה של ההתמחות וסמינר בתחום ההתמחות. התמחות ראשית היא בדרך כלל 24 נ״ז.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_018,program_structure,כמה זמן נמשכים לימודי MBA?,"לימודי MBA במסלול הרגיל אורכים שנתיים, כלומר ארבעה סמסטרים. לפי המזכירות, אין פתיחה בסמסטר ב׳.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_019,program_structure,באילו שעות מתקיימים הלימודים?,"התקנון מציין שהלימודים מותאמים לסטודנטים עובדים ומתקיימים אחר הצהריים והערב החל מ-15:30, וחלק מהקורסים מתקיימים בימי שישי בבוקר. לפי המזכירות, ההוראה פרונטלית.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_020,program_structure,באילו ימים לומדים חובה כללית והתמחות?,"לפי המזכירות, קורסי חובה כלליים נלמדים בדרך כלל בימי רביעי ו/או שישי, וקורסי התמחות בימי ראשון, שני או שלישי לפי ההתמחות. במקרה של פטורים ייתכן צורך ביום נוסף להשלמות.",secretariat-provided,TRUE,,
-mba_gt_021,program_structure,האם אפשר ללמוד שתי התמחויות ראשיות?,"לא. התקנון מציין שלא ניתן ללמוד שתי התמחויות ראשיות. שילובים אפשריים תלויים בהתמחות, בהיקף הפטורים ובאישורים הנדרשים.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_022,program_structure,מה התנאים למסלול מחקרי?,"אפשר לבקש מעבר למסלול מחקרי בסוף שנה א׳ או בסמוך לכך, אם מסיימים שנה א׳ בממוצע 85 ומעלה ונמצא מנחה שאישר בכתב את ההנחיה. המעבר דורש אישור הוועדה לתלמידי מחקר.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3220,TRUE,,
-mba_gt_023,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית במימון ובנקאות?,"התמחות ראשית במימון ובנקאות היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113,TRUE,,
-mba_gt_024,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בניהול פיננסי לחשבונאים?,"התמחות ראשית בניהול פיננסי לחשבונאים היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3114,TRUE,,
-mba_gt_025,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בשיווק?,"התמחות ראשית בשיווק היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3123,TRUE,,
-mba_gt_026,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בהתנהגות ארגונית ומנהל משאבי אנוש?,"התמחות ראשית בהתנהגות ארגונית ומנהל משאבי אנוש היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3333,TRUE,,
-mba_gt_027,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית באסטרטגיה ויזמות?,"התמחות ראשית באסטרטגיה ויזמות היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3443,TRUE,,
-mba_gt_028,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בחקר ביצועים?,"התמחות ראשית בחקר ביצועים היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3552,TRUE,,
-mba_gt_029,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית במדע המידע בניהול?,"התמחות ראשית במדע המידע בניהול היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
-mba_gt_030,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית באנליטיקה של נתוני עתק?,"התמחות ראשית באנליטיקה של נתוני עתק היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663,TRUE,,
-mba_gt_031,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בניהול ביו-רפואי?,"התמחות ראשית בניהול ביו-רפואי היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3664,TRUE,,
-mba_gt_032,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בפינטק?,"התמחות ראשית בפינטק היא בהיקף 24 נ״ז מקורסי ההתמחות. בתוך ה-24 נ״ז יש לעמוד בדרישות הפנימיות של השנתון, כולל חובה, בחירה וסמינר לפי ההתמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
-mba_gt_033,specialization_requirements,האם אפשר ללמוד את מימון ובנקאות כהתמחות משנית?,"כן. לפי התקנון מימון ובנקאות ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3111,TRUE,,
-mba_gt_034,specialization_requirements,האם אפשר ללמוד את שיווק כהתמחות משנית?,"כן. לפי התקנון שיווק ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3121,TRUE,,
-mba_gt_035,specialization_requirements,האם אפשר ללמוד את התנהגות ארגונית ומנהל משאבי אנוש כהתמחות משנית?,"כן. לפי התקנון התנהגות ארגונית ומנהל משאבי אנוש ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3331,TRUE,,
-mba_gt_036,specialization_requirements,האם אפשר ללמוד את אסטרטגיה ויזמות כהתמחות משנית?,"כן. לפי התקנון אסטרטגיה ויזמות ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3441,TRUE,,
-mba_gt_037,specialization_requirements,האם אפשר ללמוד את חקר ביצועים כהתמחות משנית?,"כן. לפי התקנון חקר ביצועים ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3551,TRUE,,
-mba_gt_038,specialization_requirements,האם אפשר ללמוד את מדע המידע בניהול כהתמחות משנית?,"כן. לפי התקנון מדע המידע בניהול ניתנת ללמידה כהתמחות ראשית או משנית. התמחות משנית היא בדרך כלל לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות השנתון.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3661,TRUE,,
-mba_gt_039,specialization_requirements,האם אפשר ללמוד אנליטיקה של נתוני עתק כהתמחות משנית?,"לא. אנליטיקה של נתוני עתק ניתנת ללמידה רק כהתמחות ראשית, ולא ניתן לשלב אותה עם חקר ביצועים או עם מדע המידע בניהול.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663,TRUE,,
-mba_gt_040,specialization_requirements,האם אפשר לשלב אנליטיקה של נתוני עתק עם חקר ביצועים?,לא. התקנון מציין שאנליטיקה של נתוני עתק לא ניתנת לשילוב עם חקר ביצועים.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3552,TRUE,,
-mba_gt_041,specialization_requirements,האם אפשר לשלב אנליטיקה של נתוני עתק עם מדע המידע בניהול?,לא. התקנון מציין שאנליטיקה של נתוני עתק לא ניתנת לשילוב עם מדע המידע בניהול.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
-mba_gt_042,specialization_requirements,האם אפשר ללמוד ניהול ביו-רפואי כהתמחות משנית?,לא. ניהול ביו-רפואי ניתנת ללמידה רק כהתמחות ראשית.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3664,TRUE,,
-mba_gt_043,specialization_requirements,האם אפשר ללמוד פינטק כהתמחות משנית?,לא. פינטק ניתנת ללמידה רק כהתמחות ראשית.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
-mba_gt_044,specialization_requirements,האם אפשר לשלב מימון ובנקאות עם ניהול פיננסי לחשבונאים?,לא. התקנון מציין שמימון ובנקאות לא ניתנת לשילוב עם ניהול פיננסי לחשבונאים.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113; https://shnaton.huji.ac.il/specialization/3114,TRUE,,
-mba_gt_045,specialization_requirements,איזו התמחות מתאימה למי שמתעניין בנתונים?,אנליטיקה של נתוני עתק ומדע המידע בניהול הן אפשרויות רלוונטיות למי שמתעניין בניתוח נתונים וקבלת החלטות מבוססת נתונים. יש לבדוק תנאי קדם וכללי שילוב לפני בחירה.,https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
-mba_gt_046,specialization_requirements,מה לומדים בהתמחות שיווק?,"ההתמחות בשיווק עוסקת בניהול לקוחות, שירות, ניתוח נתונים, בניית מוצרים ומותגים, שיווק דיגיטלי ואסטרטגיה שיווקית. דרישות הקורסים המחייבות מופיעות בשנתון.",https://bschool.huji.ac.il/mba/specializations; https://shnaton.huji.ac.il/specialization/3123,TRUE,,
-mba_gt_047,specialization_requirements,מה לומדים בהתמחות פינטק?,"פינטק עוסק במפגש בין טכנולוגיה למימון, כולל תשלומים דיגיטליים, מטבעות קריפטוגרפיים ובלוקצ׳יין. מבחינת מבנה התואר, פינטק היא התמחות ראשית בלבד בהיקף 24 נ״ז.",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
-mba_gt_048,specialization_requirements,מה מתאים למי שמתעניין ביזמות?,"אסטרטגיה ויזמות מיועדת למתעניינים באסטרטגיה, פיתוח רעיונות, יזמות והתקדמות לתפקידי ניהול. היא יכולה להילמד כהתמחות ראשית או משנית.",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3443,TRUE,,
-mba_gt_049,specialization_requirements,מה מתאים למי שמתעניין בארגונים ומשאבי אנוש?,"התנהגות ארגונית ומנהל משאבי אנוש עוסקת באנשים, ארגונים, מנהיגות, קבוצות, קבלת החלטות וכלי ניהול. היא יכולה להילמד כהתמחות ראשית או משנית.",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3333,TRUE,,
-mba_gt_050,specialization_requirements,מה מתאים למי שמתעניין במימון ושוק ההון?,"מימון ובנקאות מיועדת למתעניינים בשוק ההון, בנקאות, ביטוח, גיוסי הון והיבטים פיננסיים של ניהול. לא ניתן לשלב אותה עם ניהול פיננסי לחשבונאים.",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113,TRUE,,
-mba_gt_051,specialization_requirements,מה עושים אם קיבלתי פטור מקורס חובה בתוך התמחות?,"אם ניתן פטור מקורס חובה של ההתמחות, יש להשלים את נקודות הזכות מתוך קורסי הבחירה של אותה התמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_052,specialization_requirements,האם כל התמחות כוללת סמינר?,"התקנון מתאר את לימודי ההתמחות ככוללים קורסי חובה, קורסי בחירה וסמינר בתחום ההתמחות. יש לבדוק בשנתון את הסמינר וההיקף המדויקים של ההתמחות שנבחרה.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_053,exemptions,איך מגישים בקשה לפטור אקדמי?,"בקשות לפטורים מגישים דרך המידע האישי. הבקשה מגיעה למזכירות החוג, וכל גיליון ציונים נבדק פרטנית.",https://bschool.huji.ac.il/ptorim; secretariat-provided,TRUE,,
-mba_gt_054,exemptions,האם טבלת הפטורים מחייבת?,לא. דף הפטורים מציין שהטבלה אינדיקטיבית בלבד וללא התחייבות. כל פטור ניתן לפי בדיקה פרטנית ושיקול הגורם המוסמך.,https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_055,exemptions,איזה ציון צריך בקורס קודם כדי לקבל פטור?,דף הפטורים מציין שיש לעבור בציון 60 ומעלה את הקורסים המקבילים לקורסי התשתית או החובה הכלליים. הציון אינו מבטיח פטור בלי אישור פרטני.,https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_056,exemptions,מה משמעות הסימן + בטבלת הפטורים?,סימן + אומר שחובה ללמוד את שני הקורסים שמופיעים בטבלה כדי שיוכלו לשמש בסיס לפטור.,https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_057,exemptions,מה משמעות פסיק בטבלת הפטורים?,"פסיק בין קורסים אומר שאחד מהקורסים מספיק לקבלת הפטור, בכפוף לבדיקה פרטנית ואישור.",https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_058,exemptions,"אם קיבלתי פטור מקורס חובה כללי, במה מחליפים אותו?",יש ללמוד קורס בחירה כללי או קורס נוסף מההתמחות כדי להשלים את מכסת הנ״ז לתואר.,https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_059,exemptions,"אם קיבלתי פטור מקורס חובה של התמחות, במה מחליפים אותו?",יש ללמוד קורס בחירה של אותה התמחות להשלמת הנ״ז.,https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_060,exemptions,קיבלתי פטור ממתמטיקה או סטטיסטיקה. צריך קורס חלופי?,"לא. מתמטיקה וסטטיסטיקה הם קורסי תשתית מחוץ למניין נ״ז התואר, ולכן אין צורך להשלים קורס חלופי במקומם.",https://bschool.huji.ac.il/mba/admittance; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_061,exemptions,אני בוגר כלכלה. האם יש לי פטור אוטומטי?,"לא אוטומטי. ייתכן שניתן לקבל פטורים לפי הקורסים והציונים שנלמדו, אך יש להגיש בקשה דרך המידע האישי ולחכות לבדיקה פרטנית.",https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_062,exemptions,אני בוגר מדעי המחשב. האם יש פטור ממתמטיקה וסטטיסטיקה?,"ייתכן, בהתאם לקורסים ולציונים. במסלול המואץ מצוין שלימודי מתמטיקה וסטטיסטיקה בתארים כמותיים עשויים להקנות פטור, אך נדרש אישור פרטני.",https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
-mba_gt_063,exemptions,אני לומד חשבונאות. מאילו קורסים בדרך כלל יש פטור?,"במסלול אלפא לחשבונאים מצוין שלימודי חשבונאות עשויים לפטור ממבוא לחשבונאות, מבוא למימון, נתונים וטכנולוגיה בעסקים וכלכלת עסקים מיקרו, בכפוף למסלול ולבדיקה פרטנית.",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,דורש תיקוף לפי סטודנט.
-mba_gt_064,exemptions,מתי כדאי להגיש בקשה לפטור?,"מומלץ להסדיר פטורים מוקדם ככל האפשר, כי הם משפיעים על יתרת הנ״ז, קורסי ההשלמה ובניית המערכת.",https://bschool.huji.ac.il/ptorim; secretariat-provided,TRUE,,
-mba_gt_065,course_planning,איך לבחור קורסים לסמסטר הקרוב?,"מתחילים מקורסי חובה כלליים שטרם הושלמו, תנאי קדם לקורסי התמחות וקורסי חובה/סמינר של ההתמחות. אחר כך מוסיפים בחירה לפי עניין, בלי חפיפות ובלי הפרת תנאי קדם.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,
-mba_gt_066,course_planning,אפשר להירשם לקורס מתקדם לפני שיש ציון בתנאי הקדם?,לא. ניתן להירשם לקורס עם תנאי קדם רק לאחר שהוזן ציון בקורס המהווה תנאי קדם.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_067,course_planning,אפשר להירשם לשני קורסים שחופפים בשעות?,"לא. לפי המזכירות, לא ניתן להירשם לקורסים הנלמדים בחפיפה.",secretariat-provided,TRUE,,
-mba_gt_068,course_planning,תלמיד תואר שני יכול להירשם לקורס תואר ראשון?,"לפי המזכירות, תלמיד תואר שני לא יכול להירשם לקורס של תואר ראשון. במסלולים מואצים יש לבדוק לפי הסטטוס האקדמי בזמן הרישום.",secretariat-provided; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_069,course_planning,יש נוכחות חובה בקורסי MBA?,"לפי המזכירות, יש נוכחות חובה בקורסי מוסמך במנהל עסקים.",secretariat-provided,TRUE,,
-mba_gt_070,course_planning,למה חשוב לקחת את קורס החובה של תחום ההתמחות בסמסטר הראשון?,"התקנון מדגיש שצריך לעבור את קורס החובה הרלוונטי לתחום הליבה בסמסטר הראשון, אחרת ייתכן שקורסי התמחות יידחו והסיום בשנתיים ייפגע.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_071,course_planning,איך בונים מערכת עם שתי התמחויות?,"בודקים קודם שהשילוב מותר, שאין שתי התמחויות ראשיות ושאין שילוב אסור. אחר כך בודקים נ״ז, תנאי קדם וחפיפות. חלק מהחלופות דורשות אישור ועדת הוראה.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_072,course_planning,מה עושים אם קורס חובה בהתמחות מתנגש עם קורס אחר?,אין להירשם לקורסים חופפים. יש לבדוק חלופה בשנתון או לפנות ליועצת/מזכירות כאשר מדובר בקושי לשבץ קורס חובה.,secretariat-provided; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
-mba_gt_073,course_planning,אפשר לבנות מערכת לפי תחומי עניין?,"כן, בקורסי הבחירה, אך רק לאחר שמוודאים שהמערכת עומדת בדרישות התואר, ההתמחות, תנאי הקדם, הסמינר וללא חפיפות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,
-mba_gt_074,course_planning,אפשר לקחת קורס התמחות לפני השלמת מתמטיקה וסטטיסטיקה?,"בחלק גדול מקורסי ההתמחות נדרש ידע כמותי. יש לבדוק תנאי קדם בשנתון, ובדרך כלל מומלץ להשלים מתמטיקה וסטטיסטיקה מוקדם.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_075,course_planning,המערכת לא נותנת לי להירשם בגלל תנאי קדם. מה עושים?,"אם הציון בתנאי הקדם לא הוזן, בדרך כלל לא ניתן להירשם. אם יש אישור חלופי או חשד לתקלה, יש לפנות למזכירות עם פרטי הקורס והאישור.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
-mba_gt_076,course_planning,אפשר לקחת קורס בחירה מהתמחות אחרת?,"לעיתים כן כקורס בחירה כללי, כל עוד מדובר בקורס MBA ועומדים בתנאי הקדם. אבל השלמת פטור מקורס חובה בהתמחות צריכה בדרך כלל להיות מתוך אותה התמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_077,remaining_obligations,מה יתרת החובות שלי לתואר?,"אי אפשר לחשב יתרת חובות מדויקת בלי גיליון ציונים, פטורים מאושרים, התמחות וקורסים שנרשמת אליהם. הכלל הבסיסי הוא 48 נ״ז, או היקף אישי אחר במסלולים/פטורים מיוחדים.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,דורש מידע אישי.
-mba_gt_078,remaining_obligations,איך בודקים אם הרכבתי נכון מערכת?,"משווים את המערכת לדרישות קורסי החובה הכלליים, דרישות ההתמחות בשנתון, תנאי הקדם וחפיפות השעות. אם יש פטורים או שילוב התמחויות, מומלץ להעביר לבדיקה פרטנית.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,שאלה נפוצה הדורשת בדיקה.
-mba_gt_079,remaining_obligations,פטור מקורס חובה כללי מוריד את מספר הנ״ז לתואר?,בדרך כלל לא. יש להשלים את הנ״ז בקורס בחירה כללי או בקורס נוסף מההתמחות. החריג הוא מתמטיקה וסטטיסטיקה שאינם נספרים לתואר.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/mba/admittance,TRUE,,
-mba_gt_080,remaining_obligations,אם למדתי יותר מ-48 נ״ז זה תקין?,"התקנון קובע 48 נ״ז בדיוק, ובמקרים חריגים אישור עד 51 נ״ז בלבד. מערכת שחורגת מכך דורשת בדיקה לפני רישום.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_081,remaining_obligations,יש לי פטור אחד עד שלושה מקורסי חובה כלליים. איך משלימים?,"לפי התקנון, לומדים התמחות ראשית של 24 נ״ז ומשלימים את החסר ל-48 נ״ז מקורסים נוספים בהתמחות או מקורסי בחירה כלליים.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_082,remaining_obligations,יש לי ארבעה פטורים מקורסי חובה כלליים. מה האפשרויות?,ברירת המחדל היא התמחות ראשית אחת והשלמת יתר הנ״ז מקורסי בחירה כלליים או מאותה התמחות. חלופות של שתי משניות או ראשית ומשנית דורשות אישור ועדת הוראה.,https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_083,remaining_obligations,יש לי חמישה פטורים או יותר. אפשר התמחות משנית?,"כן, התקנון מאפשר לבחור בין התמחות ראשית אחת עם השלמות לבין התמחות ראשית ועוד התמחות משנית. בעלי חמישה פטורים בדיוק יסיימו עם 51 נ״ז.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_084,remaining_obligations,בוגר מנהל עסקים מהעברית צריך 48 נ״ז?,"לפי התקנון, בוגרי מנהל עסקים מהעברית שפטורים מקורסי החובה הכלליים לומדים תכנית של 42 נ״ז, המבוססת על לימודי התמחות.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_085,remaining_obligations,קורס שנשקללתי בבוגר יכול להיספר גם ל-MBA?,"במסלולים מואצים, קורס שמשוקלל במסגרת הבוגר בדרך כלל יורד מסך הנ״ז שנצברו למוסמך, למעט קורסי תשתית שאינם נספרים ל-MBA.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
-mba_gt_086,remaining_obligations,אני במסלול מחקרי. איך מחשבים יתרת חובות?,"במסלול המחקרי היקף הסגירה הוא לפחות 41 נ״ז, או לפחות 35 נ״ז לבעלי בוגר במנהל עסקים מהעברית. החישוב המדויק תלוי בפטורים, התמחות ותזה.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,דורש בדיקה פרטנית.
-mba_gt_087,registration_rules,איך מגישים בקשה לסגירת תואר?,"בקשה לסגירת תואר מגישים דרך המידע האישי. לפי המזכירות, הבקשה מגיעה למזכירות החוג לבדיקה.",secretariat-provided,TRUE,,
-mba_gt_088,registration_rules,אני רוצה ללמוד קורס שלא בתכנית. למי פונים?,בקשות חריגות לקורסים שאינם בתכנית אינן מאושרות אוטומטית. יש לפנות לגורם המוסמך או לקבל הכוונה מהמזכירות/יועצת לפי סוג הבקשה.,secretariat-provided,TRUE,,
-mba_gt_089,registration_rules,האם המזכירות יכולה לאשר כל בקשה חריגה?,"לא בהכרח. בקשות אקדמיות מסוימות דורשות יועצת אקדמית, ראש התמחות או ועדת הוראה. המזכירות יכולה לכוון אך לא תמיד היא הגוף המאשר.",secretariat-provided; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_090,registration_rules,אפשר לקחת קורס מחוץ ל-MBA כדי להשלים נ״ז?,"רק אם הדבר מותר ואושר לפי התכנית. ככלל, השלמות נעשות בקורסי MBA, בקורסי בחירה כלליים או בקורסי בחירה של ההתמחות לפי סוג הפטור.",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
-mba_gt_091,registration_rules,יש לי אילוץ אישי ביום ההתמחות. מה עושים?,"יש לבדוק חלופות בשנתון ולוודא שאין חפיפות. מאחר שימי ההתמחות תלויים בהתמחות, אילוץ אישי דורש בדיקה פרטנית מול יועצת או מזכירות.",secretariat-provided; https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
-mba_gt_092,registration_rules,אפשר ללמוד מרחוק במקום פרונטלי?,"לפי המזכירות, הלימודים מתקיימים בהוראה פרונטלית. חריג אישי דורש בדיקה לפי נהלי האוניברסיטה והקורס.",secretariat-provided,TRUE,,
-mba_gt_093,accelerated_tracks,מהו מסלול אלפא לסטודנטים למנהל עסקים?,"מסלול אלפא מאפשר לסטודנטים מצטיינים בבוגר במנהל עסקים להתחיל לצבור קורסי מוסמך כבר בשנה ג׳ ולהשלים MBA בשנה אחת או יותר לאחר סיום הבוגר, בכפוף לתנאים.",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_094,accelerated_tracks,כמה נ״ז לומדים באלפא לסטודנטים למנהל עסקים?,"לפי דף המסלול והתקנון, התכנית לתלמידי מנהל עסקים בנויה מלימודי התמחות בלבד בהיקף 42 נ״ז.",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_095,accelerated_tracks,מה תנאי הקבלה המרכזיים לאלפא?,"בין התנאים: שמירה על ממוצע כללי של לפחות 85 בסוף שנה ב׳ או ממוצע 90 לפחות בקורסי היסודות הרלוונטיים, בהתאם למסלול הקבלה והשילוב.",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_096,accelerated_tracks,מהו המסלול המואץ ל-MBA מכל הפקולטות?,"זהו מסלול מצטיינים לסטודנטים לתואר ראשון שאינם לומדים מנהל עסקים, המאפשר לצבור קורסי MBA במקביל לבוגר ולסיים את ה-MBA שנה אחת או יותר לאחר סיום הבוגר.",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_097,accelerated_tracks,כמה נ״ז יש במסלול המואץ מכל הפקולטות?,המסלול המואץ מכל הפקולטות בנוי מ-48 נ״ז לתואר. קורסי התשתית במתמטיקה וסטטיסטיקה אינם נכללים במניין הנ״ז.,https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_098,accelerated_tracks,אפשר לסגור בוגר ומוסמך באותה שנה במסלול מואץ?,"לא. דפי המסלולים והתקנון מדגישים שלא ניתן לסגור את תואר הבוגר ואת תואר המוסמך באותה שנה, ויש להשאיר לפחות קורס אחד לשנת המוסמך.",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
-mba_gt_099,accelerated_tracks,האם משלמים על עצם ההשתתפות במסלול מואץ?,לא משלמים על חברות בתכנית עצמה; משלמים על הקורסים שנרשמים אליהם. לאחר מעבר רשמי למוסמך מתבצעת השלמת תשלום לפי נהלי שכר לימוד.,https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track,TRUE,,
-mba_gt_100,accelerated_tracks,מה זה אחסון קורסים למוסמך?,"במסלולים המואצים, קורסי MBA שנלמדים בזמן הבוגר נשמרים עד המעבר הרשמי למוסמך. אם מערכת הרישום לא מציעה אחסון, יש לפנות למזכירות הרלוונטית.",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track,TRUE,,
+id,category,question_he,answer_he,answer_he_chatbot,source_urls,needs_secretary_review,secretary_tag,notes
+mba_gt_001,admissions,איך נרשמים ללימודי MBA?,"תהליך הרישום לתוכנית מובנה ומתבצע כולו מקוון: (1) הגשת מועמדות מקוונת — מילוי טפסים דרך אתר האוניברסיטה העברית והפורטל המרכזי, כולל תשלום דמי רישום; (2) בחינת המועמדות — לאחר הרישום והעלאת כלל המסמכים, התיק מועבר לוועדת הקבלה המקצועית לבחינת עמידה בתנאי הסף האקדמיים.","שלום וברכה! אני שמח מאוד על התעניינותך בתוכנית ה-MBA של האוניברסיטה העברית. אנחנו כאן כדי ללוות אותך לאורך כל הדרך אל התואר השני שלך.
+
+תהליך הרישום לתוכנית מובנה ומתבצע כולו באופן מקוון:
+
+הגשת מועמדות מקוונת: הרישום מתחיל במילוי טפסים ישיר דרך אתר האינטרנט והפורטל המרכזי של האוניברסיטה העברית, כולל תשלום דמי רישום.
+
+בחינת המועמדות: לאחר הרישום והעלאת כלל המסמכים, ניתן לדון במועמדות לפי תנאי הקבלה של בית הספר. התיק מועבר לוועדת הקבלה המקצועית שלנו לבחינת עמידה בתנאי הסף האקדמיים.
+
+נשמח מאוד לראותך בין סטודנטי התוכנית ולילוות אותך לאורך הדרך לתואר המוסמך!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_002,admissions,עד מתי אפשר להירשם לשנת תשפ״ז?,"בדף תנאי הקבלה מופיע שמועד ההרשמה לשנת תשפ״ז הוא עד ה-16.08.2026. מאחר שמועד ההרשמה הוא נתון דינמי שמתעדכן מעת לעת בהתאם לתפוסה, מומלץ לא להמתין לרגע האחרון ולאמת באופן סופי באתר לפני הרשמה.","שלום רב. תכנון זמנים נכון הוא צעד מצוין להתחלת הדרך האקדמית שלך, ואני שמח שאת/ה מברר/ת זאת מראש.
+
+לגבי מועדי הרישום לשנת הלימודים תשפ""ז:
+
+מועד הסגירה הרשמי: בדף תנאי הקבלה מופיע שמועד ההרשמה לשנת תשפ״ז הוא עד ה-16.08.2026.
+
+חשיבות הרישום המוקדם: מאחר שמועד ההרשמה הוא נתון דינמי שמתעדכן מעת לעת בהתאם לתפוסה, מומלץ לא להמתין לרגע האחרון.
+
+המלצה שלי: מאחר שמדובר בנתון רגיש לעדכון, מומלץ לאמת באופן סופי באתר לפני שליחת תשובה והרשמה סופית.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,תאריך רגיש לעדכון.
+mba_gt_003,admissions,האם חייבים GMAT כדי להתקבל?,"תנאי הקבלה הבסיסיים כוללים הצגת ציון בחלק הכמותי של מבחן ה-GMAT. קיימים מקרים שבהם ניתן להגיש בקשה לשקילת מועמדות ללא GMAT, אך הפטור אינו אוטומטי ותלוי לחלוטין בהחלטת ועדת הקבלה.","שלום וברכה. שאלת ה-GMAT היא אחת השאלות החשובות והנפוצות ביותר, ואני כאן כדי לעשות לך סדר מלא בנושא.
+
+הקו המנחה של בית הספר מורכב משני חלקים:
+
+דרישת הסף הסטנדרטית: תנאי הקבלה הבסיסיים של בית הספר כוללים הצגת ציון בחלק הכמותי של מבחן ה-GMAT.
+
+אפשרות לבקשת פטור: קיימים מקרים שבהם ניתן להגיש בקשה לשקילת מועמדות ללא GMAT.
+
+החלטת הוועדה: חשוב לי להדגיש כי הפטור אינו אוטומטי ותלוי לחלוטין בהחלטת ועדת הקבלה.
+
+אנו כאן כדי לסייע לך בכל שאלה ובדיקה של סיכויי הקבלה!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_004,admissions,באילו מקרים אפשר לבקש מועמדות ללא GMAT?,"ניתן להגיש בקשת פטור אם עומדים באחד מהתנאים המפורטים באתר: תואר ראשון כמותי בציון מתאים; תואר שני כמותי, תלמידי מחקר או בעלי דוקטורט; בוגרי תוכנית ההכנה למוסמך של בית הספר; מנהלים בכירים לפי התנאים המוגדרים. ההחלטה הסופית לגבי מתן הפטור היא של ועדת הקבלה.","שלום רב, שמח ששאלת! ועדת הקבלה הגדירה קריטריונים ברורים שבהם ניתן להגיש בקשה רשמית לפטור מהחלק הכמותי של הבחינה.
+
+תוכל/י להגיש בקשת פטור אם הנך עומד/ת באחד מהתנאים הבאים המפורטים באתר:
+
+תואר ראשון כמותי: תואר ראשון כמותי בציון מתאים.
+
+תארים מתקדמים או מחקר: תואר שני כמותי, תלמידי מחקר או בעלי דוקטורט.
+
+מכינות בית הספר: בוגרי תוכנית ההכנה למוסמך של בית הספר.
+
+ניסיון ניהולי: מנהלים בכירים לפי התנאים המוגדרים.
+
+הערה חשובה: בכל התרחישים הללו, ההחלטה הסופית לגבי מתן הפטור היא של ועדת הקבלה.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_005,admissions,"אם אני עומד בתנאי פטור מ-GMAT, האם אני פטור בוודאות?","לא. גם כאשר מתקיים תנאי שמאפשר להגיש בקשה, אין מדובר בפטור אוטומטי. הפטור מ-GMAT ניתן אך ורק לפי שיקול ועדת הקבלה ועל סמך מכלול נתוני המועמד או המועמדת.","שלום וברכה. זוהי נקודה מנהלית קריטית וטוב מאוד שאת/ה מחדד/ת אותה מראש.
+
+התשובה הרשמית היא לא, הפטור אינו מובטח בוודאות:
+
+זכות הגשה בלבד: גם כאשר מתקיים תנאי שמאפשר להגיש בקשה, אין מדובר בפטור אוטומטי.
+
+שיקול דעת הוועדה: הפטור מ-GMAT ניתן אך ורק לפי שיקול ועדת הקבלה.
+
+מכלול נתוני המועמד: הוועדה מקבלת את החלטתה על סמך מכלול נתוני המועמד או המועמדת.
+
+מומלץ להגיש את בקשת הפטור מוקדם ככל הניתן כדי לדעת בוודאות היכן הדברים עומדים!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_006,admissions,איזה ציון GMAT כמותי נדרש?,"במדרג ה-GMAT המסורתי: נדרש צירוף של ציון תואר ראשון וציון כמותי ב-GMAT בסכום 130 ומעלה, ובכל מקרה ציון 40 ומעלה בחלק הכמותי. במדרג החדש (GMAT Focus Edition): ציון הסף בחלק הכמותי עומד על 163 ומעלה. חלופת הצטיינות (קבלה ישירה): ציון 48 כמותי (או 80 במדרג החדש), יחד עם אישור זכאות לתואר.","שלום רב. כדי להתקבל על סמך בחינת ה-GMAT, בית הספר משתמש בנוסחת שילוב בין ממוצע התואר הראשון לציון הכמותי במבחן.
+
+הדרישות הן:
+
+במדרג ה-GMAT המסורתי: נדרש צירוף של ציון תואר ראשון וציון כמותי ב-GMAT בסכום 130 ומעלה, ובכל מקרה ציון 40 ומעלה בחלק הכמותי.
+
+במדרג החדש (GMAT Focus Edition): ציון הסף הנדרש בחלק הכמותי עומד על 163 ומעלה.
+
+חלופת הצטיינות (קבלה ישירה): קיימת חלופה של ציון 48 כמותי (או 80 במדרג החדש), יחד עם אישור זכאות לתואר.
+
+אנו מאחלים לך הצלחה רבה בבחינה!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,מספרים דורשים תיקוף מזכירות.
+mba_gt_007,admissions,האם צריך פטור מאנגלית?,"כן. פטור מלימודי אנגלית הוא אחד מתנאי הסף האוניברסיטאיים המחייבים להגשת מועמדות, בנוסף להצגת תואר ראשון ממוסד מוכר ולדרישות ה-GMAT (או בקשת פטור מאושרת ממנו).","שלום וברכה. כן, בהחלט. זהו אחד מתנאי הסף האוניברסיטאיים הקשיחים והמחייבים ביותר להגשת מועמדות.
+
+הנה הדרישות המלאות בנושא:
+
+חובת פטור מאנגלית: תנאי הגשת המועמדות לתוכנית ה-MBA כוללים פטור מלימודי אנגלית.
+
+השלמת הדרישות: דרישה זו מתווספת כמובן להצגת תואר ראשון ממוסד מוכר ולדרישות ה-GMAT (או בקשת פטור מאושרת ממנו).
+
+נשמח לעזור לך להשתלב בלימודים בצורה חלקה!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_008,admissions,עוד אין לי אישור זכאות לתואר ראשון. אפשר להתקבל על תנאי?,"לפי תנאי הקבלה, מועמדים שנמצאים בשלבי סיום תואר ראשון יכולים להתקבל במעמד של ""על תנאי"". סטודנטים המתקבלים על תנאי צריכים להציג את אישור הזכאות הרשמי והסופי לתואר הראשון עד חודש מיום פתיחת שנת הלימודים.","שלום רב. ראשית, ברכות על ההגעה לישורת האחרונה של התואר הראשון שלך!
+
+לגבי שאלתך על קבלה מותנית:
+
+קבלה על תנאי: לפי תנאי הקבלה, מועמדים שנמצאים בשלבי סיום תואר ראשון יכולים להתקבל במעמד של ""על תנאי"".
+
+לוח זמנים להצגת האישור: סטודנטים המתקבלים על תנאי צריכים להציג את אישור הזכאות הרשמי והסופי לתואר הראשון עד חודש מיום פתיחת שנת הלימודים.
+
+מומלץ לפעול מול המוסד הקודם מוקדם ככל הניתן כדי להמציא את האישור בזמן!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_009,admissions,אפשר להתחיל MBA בסמסטר ב׳?,"לפי המענה התפעולי של המזכירות, אין הרשמה בסמסטר ב׳. לימודי ה-MBA נמשכים ארבעה סמסטרים (שנתיים) ומתחילים אך ורק במסגרת שנת הלימודים בסמסטר א'.","שלום וברכה. אני מבין לחלוטין את הרצון להשתלב בלימודים בהקדם, אך מבנה התוכנית מתוכנן בצורה שנתית מובנית.
+
+הנה ההנחיות בנושא:
+
+אין הרשמה בסמסטר ב': לפי המענה התפעולי של המזכירות, אין הרשמה בסמסטר ב׳.
+
+משך ומבנה התוכנית: לימודי ה-MBA נמשכים ארבעה סמסטרים (שנתיים) ומתחילים אך ורק במסגרת שנת הלימודים בסמסטר א'.
+
+נשמח לראותך פותח/ת איתנו את שנת הלימודים הבאה!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_010,admissions,למי פונים על תנאי קבלה ולמי על תכנית הלימודים?,פניות בנושאי תנאי קבלה: בדף תנאי הקבלה מופיעה מאיה דגן-אשכנזי. פניות בנושאי תוכנית הלימודים: mbac@savion.huji.ac.il. מומלץ להפנות את הפנייה לפי נושאה המדויק כדי לקבל מענה מהיר.,"שלום רב. כדי להבטיח שהפנייה שלך תטופל במהירות ועל ידי הגורם המקצועי הנכון, ישנה חלוקה ברורה של תחומי האחריות:
+
+פניות בנושאי תנאי קבלה: בדף תנאי הקבלה מופיעה מאיה דגן-אשכנזי לפניות על תנאי קבלה.
+
+פניות בנושאי תוכנית הלימודים: בנפרד, קיימת כתובת המייל mbac@savion.huji.ac.il לבירורים על תכנית הלימודים.
+
+המלצה שלי: כדאי להפנות את שאלתך לפי נושא הפנייה המדויק על מנת לקבל את המענה המהיר ביותר.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_011,program_structure,כמה נ״ז צריך להשלים ב-MBA רגיל?,"במסלול העיוני הרגיל (ללא תזה) תוכנית ה-MBA כוללת 48 נקודות זכות בדיוק. חריגה מעבר למכסה זו מאושרת אך ורק במקרים חריגים ובאישור מפורש של ועדת ההוראה, ועד לתקרה מקסימלית של 51 נ״ז.","שלום רב! תכנון מכסת השעות לתואר הוא הצעד הראשון בבניית מסלול הלימודים שלך, ואני כאן כדי לתת לך את הנתון המדויק.
+
+במסלול העיוני הרגיל (ללא תזה) תוכנית ה-MBA כוללת 48 נקודות זכות (נ""ז) בדיוק. על פי נקודת המבט התקנונית של בית הספר, חריגה מעבר למכסה זו מאושרת אך ורק במקרים חריגים ומיוחדים ביותר ובאישור מפורש של ועדת ההוראה, וגם אז עד לתקרה מקסימלית של 51 נ""ז בלבד.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_012,program_structure,איך מתחלקות 48 נקודות הזכות?,"ברירת המחדל לסטודנטים ללא פטורים: 24 נ״ז קורסי חובה כלליים ו-24 נ״ז לימודי התמחות ראשית (חובות מגמה, קורסי בחירה וסמינר). קורסי תשתית במתמטיקה וסטטיסטיקה, אם נדרשים, נלמדים בנוסף ואינם נספרים ל-48 נ״ז של התואר.","שלום וברכה. כדי שלא תרכיב/י מערכת קורסים בצורה שגויה, בית הספר מציע חלוקה מובנית ומאוזנת מאוד של נקודות הזכות המלווה אותך לאורך השנתיים.
+
+ברירת המחדל לסטודנטים המגיעים ללא פטורים אקדמיים קודמים היא:
+
+24 נ""ז – קורסי חובה כלליים: קורסי תשתית המעניקים את ארגז הכלים הניהולי הרחב.
+
+24 נ""ז – לימודי התמחות ראשית: קורסים ממוקדים במגמה שבחרת (הכוללים חובות מגמה, קורסי בחירה פנימיים וסמינר מסכם).
+
+קורסי תשתית במתמטיקה וסטטיסטיקה, במידה ותידרש/י אליהם, נלמדים בנוסף ואינם נספרים ל-48 נ""ז של התואר.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_013,program_structure,האם מתמטיקה וסטטיסטיקה נספרים לתואר?,"לא. קורסי התשתית ""מתמטיקה למנהל עסקים"" ו""סטטיסטיקה למנהל עסקים"" אינם נספרים במניין 48 נ״ז של התואר, כרוכים בתשלום נוסף מעבר לשכר הלימוד, ונדרש לעבור אותם בציון 60 לפחות.","שלום וברכה. מדובר בשאלה חשובה מאוד שנוגעת לתכנון הפיננסי והאקדמי של הסמסטרים הראשונים שלך, וטוב שאת/ה מברר/ת זאת מראש.
+
+התשובה המנהלית היא לא, הם אינם נספרים כחלק מהתואר:
+
+מעמד הקורסים: קורסי התשתית ""מתמטיקה למנהל עסקים"" ו""סטטיסטיקה למנהל עסקים"" אינם נספרים במניין 48 נ""ז של התואר.
+
+ציונים ועלויות: קורסים אלו כרוכים בתשלום נוסף מעבר לשכר הלימוד הרגיל, ונדרש לעבור אותם בציון 60 לפחות כדי להמשיך בלימודים תקינים.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_014,program_structure,מהם קורסי החובה הכלליים?,"קורסי החובה הכלליים הם שמונה קורסים של 3 נ״ז (סה״כ 24 נ״ז): כלכלת עסקים א׳ (מיקרו כלכלה), מבוא לחשבונאות, התנהגות ארגונית ומנהל משאבי אנוש, אסטרטגיה עסקית, מבוא למימון, נתונים וטכנולוגיה בעסקים - MBA, ניהול השיווק, מודלים כמותיים בניהול.","שלום רב! קורסי החובה הכלליים הם עמוד השדרה של תואר ה-MBA ומקנים לך שפה ניהולית ועסקית משותפת עם עולם הניהול המודרני.
+
+קבוצת קורסי החובה הכלליים מורכבת משמונה קורסים קבועים של 3 נ״ז כל אחד (סה""כ 24 נ""ז):
+
+כלכלת עסקים א׳ (מיקרו כלכלה)
+
+מבוא לחשבונאות
+
+התנהגות ארגונית ומנהל משאבי אנוש
+
+אסטרטגיה עסקית
+
+מבוא למימון
+
+נתונים וטכנולוגיה בעסקים - MBA
+
+ניהול השיווק
+
+מודלים כמותיים בניהול
+
+קישור רשמי למקור: https://shnaton.huji.ac.il/roadmap/322-3222",https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
+mba_gt_015,program_structure,מה ציון העובר בקורסי חובה כלליים?,"ציון העובר בקורסי החובה הכלליים הוא 60 ומעלה. במסלולים מיוחדים, תוכניות מצטיינים או במסלול מחקרי — מומלץ לבדוק מול המזכירות אם קיימות דרישות ממוצע נוספות.","שלום וברכה. שמירה על רף ציונים תקין היא חובה על פי תקנון האוניברסיטה כדי להבטיח את המשך לימודייך בצורה חלקה וללא עיכובים.
+
+על פי כללי השנתון והתקנון האקדמי:
+
+ציון עובר מינימלי: ציון העובר בקורסי החובה הכלליים הוא 60 ומעלה.
+
+מסלולים מיוחדים: במידה והנך לומד/ת במסלולים מיוחדים, תוכניות מצטיינים או במסלול מחקרי, מומלץ לבדוק מול המזכירות האם קיימות דרישות ממוצע נוספות.
+
+קישור רשמי למקור: https://shnaton.huji.ac.il/roadmap/322-3222",https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
+mba_gt_016,program_structure,האם לכל קורסי החובה יש תנאי קדם?,לשלושת קורסי החובה הראשונים אין תנאי קדם אקדמיים. שאר קורסי החובה דורשים ידע מקדים ונלמדים רק לאחר השלמה ומעבר מוצלח של קורסי הקדם המוגדרים.,"שלום רב. כדי לבנות את מערכת השעות שלך בצורה חכמה ונכונה לאורך הסמסטרים, חשוב להבין את המבנה המדורג של הקורסים בתואר.
+
+התשובה היא שלא לכולם, קיימת היררכיה ברורה:
+
+קורסים ללא תנאי קדם: לשלושת קורסי החובה הראשונים בתכנית אין תנאי קדם אקדמיים, וניתן ללמוד אותם מיד עם תחילת התואר.
+
+קורסים הדורשים ידע מקדים: שאר קורסי החובה דורשים ידע מקדים מובנה ונלמדים רק לאחר השלמה ומעבר מוצלח של קורסי הקדם המוגדרים להם.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_017,program_structure,מה כוללים לימודי התמחות?,"לימודי התמחות ראשית (24 נ״ז) כוללים: קורסי חובה של ההתמחות, קורסי בחירה של ההתמחות ועבודת סמינר בתחום ההתמחות.","שלום וברכה! לימודי ההתמחות הם השלב שבו את/ה יוצק/ת תוכן אישי ומקצועי לתוך התואר ומפתח/ת מומחיות מעמיקה בתחום שמעניין אותך.
+
+לימודי התמחות (אשר בהיקף סטנדרטי של התמחות ראשית עומדים על 24 נ""ז) כוללים:
+
+קורסי חובה של ההתמחות: קורסי ליבה קבועים של המגמה.
+
+קורסי בחירה של ההתמחות: סל קורסים מתקדמים לבחירתך.
+
+עבודת סמינר: פרויקט מחקרי או יישומי מסכם בתחום ההתמחות.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_018,program_structure,כמה זמן נמשכים לימודי MBA?,לימודי MBA במסלול הרגיל אורכים שנתיים (ארבעה סמסטרים). אין פתיחת לימודים או רישום בסמסטר ב׳; הלימודים מתחילים במסגרת שנת הלימודים בסמסטר א'.,"שלום רב. ניהול זמן נכון הוא מפתח להצלחה בשילוב הלימודים עם קריירה וחיים אישיים, וטוב שאנו מתאמים ציפיות מראש.
+
+מבנה הזמנים הפורמלי של התוכנית מוגדר כך:
+
+משך התואר הסטנדרטי: לימודי MBA במסלול הרגיל אורכים שנתיים אקדמיות מלאות, כלומר ארבעה סמסטרים רצופים.
+
+מועד פתיחה קבוע: על פי הנחיות המזכירות, אין פתיחת לימודים או רישום בסמסטר ב', והלימודים מתחילים תמיד במסגרת שנת הלימודים בסמסטר א'.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_019,program_structure,באילו שעות מתקיימים הלימודים?,"הלימודים מותאמים לסטודנטים עובדים ומתקיימים אחר הצהריים והערב מ-15:30; חלק מהקורסים בימי שישי בבוקר. לפי המזכירות, ההוראה פרונטלית בקמפוס (לא מרחוק).","שלום וברכה. התוכנית שלנו בנויה מתוך הבנה עמוקה שמרבית הסטודנטים שלנו משלבים לימודים עם קריירה פעילה ומשרות מלאות בעולם העסקי.
+
+לוח הזמנים האוניברסיטאי מותאם לכך בצורה מלאה:
+
+שעות הלימוד: התקנון מציין שהלימודים מותאמים לסטודנטים עובדים ומתקיימים בשעות אחר הצהריים והערב החל מ-15:30, וחלק מהקורסים מתקיימים בימי שישי בבוקר.
+
+מתכונת ההוראה: לפי הנחיות המזכירות, הלימודים מועברים בהוראה פרונטלית מלאה בקמפוס (ולא בלמידה מרחוק).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_020,program_structure,באילו ימים לומדים חובה כללית והתמחות?,"קורסי חובה כלליים: בדרך כלל ימי רביעי ו/או שישי בבוקר. קורסי התמחות: ימי ראשון, שני או שלישי לפי ההתמחות. במקרה של פטורים והחלפה בקורסי בחירה — ייתכן צורך ביום נוסף להשלמות המערכת.","שלום רב! כדי להקל עליך את תיאום ימי העבודה מול המעסיק, בית הספר משתדל לרכז את ימי הלימוד בצורה מובנית ככל הניתן.
+
+על פי הנחיות מזכירות הלימודים:
+
+ימי קורסי חובה כלליים: נלמדים ומרוכזים בדרך כלל בימי רביעי ו/או שישי בבוקר.
+
+ימי קורסי התמחות: משובצים בימי חול האחרים – ראשון, שני או שלישי, בהתאם להתמחות הספציפית שנבחרה.
+
+שים/י לב: במקרה של קבלת פטורים והחלפתם בקורסי בחירה, יייתכן צורך בהגעה ביום נוסף להשלמות המערכת.
+
+מקור המידע: הנחיות תפעוליות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_021,program_structure,האם אפשר ללמוד שתי התמחויות ראשיות במקביל?,"לא. לפי התקנון לא ניתן ללמוד שתי התמחויות ראשיות במקביל. שילובים מאושרים מבוססים על התמחות ראשית אחת (24 נ״ז) והתמחות משנית (18 נ״ז), בכפוף לסוג ההתמחות, היקף הפטורים ואישור ועדת ההוראה.","שלום רב! אני מבין לחלוטין את הרצון להפיק את המקסימום מהתואר ולטעום לעומק מכמה עולמות תוכן, אך מבנה התואר מציב מגבלות ברורות בנושא זה.
+
+התשובה הרשמית היא לא:
+
+איסור על שתי ראשיות: על פי תקנון בית הספר, לא ניתן ללמוד שתי התמחויות המוגדרות כ""ראשיות"" במקביל.
+
+החלופה המאושרת: השילובים האפשריים והמאושרים מבוססים על מבנה של התמחות ראשית אחת (24 נ""ז) ולצידה התמחות משנית (18 נ""ז). שילוב זה תלוי בסוג ההתמחות, בהיקף הפטורים שקיבלת ובאישור מפורש של ועדת ההוראה.
+
+אנחנו כאן כדי לעזור לך לתכנן את השילוב הנכון והאפקטיבי ביותר עבור הקריירה שלך!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_022,program_structure,מהם התנאים והדרישות למעבר למסלול מחקרי עם תזה?,"הגשת מועמדות למסלול מחקרי לקראת תום שנת א' (או בסמוך לכך), בכפוף ל: ממוצע אקדמי מצטבר של 85 ומעלה בסיום שנה א'; מציאת חבר סגל מוסמך מבית הספר למנהל עסקים המאשר בכתב את הסכמתו להנחיה; אישור ועדת תלמידי מחקר.","שלום וברכה. פנייה לכיוון המחקרי היא החלטה מצוינת המפתחת חשיבה מעמיקה ופותחת דלתות לעולם האקדמיה והמחקר המתקדם, ואנו מעודדים זאת מאוד.
+
+הגשת המועמדות למסלול המחקרי מתבצעת לקראת תום שנת הלימודים הראשונה (או בסמוך לכך), בכפוף לתנאים הבאים:
+
+ממוצע ציונים: סיום שנה א' ללימודים בממוצע אקדמי מצטבר של 85 ומעלה.
+
+הנחיה אקדמית: מציאת חבר סגל מוסמך מבית הספר למנהל עסקים אשר יאשר בכתב את הסכמתו לשמש כמנחה המחקרי שלך.
+
+אישור סופי: המעבר הפורמלי דורש את אישורה הרשמי של הוועדה לתלמידי מחקר של בית הספר.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/roadmap/322-3220",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3220,TRUE,,
+mba_gt_023,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית במימון ובנקאות?,"התמחות ראשית במימון ובנקאות — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: קורסי חובה של ההתמחות, קורסי בחירה פיננסיים מתקדמים ועבודת סמינר מסכמת.","שלום רב! בחירה מצוינת. התמחות במימון ובנקאות היא אחת התוכניות המובילות שלנו ומקנה כלים פרקטיים לשוק ההון ולמערכות פיננסיות.
+
+מבחינת היקף השעות הנדרש:
+
+מכסת נקודות הזכות: התמחות ראשית במימון ובנקאות היא בהיקף של 24 נ""ז מתוך קורסי ההתמחות.
+
+דרישות פנימיות: בתוך מסגרת 24 הנ""ז הללו, עליך לעמוד בכל דרישות המגמה המפורטות בשנתון, הכוללות קורסי חובה של ההתמחות, קורסי בחירה פיננסיים מתקדמים ועבודת סמינר מסכמת.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3113",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113,TRUE,,
+mba_gt_024,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בניהול פיננסי לחשבונאים?,"התמחות ראשית בניהול פיננסי לחשבונאים — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: קורסי חובה ייעודיים, בחירה פיננסית ועבודת סמינר אינטגרטיבית.","שלום וברכה. מסלול זה מותאם ומעוצב במיוחד עבור סטודנטים ובוגרים מעולם החשבונאות המעוניינים להזניק את הידע שלהם קדימה לתפקידי ניהול כספים בכירים.
+
+היקף הלימודים המוגדר למגמה זו:
+
+מכסת נקודות הזכות: התמחות ראשית בניהול פיננסי לחשבונאים היא בהיקף של 24 נ""ז מתוך קורסי ההתמחות.
+
+הרכב הלימודים: בתוך 24 הנ""ז עליך לעמוד בדרישות המובנות בשנתון, הכוללות קורסי חובה ייעודיים, בחירה פיננסית ועבודת סמינר אינטגרטיבית בתחום.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3114",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3114,TRUE,,
+mba_gt_025,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בשיווק?,התמחות ראשית בשיווק — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש להשלים קורסי חובה ובחירה פנימיים של מגמת השיווק ולעבור סמינר מחקרי או יישומי לפי השנתון.,"שלום רב! עולם השיווק המודרני משלב כיום אסטרטגיה, יצירתיות וניתוח נתונים מתקדם, וההתמחות שלנו תעניק לך את ארגז הכלים המושלם לכך.
+
+לגבי היקף השעות הנדרש במגמה:
+
+מכסת נקודות הזכות: התמחות ראשית בשיווק הינה בהיקף מחייב של 24 נ""ז מתוך קורסי ההתמחות.
+
+מבנה המגמה: בתוך מכסה זו של 24 נ""ז, עליך להשלים את קורסי החובה והבחירה הפנימיים של מגמת השיווק (כגון שיווק דיגיטלי או ניהול מותגים) ולעבור בהצלחה סמינר מחקרי או יישומי.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3123",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3123,TRUE,,
+mba_gt_026,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בהתנהגות ארגונית ומנהל משאבי אנוש?,"התמחות ראשית בהתנהגות ארגונית ומנהל משאבי אנוש — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לשלב קורסי חובה מגמתיים, בחירה מתקדמת בניהול אנשים ועבודת סמינר מסכמת לפי השנתון.","שלום וברכה. הבנת ההון האנושי, מנהיגות ודינמיקות ארגוניות היא מפתח קריטי להצלחתו של כל מנהל וארגון בעולם העבודה החדש.
+
+מבנה נקודות הזכות מוגדר באופן הבא:
+
+מכסת נקודות הזכות: התמחות ראשית בהתנהגות ארגונית ומנהל משאבי אנוש דורשת השלמה של 24 נ""ז מתוך קורסי ההתמחות.
+
+דרישות פנימיות: החלוקה הפנימית בתוך 24 הנ""ז מפורטת ומחייבת שילוב של קורסי חובה מגמתיים, קורסי בחירה מתקדמים בנושאי ניהול אנשים, ועבודת סמינר מסכמת.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3333",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3333,TRUE,,
+mba_gt_027,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית באסטרטגיה ויזמות?,"התמחות ראשית באסטרטגיה ויזמות — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: קורסי ליבה באסטרטגיה וחדשנות, בחירה יזמית ועבודת סמינר אינטגרטיבית.","שלום רב! זוהי מגמה מרתקת ודינמית במיוחד, המיועדת למי שמכוון להקמת מיזמים חדשים או להובלת תהליכים אסטרטגיים ותחרותיים בחברות מובילות.
+
+דרישות המכסה למסלול זה הן:
+
+מכסת נקודות הזכות: בהתמחות ראשית באסטרטגיה ויזמות יש להשלים 24 נ""ז בדיוק מתוך קורסי המגמה.
+
+הרכב הקורסים: בתוך מסגרת זו עליך לעמוד בכללי השנתון, הכוללים קורסי ליבה קבועים בחשיבה אסטרטגית וחדשנות, קורסי בחירה יזמיים, ועבודת סמינר אינטגרטיבית.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3443",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3443,TRUE,,
+mba_gt_028,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בחקר ביצועים?,"התמחות ראשית בחקר ביצועים — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: קורסי חובה כמותיים ומודלים מתקדמים, בחירה וסמינר ייעודי.","שלום וברכה. פנייה לתחום חקר הביצועים מעניקה לך כלים כמותיים ואלגוריתמיים מתקדמים ביותר לאופטימיזציה ולקבלת החלטות מורכבות בעולם הניהול המודרני.
+
+היקף השעות הנדרש במגמה כפי שנקבע בתקנון:
+
+מכסת נקודות הזכות: התמחות ראשית בחקר ביצועים הינה בהיקף של 24 נ""ז מתוך קורסי ההתמחות.
+
+מבנה הלימודים: בתוך 24 הנ""ז עליך לעמוד בכל דרישות השנתון הפנימיות, הכוללות קורסי חובה כמותיים ומודלים מתקדמים, קורסי בחירה וסמינר ייעודי.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3552",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3552,TRUE,,
+mba_gt_029,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית במדע המידע בניהול?,"התמחות ראשית במדע המידע בניהול — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש להשלים חובות ליבה של מדע המידע, בחירה טכנולוגית וסמינר מסכם לפי השנתון.","שלום רב. ניהול מערכות מידע, הבנת ארכיטקטורת נתונים והובלת תהליכים טכנולוגיים בארגונים הם מהכישורים המבוקשים ביותר בשוק העבודה כיום, ובחרת מסלול מצוין.
+
+לגבי מכסת השעות לתואר במגמה זו:
+
+מכסת נקודות הזכות: התמחות ראשית במדע המידע בניהול מחייבת צבירה של 24 נ""ז מתוך קורסי המגמה.
+
+חלוקת הקורסים: בתוך מכסה זו עליך להשלים את חובות הליבה של מדע המידע, קורסי בחירה טכנולוגיים וסמינר מסכם בהתאם לפרסומי השנתון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3662",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
+mba_gt_030,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית באנליטיקה של נתוני עתק?,"התמחות ראשית באנליטיקה של נתוני עתק — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: חובה כמותית וסטטיסטית מתקדמת, בחירה בניתוח נתונים וסמינר יישומי.","שלום וברכה! עולם ה-Big Data והאנליטיקה המתקדמת משנה לחלוטין את הדרך שבה חברות מקבלות החלטות עסקיות, ומדובר בהתמחות מרתקת ויוקרתית מאוד.
+
+היקף השעות ומבנה המגמה מוגדרים כך:
+
+מכסת נקודות הזכות: התמחות ראשית באנליטיקה של נתוני עתק עומדת על היקף של 24 נ""ז מקורסי ההתמחות.
+
+דרישות מחייבות: במסגרת ה-24 נ""ז עליך לעמוד בדרישות השנתון הכוללות קורסי חובה כמותיים וסטטיסטיים מתקדמים, קורסי בחירה בניתוח נתונים, ועבודת סמינר יישומית.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3663",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663,TRUE,,
+mba_gt_031,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בניהול ביו-רפואי?,"התמחות ראשית בניהול ביו-רפואי — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש להשלים חובות ייעודיים לעולם הביו-רפואי, בחירה רלוונטית וסמינר מסכם לפי השנתון.","שלום וברכה. התעשייה הביו-רפואית ומדעי החיים היא אחד הענפים הצומחים והמרתקים ביותר כיום, וההתמחות שלנו תעניק לך שילוב ייחודי של ידע עסקי והבנה ניהולית מגזרית מתקדמת.
+
+לגבי היקף השעות הנדרש במסלול הראשי:
+
+מכסת נקודות הזכות: התמחות ראשית בניהול ביו-רפואי הינה בהיקף קבוע של 24 נ""ז מתוך קורסי ההתמחות.
+
+מבנה הלימודים: בתוך מסגרת שעות זו, עליך להשלים את קורסי החובה הייעודיים לעולם הביו-רפד, קורסי בחירה רלוונטיים מתקדמים, ועבודת סמינר מסכמת המשלבת את התכנים התיאורטיים והמעשיים.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3664",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3664,TRUE,,
+mba_gt_032,specialization_requirements,כמה נ״ז צריך ללמוד בהתמחות ראשית בפינטק?,"התמחות ראשית בפינטק — 24 נ״ז מקורסי ההתמחות. בתוך 24 הנ״ז יש לעמוד בדרישות השנתון: חובות פנימיים בטכנולוגיה פיננסית, בחירה מתקדמת וסמינר אינטגרטיבי.","שלום רב! עולם הפינטק (Financial Technology) משנה לחלוטין את פני הכלכלה הגלובלית, והבחירה בהתמחות זו תעניק לך יתרון עצום במפגש שבין טכנולוגיה, חדשנות ופיננסים.
+
+היקף נקודות הזכות הנדרש להשלמת מגמה זו:
+
+מכסת נקודות הזכות: התמחות ראשית בפינטק הינה בהיקף מחייב של 24 נ""ז מתוך קורסי ההתמחות.
+
+חלוקת הקורסים: המכסה מורכבת מקורסי חובה פנימיים המקנים את יסודות הטכנולוגיה הפיננסית, סל קורסי בחירה מתקדמים, ועבודת סמינר אינטגרטיבית כפי שמפורט בשנתון הרשמי.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3798",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
+mba_gt_033,specialization_requirements,האם אפשר ללמוד את מימון ובנקאות כהתמחות משנית?,"כן. לפי התקנון מימון ובנקאות זמינה כהתמחות ראשית או משנית. כהתמחות משנית — לפחות 18 נ״ז מקורסי ההתמחות, בכפוף לדרישות החובה והבחירה בשנתון למסלול המשני.","שלום וברכה. מדובר בשאלה מעולה! שילוב של רקע פיננסי חזק כנדבך משני לתחום ניהולי אחר הוא שילוב אסטרטגי מצוין ומבוקש מאוד בשוק התעסוקה.
+
+התשובה התקנונית היא בהחלט כן:
+
+מסלול משני מאושר: על פי התקנון, מגמת מימון ובנקאות זמינה ללמידה הן כהתמחות ראשית והן כהתמחות משנית.
+
+היקף נקודות הזכות: מתכונת הלימודים כהתמחות משנית מוגדרת בהיקף מופחת של לפחות 18 נ""ז מקורסי ההתמחות, ועליך לעמוד בדרישות החובה והבחירה המותאמות המפורטות בשנתון עבור המסלול המשני.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3111",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3111,TRUE,,
+mba_gt_034,specialization_requirements,האם אפשר ללמוד את שיווק כהתמחות משנית?,"כן. לפי התקנון שיווק זמין כהתמחות ראשית או משנית. כהתמחות משנית — לפחות 18 נ״ז מקורסי המגמה, לפי מפת הדרכים בשנתון למסלול המשני.","שלום רב! בהחלט כן. הבנה שיווקית, ניהול מותג והכרת חוויית הלקוח הם כללים קריטיים לכל מנהל, ושילוב שיווק כהתמחות משנית הוא רעיון נהדר.
+
+הנה המבנה המוגדר למסלול זה:
+
+אפשרות לשילוב משני: מגמת השיווק מוצעת ומאושרת ללמידה הן כהתמחות ראשית והן כהתמחות משנית בתואר.
+
+היקף נקודות הזכות: היקף הלימודים הנדרש במסלול של התמחות משנית בשיווק עומד על לפחות 18 נ""ז מתוך קורסי המגמה, בהתאם למפת הדרכים המפורסמת בשנתון למסלול המשני.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3121",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3121,TRUE,,
+mba_gt_035,specialization_requirements,האם אפשר ללמוד את התנהגות ארגונית ומנהל משאבי אנוש כהתמחות משנית?,"כן. התנהגות ארגונית ומנהל משאבי אנוש מאושרת גם כהתמחות משנית. נדרש לפחות 18 נ״ז מקורסי המגמה, בכפוף לחלוקת הקורסים בשנתון.","שלום וברכה. פיתוח מיומנויות ניהול הון אנושי, מנהיגות והבנת דינמיקות תוך-ארגוניות הם כלים יקרי ערך שישרתו אותך בכל תפקיד ניהולי בכיר, ללא קשר לתחום הליבה שלך.
+
+התשובה הרשמית היא חיובית:
+
+מסלול משני פתוח: מגמה זו מאושרת לחלוטין ללימודים גם כהתמחות משנית בתוכנית.
+
+היקף נקודות הזכות: המבנה של התמחות משנית בהתנהגות ארגונית ומנהל משאבי אנוש דורש השלמה של לפחות 18 נ""ז מתוך קורסי המגמה, בכפוף לעמידה בתנאים ובחלוקת הקורסים המופיעה בשנתון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3331",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3331,TRUE,,
+mba_gt_036,specialization_requirements,האם אפשר ללמוד את אסטרטגיה ויזמות כהתמחות משנית?,"כן. אסטרטגיה ויזמות ניתנת לשילוב גם כהתמחות משנית. נדרש לפחות 18 נ״ז מקורסי ההתמחות, לפי מפת הדרכים בשנתון.","שלום רב! זוהי שאלה מצוינת. שילוב של חשיבה אסטרטגית וכלים יזמיים כהתמחות משנית לצד התמחות כמותית או פיננסית ראשית יוצר פרופיל ניהולי מרשים ורחב אופקים.
+
+התקנון מאפשר זאת בצורה מלאה:
+
+שילוב מותר: מגמת אסטרטגיה ויזמות ניתנת לשילוב בתואר ה-MBA שלך גם במתכונת של התמחות משנית.
+
+היקף נקודות הזכות: מכסת השעות הנדרשת במסלול משני זה עומדת על לפחות 18 נ""ז מקורסי ההתמחות, בהתאם למפת הדרכים המובנית והמפורטת בשנתון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3441",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3441,TRUE,,
+mba_gt_037,specialization_requirements,האם אפשר ללמוד את חקר ביצועים כהתמחות משנית?,"כן. חקר ביצועים ניתן ללמידה גם כהתמחות משנית. נדרש לפחות 18 נ״ז מקורסי המגמה הכמותיים, בכפוף לדרישות השנתון.","שלום וברכה. לקיחת כללים כמותיים ומודלים מתמטיים של אופטימיזציה כנדבך משני היא בחירה מעולה למי שרוצה לחזק את יכולות הניתוח ופתרון הבעיות שלו.
+
+המבנה האוניברסיטאי תומך בכך:
+
+מסלול משני קיים: כן, ניתן ללמוד חקר ביצועים כהתמחות משנית בתואר.
+
+היקף נקודות הזכות: התקנון מגדיר כי היקף השעות להתמחות משנית בחקר ביצועים הוא לפחות 18 נ""ז מתוך קורסי המגמה הכמותיים, ועליך לעמוד בדרישות הקורסים הפנימיות כפי שהן מופיעות בשנתון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3551",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3551,TRUE,,
+mba_gt_038,specialization_requirements,האם אפשר ללמוד את מדע המידע בניהול כהתמחות משנית?,"כן. מדע המידע בניהול מוצע כהתמחות ראשית או משנית. כהתמחות משנית — לפחות 18 נ״ז מקורסי המגמה, לפי השנתון.","שלום רב. שילוב של הבנה טכנולוגית ומערכות מידע כהתמחות משנית הוא שילוב קלאסי ומאוד אפקטיבי בעולם הניהול העכשווי המבוסס על מערכות דאטה וטכנולוגיה.
+
+הנה ההנחיות המנהליות לגבי מסלול זה:
+
+אפשרות רישום משני: כן, מדע המידע בניהול מוצע ומאושר ללמידה הן כהתמחות ראשית והן כהתמחות משנית.
+
+היקף נקודות הזכות: מתכונת הלימודים כהתמחות משנית עומדת על היקף של לפחות 18 נ""ז מקורסי המגמה, בכפוף להנחיות המובנות המפורטות בשנתון הרשמי.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3661",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3661,TRUE,,
+mba_gt_039,specialization_requirements,האם אפשר ללמוד אנליטיקה של נתוני עתק כהתמחות משנית?,"לא. אנליטיקה של נתוני עתק ניתנת ללמידה רק כהתמחות ראשית (24 נ״ז), ולא כהתמחות משנית. בנוסף, אסור לשלב אותה עם חקר ביצועים או עם מדע המידע בניהול.","שלום וברכה. מדובר בשאלה חשובה מאוד שנוגעת למגבלות התקנוניות של קורסי הדאטה המתקדמים, וטוב שאנו מחדדים זאת מראש.
+
+התשובה הרשמית היא לא, הדבר אינו אפשרי:
+
+התמחות ראשית בלבד: התוכנית באנליטיקה של נתוני עתק (Big Data Analytics) מובנית ומוכרת אקדמית במעמד של התמחות ראשית בלבד (בהיקף של 24 נ""ז). לא ניתן ללמוד אותה במתכונת מצומצמת כהתמחות משנית.
+
+מגבלות שילוב נוספות: בנוסף, חל איסור תקנוני קשיח לשלב אותה או ללמוד אותה במקביל לחקר ביצועים או למדע המידע בניהול.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3663",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663,TRUE,,
+mba_gt_040,specialization_requirements,האם אפשר לשלב אנליטיקה של נתוני עתק עם חקר ביצועים?,לא. חל איסור מוחלט על שילוב אנליטיקה של נתוני עתק עם חקר ביצועים בתואר. יש לבחור באחת מההתמחויות כהתמחות ראשית בלבד.,"שלום רב. שתי ההתמחויות הללו מעניקות כלים כמותיים יוצאים מן הכלל, אך בדיוק מן הסיבה הזו קיימת ביניהן חפיפה אקדמית רבה.
+
+הכלל התקנוני בעניין זה קובע בצורה חד-משמעית:
+
+איסור שילוב: חל איסור מוחלט על שילוב כזה בתואר. התקנון והשנתון קובעים מפורשות כי התמחות באנליטיקה של נתוני עתק (Big Data) אינה ניתנת לשילוב בשום אופן עם התמחות בחקר ביצועים.
+
+חובת בחירה: על הסטודנט לבחור באחד מהכיוונים הללו בלבד כהתמחות הראשית שלו.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3663 וכן https://shnaton.huji.ac.il/specialization/3552",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3552,TRUE,,
+mba_gt_041,specialization_requirements,האם אפשר לשלב אנליטיקה של נתוני עתק עם מדע המידע בניהול?,לא. התקנון מציין שאנליטיקה של נתוני עתק (Big Data) לא ניתנת לשילוב עם מדע המידע בניהול עקב חפיפת תכנים משיקים. על הסטודנט לבחור במסלול אחד מביניהם.,"שלום וברכה. מדובר בשני תחומים מרתקים ורלוונטיים מאוד לעידן הדיגיטלי, אך חשוב להכיר את כללי השילוב האקדמיים של בית הספר.
+
+התשובה הרשמית היא לא, השילוב אינו מאושר:
+
+איסור שילוב מובנה: התקנון מציין במפורש שאנליטיקה של נתוני עתק (Big Data) לא ניתנת לשילוב עם מדע המידע בניהול.
+
+סיבת המגבלה: קיימת משיקות אקדמית וחפיפת תכנים נרחבת בין הקורסים המתקדמים בשני התחומים, ולכן על הסטודנט לבחור במסלול אחד מביניהם.
+
+נשמח לסייע לך לבחון איזה מבין שני התחומים הללו מתאים יותר למטרות הקריירה שלך!
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3663 וכן https://shnaton.huji.ac.il/specialization/3662",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
+mba_gt_042,specialization_requirements,האם אפשר ללמוד ניהול ביו-רפואי כהתמחות משנית?,לא. ניהול ביו-רפואי מוגדר ומאושר אך ורק כהתמחות ראשית מלאה (24 נ״ז). לא קיים מסלול מופחת או מאושר ללימוד התחום כהתמחות משנית.,"שלום רב! התוכנית לניהול ביו-רפואי ומדעי החיים היא תוכנית ייחודית ואינטנסיבית, המעניקה מעטפת רחבה ומעמיקה לעולם הפארמה והמכשור הרפואי.
+
+מבחינה מנהלית ומבנית, התשובה היא לא:
+
+התמחות ראשית בלבד: ניהול ביו-רפואי ניתנת ללמידה אך ורק במעמד של התמחות ראשית מלאה בהיקף של 24 נ""ז.
+
+אין מסלול משני: לא קיים מסלול מופחת או מאושר ללימוד תחום זה כהתמחות משנית בתואר.
+
+במידה והתחום מעניין אותך, נשמח להציג לך את מפת הדרכים המלאה של התוכנית כדי לשלב אותה בצורה מיטבית בתואר שלך!
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3664",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3664,TRUE,,
+mba_gt_043,specialization_requirements,האם אפשר ללמוד פינטק כהתמחות משנית?,לא. פינטק מוגדרת כהתמחות ראשית בלבד (24 נ״ז). אין אפשרות תקנונית ללמוד את המגמה כהתמחות משנית.,"שלום וברכה. עולם הטכנולוגיה הפיננסית (FinTech) דורש הבנה אינטגרטיבית עמוקה, ולכן התוכנית בנויה בצורה מקיפה וממוקדת.
+
+מבחינת מבנה התואר, התשובה היא לא:
+
+סטטוס המגמה: מגמת פינטק ניתנת ללמידה אך ורק כהתמחות ראשית.
+
+היקף מחייב: לא ניתן ללמוד אותה במתכונת מצומצמת כהתמחות משנית, והיא מחייבת השלמה מלאה של כלל חובות הליבה והסמינר המגמתיים (24 נ""ז).
+
+אשמח לשבת איתך ולבחון כיצד מגמה מרתקת זו יכולה להוות את עמוד התווך המרכזי של תואר ה-MBA שלך!
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3798",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
+mba_gt_044,specialization_requirements,האם אפשר לשלב מימון ובנקאות עם ניהול פיננסי לחשבונאים?,"לא. חל איסור מוחלט על שילוב מימון ובנקאות עם ניהול פיננסי לחשבונאים. מדובר בשני מסלולים מקבילים תחת אותה משפחה פיננסית, ויש לבחור באחד מהם בלבד.","שלום רב! שתי המגמות הללו מעניקות כלים פיננסיים יוצאים מן הכלל, אך בדיוק מן הסיבה הזו חלים עליהן כללי שילוב נוקשים.
+
+התקנון קובע בצורה חד-משמעית כי התשובה היא לא:
+
+איסור שילוב דיסציפלינרי: התקנון מציין שמימון ובנקאות לא ניתנת לשילוב עם ניהול פיננסי לחשבונאים.
+
+חובת בחירה: מאחר שמדובר בשני מסלולים מקבילים תחת אותה משפחה פיננסית בבית הספר, עליך לבחור במסלול אחד בלבד מביניהם.
+
+נשמח לעזור לך להבין את ההבדלים הדקים בין שתי האפשרויות כדי לבצע את הבחירה המדויקת ביותר עבורך!
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3113 וכן https://shnaton.huji.ac.il/specialization/3114",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113; https://shnaton.huji.ac.il/specialization/3114,TRUE,,
+mba_gt_045,specialization_requirements,איזו התמחות מתאימה למי שמתעניין בנתונים?,אנליטיקה של נתוני עתק (Big Data) ומדע המידע בניהול הן אפשרויות רלוונטיות למי שמתעניין בניתוח נתונים וקבלת החלטות מבוססת נתונים. לא ניתן לשלב ביניהן — יש לבדוק תנאי קדם וכללי שילוב לפני הבחירה.,"שלום וברכה! הגעת למקום הנכון. בית הספר למנהל עסקים מוביל את חזית המחקר וההוראה בתחום קבלת ההחלטות מבוססת הדאטה, ומציע אפשרויות מצוינות עבורך.
+
+למתעניינים בתחום הנתונים, קיימות שתי חלופות מרכזיות:
+
+אנליטיקה של נתוני עתק (Big Data): מתמקדת במתודולוגיות כמותיות, סטטיסטיקה מתקדמת וכלי ניתוח רחבים.
+
+מדע המידע בניהול: מתמקדת בניהול טכנולוגיות, מערכות מידע וארכיטקטורת נתונים בארגון.
+
+טיפ מהיועץ: שתי האפשרויות רלוונטיות מאוד למי שמתעניין בניתוח נתונים ובקבלת החלטות מבוססת נתונים. מאחר שלא ניתן לשלב ביניהן, מומלץ לבדוק היטב את תנאי הקדם וכללי השילוב לפני הבחירה במסלול המועדף.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3663 וכן https://shnaton.huji.ac.il/specialization/3662",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3663; https://shnaton.huji.ac.il/specialization/3662,TRUE,,
+mba_gt_046,specialization_requirements,מה לומדים בהתמחות שיווק?,"ההתמחות בשיווק עוסקת בניהול לקוחות ומערכות שירות, אנליטיקה שיווקית וניתוח נתונים, בניית מוצרים ומותגים, שיווק דיגיטלי ואסטרטגיה שיווקית. דרישות הקורסים המחייבות מופיעות בשנתון.","שלום רב. מגמת השיווק שלנו עברה מהפכה מודרנית והיא משלבת כיום את מיטב הכלים האסטרטגיים, ההתנהגותיים והטכנולוגיים הנדרשים בשוק הגלובלי.
+
+עולמות התוכן המרכזיים במגמה כוללים:
+
+ניהול לקוחות ומערכות שירות: הבנת מסע הלקוח ושימור נאמנות.
+
+אנליטיקה שיווקית וניתוח נתונים: קבלת החלטות שיווקיות מבוססות דאטה ומחקר.
+
+בניית מוצרים ומותגים: פיתוח מוצרים חדשים, מיתוג ומיצוב בשוק ותחרות.
+
+שיווק דיגיטלי ואסטרטגיה שיווקית: ניהול קמפיינים, רשתות חברתיות ותכנון אסטרטגי כולל.
+
+שים/י לב: דרישות הקורסים המחייבות, קורסי החובה הפנימיים ורשימת קורסי הבחירה המלאה מפורטים ומתעדכנים בשנתון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://shnaton.huji.ac.il/specialization/3123",https://bschool.huji.ac.il/mba/specializations; https://shnaton.huji.ac.il/specialization/3123,TRUE,,
+mba_gt_047,specialization_requirements,מה לומדים בהתמחות פינטק?,"פינטק עוסקת במפגש בין טכנולוגיה למימון: תשלומים דיגיטליים, מטבעות קריפטוגרפיים וטכנולוגיית בלוקצ׳יין. מבחינת מבנה התואר, פינטק היא התמחות ראשית בלבד (24 נ״ז).","שלום וברכה! מגמת הפינטק היא אחת התוכניות החדשניות והמבוקשות ביותר, והיא מחברת בין הדיסציפלינה הפיננסית הקלאסית לפריצות הדרך הטכנולוגיות האחרונות.
+
+במסגרת הלימודים תעסוק/תעסקי בנושאים הבאים:
+
+המפגש בין טכנולוגיה למימון: כיצד טכנולוגיה משנה את עולמות הבנקאות והאשראי.
+
+תשלומים דיגיטליים וארנקים אלקטרוניים: עתיד מערכות הסליקה והעברות הכספים.
+
+מטבעות קריפטוגרפיים וטכנולוגיית בלוקצ׳יין (Blockchain): הבנת המנגנונים המבוזרים והשימושים העסקיים שלהם.
+
+מבנה התואר: מבחינת מבנה התואר, פינטק היא התמחות ראשית בלבד בהיקף מחייב של 24 נ״ז.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3798",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3798,TRUE,,
+mba_gt_048,specialization_requirements,מה מתאים למי שמתעניין ביזמות?,"אסטרטגיה ויזמות מיועדת למתעניינים באסטרטגיה, פיתוח רעיונות עסקיים, יזמות והתקדמות לתפקידי ניהול. ניתנת ללמידה כהתמחות ראשית (24 נ״ז) או משנית (18 נ״ז).","שלום רב! אם החיידק היזמי קיים בך, או אם השאיפה שלך היא להוביל מהלכים עסקיים פורצי דרך ולפתח רעיונות מאפס – המסלול הזה תפור עלייך.
+
+מגמת אסטרטגיה ויזמות מיועדת בדיוק למטרות הללו:
+
+פיתוח רעיונות וחדשנות: כלים להקמת סטארט-אפים, פיתוח מודלים עסקיים וחשיבה יזמית.
+
+אסטרטגיה תאגידית ותחרותית: הבנת השוק, ניתוח מתחרים והובלת חברות בסביבה משתנה.
+
+התקדמות לתפקידי ניהול: רכישת מיומנויות מנהיגות והובלה הנדרשות למנהלים בכירים.
+
+גמישות בתואר: ההתמחות מאפשרת גמישות רבה ויכולה להילמד הן כהתמחות ראשית (24 נ""ז) והן כהתמחות משנית (18 נ""ז) בתואר שלך.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3443",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3443,TRUE,,
+mba_gt_049,specialization_requirements,מה מתאים למי שמתעניין בארגונים ומשאבי אנוש?,"התנהגות ארגונית ומנהל משאבי אנוש עוסקת באנשים וארגונים, מנהיגות, ניהול קבוצות, קבלת החלטות וכלי ניהול הון אנושי. ניתנת ללמידה כהתמחות ראשית או משנית.","שלום וברכה. הצלחתו של כל ארגון קמה ונופלת על איכות האנשים שלו והיכולת להוביל אותם בצורה נבונה. אם הזיקה שלך היא לעבודה עם אנשים, ניהול והובלת שינויים – הגעת למקום הנכון.
+
+המגמה המתאימה ביותר עבורך היא התנהגות ארגונית ומנהל משאבי אנוש:
+
+הבנת אנשים וארגונים: לימוד מעמיק של התרבות הארגונית, הפסיכולוגיה הניהולית והמבנים הארגוניים.
+
+מנהיגות וניהול קבוצות: פיתוח כלי מנהיגות, ניהול צוותים, תקשורת בינאישית ומשא ומתן.
+
+תהליכי קבלת החלטות וכלי ניהול: רכישת מתודולוגיות מתקדמות לניהול נכון של ההון האנושי ופיתוח ארגוני.
+
+מבנה המסלול: המגמה מציעה ורסטיליות רבה ויכולה להילמד כהתמחות ראשית או כהתמחות משנית לפי בחירתך.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3333",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3333,TRUE,,
+mba_gt_050,specialization_requirements,מה מתאים למי שמתעניין במימון ושוק ההון?,"מימון ובנקאות מיועדת למתעניינים בשוק ההון, בנקאות, ביטוח, גיוסי הון והיבטים פיננסיים של ניהול. לא ניתן לשלב אותה עם ניהול פיננסי לחשבונאים.","שלום רב. עולם הפיננסיים הוא הלב הפועם של המגזר העסקי. אם השאיפה המקצועית שלך היא להשתלב בצמתים המרכזיים של קבלת ההחלטות הכספיות – מסלול זה מיועד עבורך.
+
+המגמה המובילה שלנו היא מימון ובנקאות:
+
+שוק ההון והשקעות: ניתוח ניירות ערך, ניהול תיקי השקעות והערכות שווי חברות.
+
+בנקאות וביטוח: הכרת המערכת המוניטרית, ניהול סיכונים ופעילות מוסדות פיננסיים.
+
+גיוסי הון והיבטים פיננסיים של ניהול: מימון תאגידי, מבנה הון והובלת תהליכים תקציביים ופיננסיים מורכבים בארגונים.
+
+מגבלת שילוב מחייבת: יש לקחת בחשבון שמדובר במסלול עצמאי, ולא ניתן לשלב אותו או ללמוד אותו יחד עם המגמה של ניהול פיננסי לחשבונאים.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/specializations וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/specialization/3113",https://bschool.huji.ac.il/mba/specializations; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/specialization/3113,TRUE,,
+mba_gt_051,exemptions,מה עושים אם קיבלתי פטור מקורס חובה בתוך התמחות?,"פטור מקורס חובה פנימי של ההתמחות פוטר מלמידת הקורס הספציפי, אך אינו מפחית את מכסת נקודות הזכות הנדרשת להשלמת ההתמחות. יש להשלים את הנקודות החסרות בקורס בחירה מתוך אותה התמחות.","שלום וברכה. קבלת פטור מקורס חובה בתוך ההתמחות שלך היא בשורה מצוינת, שכן היא מאפשרת לך לפנות זמן לקורסים מתקדמים יותר, אך חשוב להבין את המשמעות המבנית שלה.
+
+הנה ההנחיה המנהלית בנושא:
+
+הסרת חובת הקורס הספציפי: הפטור האקדמי פוטר אותך מהצורך לשבת בכיתה הספציפית הזו.
+
+צבירת נקודות הזכות: הפטור אינו מפחית את מכסת נקודות הזכות (נ""ז) הנדרשת להשלמת ההתמחות. עליך להשלים את נקודות הזכות החסרות על ידי בחירה ולמידה של קורס בחירה אחר מתוך אותה התמחות ספציפית.
+
+אשמח לעזור לך לבחור את קורס הבחירה המרתק ביותר שיחליף את החסר!
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_052,specialization_requirements,האם כל התמחות כוללת סמינר?,"כן. לפי התקנון, מבנה לימודי ההתמחות כולל קורסי חובה, קורסי בחירה ועבודת סמינר בתחום ההתמחות. יש לבדוק בשנתון את הסמינר, אופיו והיקפו המדויקים למגמה שנבחרה.","שלום רב! עבודת הסמינר היא נדבך אקדמי מרכזי המאפשר לך ליישם את כלל הכלים והתיאוריות שרכשת לאורך התואר על מקרי בוחן ומחקרים אמיתיים מהעולם העסקי.
+
+הכלל התקנוני בעניין זה הוא אחיד:
+
+חובת סמינר: התקנון מתאר את לימודי ההתמחות השונים ככוללים קורסי חובה, קורסי בחירה וסמינר בתחום ההתמחות.
+
+בדיקת דרישות המגמה: מאחר שאופיו של הסמינר, תחומי המחקר שלו ותנאי הקדם אליו משתנים בין המגמות השונות, חובה עליך לבדוק בשנתון את הסמינר וההיקף המדויקים של ההתמחות שנבחרה.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_053,exemptions,איך מגישים בקשה לפטור אקדמי?,"בקשות לפטורים מגישים מקוון דרך פורטל המידע האישי לסטודנט. הבקשה מועברת למזכירות החוג, וגיליונות הציונים והסילבוסים נבדקים באופן פרטני.","שלום וברכה. אנו בבית הספר מעודדים סטודנטים להסדיר את הרקע האקדמי שלהם מול קורסי התואר, והליך הגשת הבקשה הוא פשוט וידידותי.
+
+כדי להגיש את הבקשה, יש לפעול בצורה הבאה:
+
+הגשה ממוחשבת: בקשות לפטורים מגישים אך ורק בצורה מקוונת דרך פורטל המידע האישי שלך לסטודנט.
+
+בדיקה פרטנית: הבקשה מגיעה ישירות למזכירות החוג, וכל גיליון ציונים וסילבוס קודם נבדק בצורה פרטנית ומדוקדקת על ידי הגורמים האקדמיים המוסמכים.
+
+המלצה חמה מהיועץ: מומלץ מאוד לבצע את ההגשה מוקדם ככל הניתן ולפני תקופת הרישום לקורסים כדי לתכנן את המערכת בצורה מושלמת.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim; secretariat-provided,TRUE,,
+mba_gt_054,exemptions,האם טבלת הפטורים מחייבת?,לא. טבלת הפטורים באתר היא אינדיקטיבית בלבד ואינה מהווה התחייבות. כל פטור מאושר רק לאחר הגשת בקשה רשמית ובדיקה פרטנית של הגורם המוסמך.,"שלום רב. זוהי שאלה מנהלית חשובה מאין כמוה שמונעת אי-הבנות בהמשך הדרך, וטוב מאוד שאנו מחדדים אותה כעת.
+
+המדיניות הרשמית של האוניברסיטה קובעת:
+
+טבלה מנחה בלבד: דף הפטורים מציין במפורש שהטבלה המופיעה באתר היא אינדיקטיבית בלבד ומשמשת ככלי עזר והערכה ראשונית עבור המועמדים, וללא כל התחייבות מצד בית הספר.
+
+בדיקה אינדיבידואלית: כל פטור אקדמי ניתן אך ורק על סמך בדיקה פרטנית, מעמיקה ואישית של הגורם המוסמך לאחר הגשת הבקשה הרשמית.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_055,exemptions,איזה ציון צריך בקורס קודם כדי לקבל פטור?,"לפי דף הפטורים, תנאי הסף להגשת בקשה הוא מעבר בציון 60 ומעלה בקורס המקביל (תשתית או חובה כללית). עמידה בציון זה אינה מבטיחה פטור אוטומטי ללא אישור פרטני.","שלום וברכה. כדי שקורס שנלמד במוסד אקדמי אחר או בתואר הקודם יוכל בכלל להיחשב כבסיס לפטור אצלנו, עליו לעמוד ברף אקדמי בסיסי.
+
+על פי נהלי בית הספר:
+
+ציון הסף להגשה: דף הפטורים מציין שיש לעבור בציון 60 ומעלה את הקורסים המקבילים לקורסי התשתית או לקורסי החובה הכלליים.
+
+אישור סופי: חשוב לזכור שהשגת ציון 60 ומעלה היא תנאי סף הכרחי להגשת הבקשה, אך הציון עצמו אינו מבטיח מתן פטור אוטומטי ללא אישור ובדיקה פרטנית של המזכירות.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_056,exemptions,מה משמעות הסימן + בטבלת הפטורים?,"סימן + בין קורסים בטבלת הפטורים מציין דרישה מצטברת (תנאי ""ו""). חובה להציג מעבר מוצלח של שני הקורסים יחד במוסד הקודם כבסיס לפטור.","שלום רב! פענוח נכון של טבלת הפטורים הוא קריטי כדי להבין אילו פטורים מגיעים לך, ואני שמח לעשות לך סדר בסימנים המנהליים.
+
+המשמעות של הסימן המדובר היא:
+
+דרישה מצטברת: סימן ""+"" (פלוס) בין שני קורסים או יותר בטבלה אומר שמדובר בתנאי מצטבר.
+
+חובת לימוד מלאה: חובה עליך להציג מעבר מוצלח של שני הקורסים יחד במוסד הקודם שלך על מנת שהם יוכלו לשמש כבסיס מאושר לקבלת הפטור המבוקש בתוכנית ה-MBA.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_057,exemptions,מה משמעות פסיק בטבלת הפטורים?,"פסיק בין קורסים בטבלת הפטורים מסמל חלופיות (תנאי ""או""). די במעבר מוצלח באחד מהקורסים המפורטים כבסיס לבקשת פטור, בכפוף לבדיקה ואישור.","שלום וברכה. בניגוד לסימן הפלוס, הסימן פסיק מעניק לך גמישות רבה יותר ומצביע על אפשרויות חלופיות ברקע האקדמי שלך.
+
+הנה ההסבר המדויק:
+
+דרישה חלופית: פסיק ("","") המופיע בין קורסים בטבלת הפטורים הרשמית מסמל תנאי של בחירה (""או"" לוגי).
+
+קורס אחד מספיק: המשמעות היא שדי בכך שלמדת ועברת בהצלחה אחד מהקורסים המפורטים ברשימה במוסד הקודם שלך כדי להגיש בקשה לפטור, בכפוף כמובן לבדיקה פרטנית ואישור סופי.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_058,exemptions,"אם קיבלתי פטור מקורס חובה כללי, במה מחליפים אותו?",פטור מקורס חובה כללי אינו מפחית את סך 48 נ״ז הנדרשות לתואר. יש להשלים בקורס בחירה כללי ב-MBA או בקורס בחירה נוסף מההתמחות.,"שלום רב. מדובר בנקודה מנהלית קריטית: פטור מקורס חובה כללי (כמו שיווק, מימון או אסטרטגיה) אינו מקטין את כמות נקודות הזכות (נ""ז) הכללית שעליך ללמוד לתואר (48 נ""ז).
+
+הליך ההשלמה מתבצע כך:
+
+שמירה על מכסת התואר: מכסת ה-48 נ""ז נשארת קבועה וקשיחה.
+
+קורסים חלופיים: עליך ללמוד קורס בחירה כללי ב-MBA או לקחת קורס בחירה נוסף מתוך מסלול ההתמחות שלך כדי להשלים את נקודות הזכות החסרות ולעמוד בדרישות הסגירה.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/ptorim וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_059,exemptions,"אם קיבלתי פטור מקורס חובה של התמחות, במה מחליפים אותו?",מכסת השעות של ההתמחות נשארת בעינה. יש ללמוד קורס בחירה חלופי מתוך קורסי הבחירה המאושרים של אותה התמחות.,"שלום וברכה. העיקרון המנהלי החל על קורסי החובה הכלליים חל בצורה זהה לחלוטין גם כאשר מדובר בפטורים בתוך מסלול המגמה הספציפי שלך.
+
+הנה דרך הפעולה הנדרשת:
+
+ההתמחות נשארת בעינה: היקף השעות של התמחות ראשית (24 נ""ז) נשאר מחייב ואינו קטן בעקבות הפטור האקדמי.
+
+בחירת קורס מגמתי חלופי: עליך להירשם וללמוד קורס בחירה מתוך רשימת קורסי הבחירה הייעודיים והמאושרים של אותה התמחות ספציפית שבה הנך לומד/ת, ובכך להשלים את מכסת השעות הנדרשת.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/ptorim וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_060,exemptions,קיבלתי פטור ממתמטיקה או סטטיסטיקה. צריך קורס חלופי?,"לא. קורסי התשתית במתמטיקה וסטטיסטיקה מחוץ למניין 48 נ״ז של התואר. פטור מהם פוטר מהחובה ללמוד אותם, ללא צורך בקורס חלופי.","שלום רב! יש לי חדשות מצוינות עבורך, וזהו אחד היתרונות הבולטים לסטודנטים המגיעים עם רקע כמותי חזק לתואר השני.
+
+התשובה הרשמית והמשמחת היא לא, אין שום צורך בקורס חלופי:
+
+קורסי תשתית חיצוניים: קורסי התשתית במתמטיקה וסטטיסטיקה מוגדרים מראש כדרישות קדם הנמצאות מחוץ למניין 48 נקודות הזכות של התואר.
+
+חיסכון בשעות ובעלויות: קבלת פטור מהם פוטרת אותך לחלוטין מהחובה ללמוד אותם, מבלי שיווצר לך חוב שעות כלשהו ומבלי שתצטרך/י לקחת קורסים חלופיים במקומם.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/mba/admittance וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/mba/admittance; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_061,exemptions,אני בוגר כלכלה. האם יש לי פטור אוטומטי?,"לא, אין פטור אוטומטי. המדיניות שוללת פטורים על סמך כותרת התואר בלבד. ייתכנו פטורים לפי קורסים וציונים ספציפיים, בכפוף להגשת בקשה במידע האישי ובדיקה פרטנית.","שלום וברכה! ברכות על הרקע המצוין בכלכלה – מדובר בבסיס אקדמי מעולה שמסייע מאוד בלימודי ה-MBA, במיוחד בקורסים המשיקים לעולמות המיקרו והמאקרו.
+
+לגבי שאלת הפטור האוטומטי:
+
+אין פטורים אוטומטיים: המדיניות הרשמית שוללת מתן פטורים אוטומטיים על סמך כותרת התואר בלבד.
+
+בדיקת התאמה פרטנית: ייתכן מאוד שניתן לקבל פטורים רחבים על סמך הקורסים והציונים הספציפיים שלמדת, אך הדבר מותנה בהגשת בקשה מסודרת דרך פורטל המידע האישי לסטודנט והמתנה לבדיקה פרטנית של המזכירות האקדמית.
+
+נשמח לעמוד לרשותך ולסייע בהכוונת התהליך!
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_062,exemptions,אני בוגר מדעי המחשב. האם יש פטור ממתמטיקה וסטטיסטיקה?,"ייתכן, בהתאם לקורסים ולציונים (60 ומעלה). במסלול המואץ, לימודי מתמטיקה וסטטיסטיקה בתארים כמותיים עשויים להקנות פטור מלא, אך נדרשת הגשת בקשה ואישור פרטני מהמזכירות.","שלום רב! הרקע הריאלי החזק שלך ממדעי המחשב מהווה יתרון עצום, ואנו בהחלט לוקחים זאת בחשבון כדי למנוע ממך כפל לימודים מיותר.
+
+המתווה המנהלי בנושא זה קובע:
+
+פטור פוטנציאלי גבוה: לימודים קודמים של קורסים כמותיים ברמה גבוהה בתארים כמותיים מובהקים עשויים להקנות פטור מלא מקורסי התשתית במתמטיקה וסטטיסטיקה.
+
+חובת בדיקה: הפטור אינו אוטומטי ותלוי לחלוטין בקורסים המדויקים ובציונים שהשגת (ציון 60 ומעלה). נדרש להגיש בקשה במידע האישי לקבלת אישור פרטני ורשמי מהמזכירות האקדמית.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/ptorim וכן https://bschool.huji.ac.il/Accelerated-study-track-all",https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
+mba_gt_063,exemptions,אני לומד חשבונאות. מאילו קורסים בדרך כלל יש פטור?,"במסלול אלפא לחשבונאים, לימודי חשבונאות קודמים עשויים לפטור ממבוא לחשבונאות, מבוא למימון, נתונים וטכנולוגיה בעסקים - MBA וכלכלת עסקים מיקרו. היקף הפטורים נקבע אינדיבידואלית לפי מסלול הלימודים ובדיקת המזכירות.","שלום וברכה. הרקע המקצועי שלך מעולם החשבונאות מעניק לך יתרון מובנה משמעותי, ובית הספר בנה מתווים ייעודיים על מנת להכיר בקורסים שלמדת.
+
+במסגרת מסלול אלפא ומדיניות הפטורים הכללית, לימודי חשבונאות קודמים ברמה אקדמית עשויים להקנות פטור מהקורסים הבאים:
+
+מבוא לחשבונאות
+
+מבוא למימון
+
+נתונים וטכנולוגיה בעסקים - MBA
+
+כלכלת עסקים מיקרו (כלכלת עסקים א')
+
+דגש מנהלי: היקף הפטורים הסופי והרשמי נקבע באופן אינדיבידואלי בכפוף למסלול הלימודים הספציפי, ציוני העבר ובדיקה פרטנית של המזכירות האקדמית.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,דורש תיקוף לפי סטודנט.
+mba_gt_064,exemptions,מתי כדאי להגיש בקשה לפטור?,"מומלץ להגיש ולהסדיר פטורים מוקדם ככל האפשר, רצוי מיד עם קבלתך ללימודים. פטורים משפיעים על יתרת נקודות הזכות, קורסי השלמה ובניית מערכת השעות.","שלום רב! שאלה מצוינת שמראה על תכנון נכון. התשובה שלי היא חד-משמעית: מוקדם ככל האפשר.
+
+מומלץ מאוד להסדיר את הפטורים המנהליים מיד עם קבלתך לתוכנית ולפני פתיחת הרישום לקורסים, מהסיבות הבאות:
+
+חישוב יתרת הנ""ז: הפטורים קובעים מהי מכסת השעות המדויקת שנותרה לך לתואר.
+
+קורסי ההשלמה ובניית המערכת: הידיעה מאילו קורסים את/ה פטור/ה חיונית כדי לדעת אילו קורסי בחירה או השלמה עליך לשבץ, ולמניעת חסימות רישום עקב תנאי קדם.
+
+(מבוסס גם על הנחיות תפעוליות שוטפות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/ptorim; secretariat-provided,TRUE,,
+mba_gt_065,course_planning,איך לבחור קורסים לסמסטר הקרוב?,סדר עדיפויות: קורסי חובה כלליים שטרם הושלמו; קורסי יסוד כתנאי קדם; חובות וסמינר של ההתמחות; קורסי בחירה לפי עניין — ללא חפיפות בשעות.,"שלום וברכה. בניית מערכת שעות בצורה נכונה ומאוזנת היא מפתח קריטי להצלחה אקדמית ולמניעת עומסים מיותרים.
+
+אני ממליץ לפעול על פי סדר העדיפויות המובנה הבא:
+
+קורסי חובה כלליים: מתחילים תמיד מקורסי החובה הכלליים של התואר שטרם הושלמו.
+
+תנאי קדם: משבצים קורסי יסוד המהווים תנאי קדם מחייב לקורסי המשך מתקדמים.
+
+קורסי מגמה וסמינר: משבצים את קורסי החובה ועבודת הסמינר של ההתמחות הנבחרת שלך.
+
+קורסי בחירה: ממלאים את יתרת השעות בקורסי בחירה לפי עניין אישי ומקצועי, תוך הקפדה על מניעת חפיפות שעות.
+
+(מבוסס גם על הנחיות שירותיות של מזכירות תארים מתקדמים).
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/roadmap/322-3222",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,
+mba_gt_066,course_planning,אפשר להירשם לקורס מתקדם לפני שיש ציון בתנאי הקדם?,לא. המערכת חוסמת רישום לקורס עם תנאי קדם עד שהוזן ציון סופי ורשמי בקורס המהווה את תנאי הקדם.,"שלום רב. אני מבין לחלוטין את הרצון לשריין מקום בקורסים המתקדמים מראש, אך מערכת הרישום הממוחשבת פועלת על פי כללים קשיחים.
+
+התשובה הרשמית היא לא:
+
+חסימת רישום אוטומטית: ניתן להירשם לקורס הדורש תנאי קדם רק לאחר שהוזן ציון עובר רשמי במערכת עבור הקורס המהווה את תנאי הקדם.
+
+אין רישום על תנאי: המערכת אינה מאפשרת שמירת מקום או רישום מותנה על בסיס ציונים שטרם פורסמו.
+
+(מבוסס גם על הנחיות תפעוליות ממוחשבות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_067,course_planning,אפשר להירשם לשני קורסים שחופפים בשעות?,"לא. חל איסור על רישום לקורסים חופפים בשעות, כולל חפיפה חלקית. יש לבנות מערכת ללא התנגשויות זמנים.","שלום וברכה. מדובר בכלל מערכתי ומנהלי מחייב של האוניברסיטה שנועד להבטיח למידה תקינה ואיכותית.
+
+התשובה היא לא, חל איסור מוחלט על כך:
+
+מניעת התנגשויות: על פי הנחיות המזכירות, לא ניתן להירשם במערכת הרישום לקורסים הנלמדים בחפיפה בשעות (אפילו חפיפה קצרצרה של דקות בודדות).
+
+בניית מערכת נקייה: עליך לבחור בקבוצות לימוד או בקורסים חלופיים שביניהם הפרדה מלאה בלוח הזמנים.
+
+מקור המידע: הנחיות מנהליות ותפעוליות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_068,course_planning,תלמיד תואר שני יכול להירשם לקורס תואר ראשון?,"ככלל, לא — סטודנט תואר שני אינו רשאי להירשם לקורסי תואר ראשון לצבירת קרדיט לתואר. במסלולים מואצים ומשולבים הרישום לפי סטטוס אקדמי מיוחד בזמן הרישום.","שלום רב. זוהי נקודה חשובה הנוגעת לשמירה על הרמה האקדמית של לימודי המוסמך.
+
+הקו המנחה של המזכירות קובע:
+
+איסור רישום כללי: ככלל, תלמיד תואר שני אינו יכול להירשם לקורס של תואר ראשון לצורך צבירת קרדיט אקדמי לתואר המוסמך.
+
+חריג למסלולים מואצים: במסגרת המסלולים המואצים והמשולבים (כמו אלפא או המסלול המואץ מכל הפקולטות), קיימים כללים מיוחדים והרישום מתבצע בהתאם לסטטוס האקדמי המוגדר של הסטודנט בזמן הרישום בפועל.
+
+(מבוסס גם על הנחיות מנהליות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",secretariat-provided; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_069,course_planning,יש נוכחות חובה בקורסי MBA?,כן. קיימת חובת נוכחות בקורסי המוסמך בבית הספר למנהל עסקים. אי-עמידה בדרישת הנוכחות עלולה לפגוע בציון או בזכאות לסיים את הקורס.,"שלום וברכה. אנו בבית הספר מאמינים כי חלק בלתי נפרד מאיכות הלמידה ומהערך המוסף של תואר ה-MBA נובע מהדיונים בכיתה, העבודה הקבוצתית והנטוורקינג המקצועי בין הסטודנטים.
+
+לכן, המדיניות הרשמית היא:
+
+חובת נוכחות: על פי הנחיות המזכירות, קיימת חובת נוכחות בקורסי המוסמך השונים בבית הספר למנהל עסקים.
+
+השלכות מנהליות: אי-עמידה בדרישת הנוכחות המוגדרת בסילבוס הקורס עלולה להוביל לפגיעה בציון או לפסילת זכאות הסטודנט לסיים את הקורס בהצלחה.
+
+מקור המידע: הנחיות אקדמיות ותפעוליות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_070,course_planning,למה חשוב לקחת את קורס החובה של תחום ההתמחות בסמסטר הראשון?,התקנון מחייב מעבר בקורס החובה של ליבת ההתמחות כבר בסמסטר הראשון. הקורס הוא תנאי קדם לקורסי בחירה וסמינרים מתקדמים; עיכוב עלול לעכב את סיום התואר.,"שלום רב! מדובר באחת ההמלצות החשובות ביותר שיש לי להרכבת מערכת שעות תקינה, וטוב מאוד ששאלת על כך.
+
+הסיבה לכך היא היררכיה אקדמית מובנית:
+
+קורס שער מחייב: התקנון מדגיש כי חובה על הסטודנט לעבור את קורס החובה הרלוונטי לתחום הליבה של ההתמחות שלו כבר בסמסטר הראשון ללימודיו.
+
+מניעת עיכוב בתואר: קורס יסוד זה מהווה תנאי קדם קריטי לשורה ארוכה של קורסי בחירה וסמינרים מתקדמים המשובצים בהמשך. אם תדחה/י את לקיחתו, קורסי ההתמחות המתקדמים יידחו בהתאמה, והיכולת שלך לסיים את התואר בשנתיים כמתוכנן תיפגע באופן משמעותי.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_071,course_planning,איך בונים מערכת עם שתי התמחויות?,"יש לוודא שהשילוב מותר (לא שתי ראשיות ולא שילוב אסור), לחשב נקודות זכות לכל התמחות, לעמוד בתנאי קדם ולהימנע מחפיפות שעות. שילובים מורכבים עשויים לדרוש אישור ועדת הוראה.","שלום וברכה! שילוב של שתי התמחויות (במבנה של התמחות ראשית לצד התמחות משנית) הוא מהלך מצוין שמרחיב את אופקייך המקצועיים, אך בניית מערכת כזו דורשת תשומת לב מיוחדת לפרטים המנהליים.
+
+על מנת לבנות את המערכת בצורה תקינה, עליך לפעול על פי השלבים הבאים:
+
+בדיקת היתר השילוב: ראשית, חובה לוודא כי השילוב המבוקש מותר על פי כללי התואר (לדוגמה, חל איסור מוחלט ללמוד שתי התמחויות ראשיות, וישנם שילובים ספציפיים האסורים בתקנון מחשש לחפיפת תכנים).
+
+בקרת נ""ז ותנאי קדם: שנית, יש לחשב במדויק את נקודות הזכות הנדרשות לכל אחת מההתמחויות, לבדוק את שרשרת תנאי הקדם האקדמיים ולוודא שאין חפיפות שעות בשנתון.
+
+שימו לב: חלק מחלופות השילוב הללו ומבני המערכת החריגים אינם מאושרים באופן אוטומטי במערכת הרישום הממוחשבת, והם דורשים הגשת בקשה מיוחדת וקבלת אישור רשמי מוועדת ההוראה.
+
+(מבוסס גם על הנחיות מנהליות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_072,course_planning,מה עושים אם קורס חובה בהתמחות מתנגש עם קורס אחר?,"אין להירשם לקורסים חופפים בשעות. יש לבדוק חלופות בשנתון (קבוצה, יום או סמסטר). אם קורס חובה קריטי חסום — לפנות ליועצת או למזכירות לפתרון מנהלי.","שלום רב. התנגשויות זמנים הן אכן אתגר מוכר בעת בניית מערכת השעות, במיוחד כאשר מנסים לשלב קורסים ממחלקות שונות, ואני כאן כדי לכוון אותך לפתרון.
+
+הקו המנחה במצבים אלו הוא חד-משמעי:
+
+איסור חפיפה קשיח: חל איסור מוחלט להירשם במערכת לקורסים שיש ביניהם חפיפת זמנים, ולכן לא תוכל/י להשאיר התנגשות כזו במערכת.
+
+בדיקת חלופות בשנתון: הצעד הראשון הוא לבדוק האם הקורס מוצע בקבוצת לימוד אחרת, ביום אחר או בסמסטר חלופי במהלך שנת הלימודים.
+
+פנייה ליועצת או למזכירות: במידה ולא נמצאה חלופה עצמאית בשנתון ומדובר בקושי ממשי לשבץ קורס חובה קריטי (העלול לעכב את סיום התואר), יש לפנות מיד אליי כיועצת הלימודים או לפנות למזכירות לבחינת פתרונות מנהליים או קורסים חלופיים מאושרים.
+
+(מבוסס גם על הנחיות מנהליות ותפעוליות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/Accelerated-study-track-all",secretariat-provided; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
+mba_gt_073,course_planning,אפשר לבנות מערכת לפי תחומי עניין?,"כן, בעיקר בקורסי בחירה כלליים ומגמתיים — רק לאחר עמידה מלאה בחובות התואר וההתמחות, תנאי קדם, חובת סמינר וללא חפיפות שעות.","שלום וברכה! אחד היתרונות הבולטים בתואר ה-MBA באוניברסיטה העברית הוא הוורסטיליות והיכולת להתאים את הלימודים לשאיפות המקצועיות שלך, אך הגמישות הזו פועלת בתוך מסגרת אקדמית מחייבת.
+
+התשובה היא כן, אך תחת מגבלות מסוימות:
+
+מרחב הבחירה החופשית: חופש הבחירה המלא והתאמת המערכת לפי העניין האישי שלך מתאפשרים בעיקר במסגרת קורסי הבחירה הכלליים וקורסי הבחירה של ההתמחות.
+
+מגבלות חובה קשיחות: גמישות זו מותרת רק לאחר שווידאת כי המערכת עומדת באופן מלא בכל דרישות החובה הכלליות של התואר, חובות קורסי הליבה של ההתמחות שלך כפי שמופיע בשנתון, תנאי הקדם לקורסים המתקדמים, חובת עבודת הסמינר וללא כל חפיפות זמנים.
+
+(מבוסס גם על הנחיות שירותיות של מזכירות תארים מתקדמים).
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/roadmap/322-3222",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,
+mba_gt_074,course_planning,אפשר לקחת קורס התמחות לפני השלמת מתמטיקה וסטטיסטיקה?,בקורסי התמחות מתקדמים נדרש לרוב ידע כמותי וסטטיסטי. יש לבדוק תנאי קדם בשנתון; מומלץ להשלים מתמטיקה וסטטיסטיקה מוקדם.,"שלום רב. מדובר בשאלה אסטרטגית חשובה מאוד הנוגעת לסיכויי ההצלחה האקדמית שלך בקורסים המתקדמים בתואר.
+
+ההנחיה האקדמית בעניין זה קובעת:
+
+צורך ברקע כמותי חזק: בחלק גדול מאוד מקורסי ההתמחות המתקדמים ב-MBA נדרש ידע כמותי וסטטיסטי נרחב, המהווה את הבסיס למודלים העסקיים הנלמדים.
+
+חובת בדיקה בשנתון: עליך לבדוק היטב את תנאי הקדם הספציפיים של כל קורס מבוקש בתוך השנתון האקדמי.
+
+המלצת בית הספר: ככלל, מומלץ מאוד להשלים את קורסי התשתית במתמטיקה וסטטיסטיקה בשלב מוקדם ככל האפשר של התואר על מנת למנוע חסימות רישום ולאפשר הבנה מעמיקה של קורסי ההמשך.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_075,course_planning,המערכת לא נותנת לי להירשם בגלל תנאי קדם. מה עושים?,אם ציון תנאי הקדם לא עודכן במערכת — הרישום נחסם. באישור חלופי או חשד לתקלה — לפנות למזכירות עם פרטי הקורס והאישור.,"שלום וברכה. חסימות רישום אוטומטיות הן אכן מצב מתסכל במהלך תקופת הרישום העמוסה, ואני כאן כדי להסביר לך בדיוק כיצד לפעול.
+
+במרבית המקרים, הפתרון מבוסס על השלבים הבאים:
+
+בדיקת סטטוס הציון: אם הציון הרשמי בתנאי הקדם טרם הוזן או עודכן במערכת הציונים הממוחשבת, המערכת תחסום את הרישום באופן אוטומטי ולא תאפשר לך להירשם לקורס המתקדם.
+
+הסדרה מול המזכירות: במידה ויש בידיך אישור חלופי מיוחד, או במידה וקיים חשד ממשי לתקלה טכנית במערכת, עליך לפנות באופן מיידי למזכירות החוג, להציג את פרטי הקורס המבוקש ואת האישור הרלוונטי לצורך הסדרת הרישום בצורה ידנית.
+
+(מבוסס גם על הנחיות תפעוליות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,
+mba_gt_076,course_planning,אפשר לקחת קורס בחירה מהתמחות אחרת?,"לעיתים כן, כקורס בחירה כללי (MBA), בכפוף לתנאי קדם. השלמת פטור מחובת התמחות — בדרך כלל מבחירת אותה התמחות, לא מזרה.","שלום רב! פתיחת אופקים לקורסים ממגמות אחרות היא דרך נהדרת להעשיר את ארגז הכלים הניהולי שלך, והתקנון מאפשר זאת תחת תנאים מסוימים.
+
+הכללים הרשמיים בנושא זה הם:
+
+שקלול כבחירה כללית: לעיתים ניתן בהחלט לקחת קורס מהתמחות אחרת ולשקלל אותו במערכת שלך כקורס בחירה כללי, כל עוד מדובר בקורס ברמת מוסמך (MBA) והנך עומד/ת בכל תנאי הקדם האקדמיים שלו.
+
+אבחנה לגבי פטורים מהתמחות: יש לשים לב להבחנה מנהלית חשובה – במידה וקיבלת פטור מקורס חובה בתוך ההתמחות המקורית שלך, השלמת נקודות הזכות החסרות חייבת להתבצע בדרך כלל מתוך קורסי הבחירה של אותה התמחות ספציפית, ולא מהתמחות זרה.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_077,remaining_obligations,מה יתרת החובות שלי לתואר?,"יתרת חובות מדויקת דורשת בדיקה פרטנית של המזכירות (ציונים, פטורים, התמחות, רישומים). כלל בסיס: 48 נ״ז במסלול רגיל (או היקף מותאם במסלולים מיוחדים, למשל 42 נ״ז לבוגרי העברית).","שלום וברכה. מעקב אחר יתרת החובות הוא שלב קריטי לקראת סיום הלימודים, ואני כאן כדי לעזור לך לעשות זאת בצורה הבטוחה ביותר.
+
+חשוב להבין את המורכבות המנהלית של החישוב:
+
+חובת בדיקה פרטנית של המזכירות: אי אפשר לחשב או להנפיק יתרת חובות מדויקת ורשמית ללא בדיקה יסודית של המזכירות, הכוללת סקירה של גיליון הציונים המלא שלך, הסטטוס הסופי של הפטורים שאושרו לך, מסלול ההתמחות הרשום שלך והקורסים אליהם נרשמת בפועל.
+
+כלל היסוד לתואר: הכלל הבסיסי למסלול הרגיל מחייב צבירה של 48 נ""ז בדיוק (או היקף מותאם אישית שנקבע במסגרת מסלולים מיוחדים או בוגרי תואר ראשון מהעברית הלומדים 42 נ""ז).
+
+אני ממליצה בחום להעביר פנייה מסודרת למזכירות לקראת שנת הלימודים האחרונה שלך לצורך ביצוע סימולציית סגירה רשמית!
+
+(מבוסס גם על נהלי העבודה ושירות הסטודנטים של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; secretariat-provided,TRUE,,דורש מידע אישי.
+mba_gt_078,remaining_obligations,איך בודקים אם הרכבתי נכון מערכת?,"להשוות את המערכת לחובות כלליים, דרישות ההתמחות בשנתון, תנאי קדם וחפיפות שעות. בפטורים רבים או שילוב התמחויות — מומלץ בדיקה פרטנית במזכירות.","שלום רב. ביצוע בקרת איכות עצמית על המערכת שבנית הוא צעד נבון מאוד שימנע ממך הפתעות מנהליות בשלב סגירת התואר.
+
+הליך הבדיקה העצמית מתבצע על ידי השוואת המערכת לקריטריונים הבאים:
+
+קורסי חובה כלליים: ודא/י ששיבצת את כל שמונת קורסי החובה הכלליים של התואר.
+
+דרישות המגמה בשנתון: השווה/י את הקורסים שלקחת לדרישות החובה, הבחירה והסמינר המפורטות בשנתון האקדמי של שנת כניסתך ללימודים.
+
+תנאי קדם וחפיפות: ודא/י שהשלמת את כל תנאי הקדם וכי אין התנגשויות שעות בלוח הזמנים.
+
+המלצה שלי: במידה והמערכת שלך כוללת פטורים אקדמיים רבים, החלפת קורסים או שילוב מורכב של התמחויות, מומלץ מאוד להעביר את טיוטת המערכת לבדיקה ידנית ופרטנית של המזכירות או לפנות אליי לייעוץ.
+
+(מבוסס גם על נהלי השירות של מזכירות תארים מתקדמים).
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://shnaton.huji.ac.il/roadmap/322-3222",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://shnaton.huji.ac.il/roadmap/322-3222; secretariat-provided,TRUE,,שאלה נפוצה הדורשת בדיקה.
+mba_gt_079,remaining_obligations,פטור מקורס חובה כללי מוריד את מספר הנ״ז לתואר?,בדרך כלל לא — הפטור אקדמי בלבד; יש להשלים 48 נ״ז בבחירה כללית או מההתמחות. חריג: מתמטיקה וסטטיסטיקה שאינם נספרים לתואר.,"שלום וברכה. מדובר באחת מאי-ההבנות הנפוצות ביותר בקרב סטודנטים בעלי רקע אקדמי קודם, וחשוב מאוד לעשות בה סדר מנהלי ברור.
+
+הכלל התקנוני הקשיח קובע:
+
+המכסה הכוללת נשארת קבועה: בדרך כלל, קבלת פטור מקורס חובה כללי (כמו מימון או חשבונאות) מהווה פטור אקדמי בלבד אך אינה מורידה את מספר הנ""ז הנדרש לתואר.
+
+חובת השלמת השעות: עליך ללמוד קורס בחירה כללי ב-MBA או קורס נוסף מתוך ההתמחות שלך כדי להשלים את נקודות הזכות החסרות ולהגיע לרף ה-48 נ""ז הנדרש.
+
+החריג היחיד: קורסי התשתית במתמטיקה וסטטיסטיקה, שאינם נכללים ממילא במניין נקודות הזכות של התואר, ולכן פטור מהם אכן אינו מצריך קורס חלופי.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/ptorim וכן https://bschool.huji.ac.il/mba/admittance",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim; https://bschool.huji.ac.il/mba/admittance,TRUE,,
+mba_gt_080,remaining_obligations,אם למדתי יותר מ-48 נ״ז זה תקין?,התקנון קובע 48 נ״ז בדיוק. בחריגים מאושרים מראש על ידי ועדת הוראה — עד 51 נ״ז לכל היותר. חריגה ללא אישור דורשת הסדרה לפני סמסטר הסיום.,"שלום רב. אני מבין לחלוטין את הרצון להרחיב את האופקים וללמוד קורסים מעניינים נוספים, אך מבחינה מנהלית האוניברסיטה פועלת על פי מסגרת שעות קשיחה ביותר.
+
+התקנון קובע את הכללים הבאים:
+
+רף קשיח ומדויק: התקנון קובע כי מכסת הלימודים בתוכנית ה-MBA במסלול הרגיל עומדת על 48 נ""ז בדיוק.
+
+מגבלת חריגה מקסימלית: במקרה של אילוצים מבניים או מקרים חריגים ביותר, ובכפוף לקבלת אישור מפורש מראש מוועדת ההוראה, ניתן לקבל היתר לסגירת תואר של עד לתקרה של 51 נ""ז לכל היותר.
+
+הנחיית היועץ: מערכת שחורגת מהמכסה המותרת ללא אישור מוקדם לא תוכל לעבור תהליך של סגירת תואר, ולכן חובה לבדוק ולהסדיר זאת מול המזכירות בהקדם ולפני תקופת הרישום לסמסטר האחרון.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_081,remaining_obligations,יש לי פטור אחד עד שלושה מקורסי חובה כלליים. איך משלימים?,"פטור מ-1–3 קורסי חובה כלליים אינו מפחית את 48 נ״ז. יש ללמוד חובות כלליים שנותרו, התמחות ראשית (24 נ״ז), ולהשלים ל-48 נ״ז מבחירה כללית או מבחירת ההתמחות.","שלום וברכה. קבלת פטורים חלקיים מקורסי החובה היא דרך מצוינת המאפשרת לך ליהנות מיותר קורסי בחירה מתקדמים, אך חשוב לזכור שהיא אינה מפחיתה את מכסת נקודות הזכות (נ""ז) הכללית לסגירת התואר.
+
+הנה מתווה ההשלמה המוגדר בתקנון:
+
+לימודי הליבה: עליך ללמוד את קורסי החובה הכלליים הנותרים (שלא קיבלת מהם פטור) וללמוד התמחות ראשית בהיקף של 24 נ""ז.
+
+השלמת החסר: את יתרת נקודות הזכות הנדרשת להגעה לרף ה-48 נ""ז של התואר, עליך להשלים באמצעות למידה של קורסי בחירה כלליים ב-MBA או על ידי לקיחת קורסי בחירה נוספים מתוך אותה התמחות ראשית שלך.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_082,remaining_obligations,יש לי ארבעה פטורים מקורסי חובה כלליים. מה האפשרויות?,ברירת מחדל: התמחות ראשית (24 נ״ז) והשלמת יתרת הנקודות ל-48 נ״ז מבחירה כללית או מאותה התמחות. שילובי משנית/ראשית+משנית דורשים אישור ועדת הוראה.,"שלום רב! היקף פטורים כזה (המקנה לך פטור של 12 נ""ז קורסי חובה) פותח בפניך אפשרויות בנייה רבות ומגוונות, ואני כאן כדי להציג לך אותן.
+
+על פי התקנון, האפשרויות שלך הן:
+
+מסלול ברירת המחדל: למידה של התמחות ראשית אחת בהיקף הסטנדרטי (24 נ""ז), ואת כל יתרת נקודות הזכות החסרות להגעה ל-48 נ""ז (כלומר 12 נ""ז נוספות) משלימים מתוך קורסי בחירה כלליים ב-MBA או קורסים נוספים מאותה התמחות.
+
+חלופות מבניות מיוחדות: במידה והנך מעוניין/ת לנצל את מכסת השעות הגדולה שנותרה לך לטובת שילוב של שתי התמחויות משניות (18+18 נ""ז) או התמחות ראשית לצד משנית, דע/י כי חלופות אלו אינן מאושרות באופן אוטומטי במערכת הרישום ודורשות הגשת בקשה מיוחדת וקבלת אישור מוועדת ההוראה.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_083,remaining_obligations,יש לי חמישה פטורים או יותר. אפשר התמחות משנית?,כן. ניתן לבחור בין התמחות ראשית עם השלמות לבין ראשית (24 נ״ז) + משנית (18 נ״ז). בעלי 5 פטורים בדיוק במסלול המשולב — סגירה ב-51 נ״ז.,"שלום וברכה. החזקת רקע אקדמי רחב כל כך מעניקה לך יתרון יוצא מן הכלל, והתקנון הולך לקראתך ומאפשר לך לבנות מסלול לימודים עשיר ורב-תחומי.
+
+התשובה הרשמית היא כן, בהחלט:
+
+חופש הבחירה המבני: התקנון מאפשר לבעלי 5 פטורים ומעלה לבחור בין מסלול של התמחות ראשית אחת (24 נ""ז) עם השלמות בחירה רחבות, לבין מסלול משולב של התמחות ראשית (24 נ""ז) ובנוסף התמחות משנית (18 נ""ז).
+
+חישוב נ""ז מיוחד: סטודנטים בעלי 5 פטורים בדיוק שיבחרו במסלול המשולב (ראשית ומשנית) יסיימו את תוארם בהיקף מאושר של 51 נ""ז (במקום 48 נ""ז).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_084,remaining_obligations,בוגר מנהל עסקים מהעברית צריך 48 נ״ז?,לא. בוגרי מנהל עסקים מהעברית פטורים מקורסי החובה הכלליים ולומדים תוכנית ממוקדת בהתמחות — 42 נ״ז לסגירה.,"שלום רב! ברוך/ה השב/ה הביתה לבית הספר למנהל עסקים! אנו גאים מאוד לראות את בוגרי התואר הראשון שלנו ממשיכים איתנו ללימודי המוסמך.
+
+כבוגר/ת של המחלקה אצלנו, חל עליך מתווה מקוצר ומיוחד:
+
+פטור גורף מחובות כלליות: מאחר שלמדת את קורסי הליבה והתשתית בבוגר, הנך פטור/ה באופן מלא מכלל קורסי החובה הכלליים של ה-MBA.
+
+היקף סגירה מופחת: תוכנית הלימודים שלך מבוססת כולה על לימודי התמחות מתקדמים, ונקבעה עבורך מכסת סגירה מופחתת של 42 נ""ז בלבד לתואר המוסמך (במקום 48 נ""ז).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_085,remaining_obligations,קורס שנשקללתי בבוגר יכול להיספר גם ל-MBA?,לא. קורס ששוקלל בסגירת הבוגר לא נספר שוב ל-MBA; במסלולים מואצים הוא מקנה פטור בלבד ודורש השלמה בקורס אחר. חריג: מתמטיקה וסטטיסטיקה שאינם נספרים ל-MBA.,"שלום וברכה. מדובר בשאלה משפטית ומנהלית קריטית החלה על סטודנטים הלומדים במסלולים המואצים או המשותפים, וחשוב מאוד להבהיר את הכללים לגביה.
+
+התשובה הרשמית היא לא:
+
+מניעת כפל קרדיט: קורס אקדמי ששוקלל ונכלל במסגרת סגירת תואר הבוגר (הראשון), לא יוכל להיספר פעם שנייה במניין נקודות הזכות הנצברות לטובת תואר המוסמך (השני).
+
+הפחתה מסך הנ""ז: במסלולים המואצים, קורס כזה יורד מסך הנ""ז שנצברו למוסמך והוא מעניק פטור אקדמי בלבד, מה שמחייב אותך לקחת קורס אחר במקומו כדי להשלים את מכסת השעות.
+
+החריג לקורסי תשתית: קורסי התשתית במתמטיקה וסטטיסטיקה אינם נספרים ממילא בתוך ה-48 נ""ז של ה-MBA, ולכן פטור מהם אינו דורש השלמה.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/Accelerated-study-track-all",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/Accelerated-study-track-all,TRUE,,
+mba_gt_086,remaining_obligations,אני במסלול מחקרי. איך מחשבים יתרת חובות?,"במסלול מחקרי: לפחות 41 נ״ז קורסיאליות; לבוגרי מנהל עסקים מהעברית במחקרי — לפחות 35 נ״ז. חישוב מדויק תלוי בפטורים, התמחות ותזה — במזכירות.","שלום רב! העבודה על עבודת התזה המחקרית דורשת משאבי זמן יקרים, ולכן המבנה האקדמי של המסלול המחקרי בא לקראתך ומפחית את מכסת נקודות הזכות הקורסיאליות הנדרשות לסגירת התואר.
+
+היקף הסגירה במסלול המחקרי מוגדר כך:
+
+במסלול מחקרי רגיל: היקף סגירת התואר עומד על לפחות 41 נ""ז.
+
+לבוגרי מנהל עסקים מהעברית: עבור בוגרי תואר ראשון במנהל עסקים מהאוניברסיטה העברית שלומדים במסלול המחקרי, היקף הסגירה המותאם עומד על לפחות 35 נ""ז.
+
+הערת היועץ: החישוב המדויק והסופי של יתרת החובות שלך תלוי בפטורים הספציפיים שאושרו לך, במבנה ההתמחות שבחרת ובהתקדמות המחקרית שלך, ומבוצע באופן ידני על ידי המזכירות.
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,דורש בדיקה פרטנית.
+mba_gt_087,registration_rules,איך מגישים בקשה לסגירת תואר?,לאחר השלמת כל החובות — הגשת בקשה לסגירת תואר במידע האישי. הבקשה עוברת לבדיקה ידנית במזכירות החוג לאישור זכאות.,"שלום וברכה! ראשית, הרשה/י לי לברך אותך על הגעתך לרגע המיוחל והמרגש של סיום התואר השני! זוהי עדות להשקעה והתמדה רבה ואנו גאים בך.
+
+תהליך סגירת התואר הפורמלי מתבצע בצורה הבאה:
+
+הגשה במידע האישי: עליך להיכנס לחשבון המידע האישי שלך לסטודנט ולהגיש באופן מקוון בקשה רשמית לסגירת התואר.
+
+בדיקת המזכירות: עם שליחת הבקשה, התיק האקדמי שלך מועבר ישירות לבדיקה ידנית סופית של מזכירות החוג, המוודאת כי עמדת בכל מכסות הנ""ז, קורסי החובה, חובות ההתמחות והסמינר ומנפיקה את אישור הזכאות הרשמי.
+
+מקור המידע: הנחיות מנהליות ותפעוליות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_088,registration_rules,אני רוצה ללמוד קורס שלא בתכנית. למי פונים?,בקשות חריגות לקורסים מחוץ לתוכנית אינן מאושרות אוטומטית. יש לפנות למזכירות או ליועצת לקבלת הכוונה והעברה לגורם אקדמי מוסמך.,"שלום רב. שאיפה להרחיב אופקים מעבר לתוכנית היא מבורכת, אך מאחר שמדובר בחריגה ממסלול הלימודים המאושר, המערכת פועלת על פי נהלים מוגדרים.
+
+הליך הטיפול בבקשות אלו מבוסס על הכללים הבאים:
+
+אין אישור אוטומטי: בקשות חריגות לרישום לקורסים שאינם מופיעים בתוכנית הלימודים של ה-MBA אינן מאושרות באופן אוטומטי בשום מקרה.
+
+פנייה להכוונת המזכירות: עליך לפנות בכתב למזכירות החוג או אליי כיועצת הלימודים לקבלת הנחיות. הבקשה מועברת לבחינה ואישור של הגורם המוסמך האקדמי הרלוונטי (כמו ראש ההתמחות או ועדת ההוראה), בהתאם לזיקה ולתרומה של הקורס לעולמך הניהולי.
+
+מקור המידע: הנחיות מנהליות ותקנוניות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_089,registration_rules,האם המזכירות יכולה לאשר כל בקשה חריגה?,"לא בהכרח. המזכירות מרכזת ומכוונת, אך בקשות אקדמיות מהותיות דורשות אישור יועצת אקדמית, ראש התמחות או ועדת הוראה.","שלום וברכה. מדובר בנקודה מנהלית חשובה מאוד שעוזרת לתאם ציפיות ומסייעת לך להבין כיצד מתקבלות ההחלטות בפקולטה.
+
+התשובה הרשמית היא לא בהכרח:
+
+תפקיד המזכירות: מזכירות החוג מהווה את הגוף התפעולי, המנהלי והשירותי המרכז את הבקשות, מלווה אותך ומכוון אותך בצורה המקצועית ביותר, אך אין לה סמכות אקדמית לאשר חריגות על דעת עצמה.
+
+הגופים המאשרים: בקשות אקדמיות מהותיות מסוימות (כגון חריגה ממכסות נ""ז, אישור שילובי התמחויות או פטורים חריגים) דורשות באופן מחייב בחינה ואישור רשמי של היועצת האקדמית של התוכנית, ראש ההתמחות הרלוונטי או ועדת ההוראה הבית-ספרית.
+
+(מבוסס גם על נהלי העבודה של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",secretariat-provided; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_090,registration_rules,אפשר לקחת קורס מחוץ ל-MBA כדי להשלים נ״ז?,"ככלל, השלמות מתוך קורסי MBA, בחירה כללית או בחירת ההתמחות. קורס מחוץ לתוכנית — רק אם מותר במסלול או אושר מראש בכתב על ידי ועדת הוראה.","שלום רב. הרכבה נכונה ותקנית של מכסת השעות לתואר היא תנאי מחייב לסיומו בהצלחה, ולכן חל איסור על שילוב קורסים שאינם מאושרים.
+
+הכלל התקנוני מוגדר כך:
+
+ברירת המחדל להשלמות: ככלל, השלמות נקודות זכות לתואר (כולל השלמות עבור פטורים שקיבלת) מבוצעות אך ורק מתוך קורסי ה-MBA, קורסי הבחירה הכלליים של התוכנית או קורסי הבחירה של ההתמחות שלך.
+
+חובת אישור מוקדם: לקיחת קורס מחוץ לתכנית ה-MBA של בית הספר לצורך השלמת נ""ז מותרת אך ורק אם הדבר מותר במפורש על פי מסלול הלימודים שלך או אושר מראש ובכתב באופן פרטני על ידי ועדת ההוראה.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf וכן https://bschool.huji.ac.il/ptorim",https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf; https://bschool.huji.ac.il/ptorim,TRUE,,
+mba_gt_091,registration_rules,יש לי אילוץ אישי ביום ההתמחות. מה עושים?,חל איסור על רישום לקורסים חופפים בשעות. יש לבדוק חלופות של קבוצות לימוד או סמסטר חלופי בשנתון. בקושי לשבץ קורס חובה קריטי — פנייה פרטנית ליועצת או למזכירות.,"שלום וברכה. החיים מלאים באילוצים מחוץ לאקדמיה – בין אם מדובר בעבודה, משפחה או התחייבויות אישיות – ואנו מבינים זאת לחלוטין ומנסים לבוא לקראת הסטודנטים ככל הניתן.
+
+מאחר שלוחות הזמנים וימי הלימוד המרוכזים של המגמות השונות נקבעים מראש, הנה דרכי הפעולה המומלצות:
+
+בדיקת חלופות בשנתון: יש לבדוק בשנתון האם קורסי ההתמחות הספציפיים מציעים קבוצות לימוד נוספות, או משובצים בסמסטר חלופי שאינו מתנגש עם האילוץ שלך.
+
+הימנעות מחפיפות שעות: זכור/זכרי כי חל איסור מוחלט להירשם במערכת לקורסים חופפים, כך שלא ניתן לשבץ קורס אחר בשעות הללו.
+
+פנייה לייעוץ ופתרון חריג: במידה ומדובר בקורס חובה במגמה ולא נמצאו לו חלופות בלוח הזמנים, מומלץ לפנות אליי כיועצת הלימודים או לפנות למזכירות לצורך בדיקת פתרונות מנהליים מותאמים אישית.
+
+(מבוסס גם על הנחיות תפעוליות של מזכירות תארים מתקדמים).
+
+קישור רשמי למקור: https://shnaton.huji.ac.il/roadmap/322-3222",secretariat-provided; https://shnaton.huji.ac.il/roadmap/322-3222,TRUE,,
+mba_gt_092,registration_rules,אפשר ללמוד מרחוק במקום פרונטלי?,לא כחלופת קבע. ה-MBA מבוסס על הוראה פרונטלית מלאה בקמפוס. אילוצים חריגים או היעדרויות מוצדקות נבחנים לגופם לפי נהלי האוניברסיטה ובתיאום מול המרצה — התוכנית אינה מתנהלת מרחוק.,"שלום רב. אנו בבית הספר מאמינים כי חלק ארי מהערך המוסף של תואר ה-MBA ומההתפתחות הניהולית שלך נבנה דרך שיח פתוח בכיתה, סיעור מוחות קבוצתי ונטוורקינג מקצועי בלתי אמצעי בין הסטודנטים.
+
+לכן, המדיניות המנהלית בנושא זה קובעת:
+
+מתכונת לימודים פרונטלית: הלימודים בתוכנית ה-MBA מבוססים על מתכונת של הוראה פרונטלית מלאה בקמפוס.
+
+טיפול באילוצים נקודתיים: אילוצים אישיים חריגים או היעדרויות מוצדקות נבחנים לגופם בהתאם לנהלים הכלליים של האוניברסיטה ובתיאום ישיר מול מרצי הקורסים, אך התוכנית אינה מוגדרת או מאושרת כתוכנית למידה מרחוק.
+
+מקור המידע: הנחיות מנהליות ותפעוליות של מזכירות החוג לתארים מתקדמים.",secretariat-provided,TRUE,,
+mba_gt_093,accelerated_tracks,מהו מסלול אלפא לסטודנטים למנהל עסקים?,"מסלול מצטיינים מואץ לבוגר במנהל עסקים מהעברית: צבירת קורסי מוסמך (MBA) משנה ג' בבוגר, והשלמת MBA בשנה אחת או יותר לאחר סיום הבוגר — בכפוף לרציפות ולתקנון.","שלום וברכה! מסלול ""אלפא"" הוא מסלול מצטיינים יוקרתי ומואץ, המעניק הזדמנות יוצאת דופן לתלמידי תואר ראשון (בוגר) במנהל עסקים באוניברסיטה העברית המציגים הישגים אקדמיים בולטים.
+
+המסלול בנוי בצורה הבאה:
+
+צבירת קורסים מוקדמת: המסלול מאפשר לסטודנטים להתחיל ללמוד ולצבור קורסים ברמת מוסמך (MBA) כבר במהלך שנה ג' של הלימודים לתואר הראשון.
+
+קיצור משך הלימודים: מטרת התוכנית היא לאפשר לבוגרים המצטיינים להשלים את תואר ה-MBA כולו בתוך שנה אחת בלבד (או יותר) מרגע סיום התואר הראשון, בכפוף לשמירה על רציפות לימודים ועמידה בתנאי התקנון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_094,accelerated_tracks,כמה נ״ז לומדים באלפא לסטודנטים למנהל עסקים?,"באלפא לבוגר מנהל עסקים מהעברית — פטור מקורסי החובה הכלליים. התוכנית מורכבת מהתמחות, בחירה וסמינרים — 42 נ״ז בלבד.","שלום רב! כבוגר/ת עתידי/ת של תואר ראשון במנהל עסקים באוניברסיטה העברית, מסלול אלפא לוקח בחשבון את הרקע האקדמי הנרחב שכבר רכשת ומקצר לך את הדרך לתואר השני בצורה משמעותית.
+
+מכסת השעות במסלול זה מוגדרת כך:
+
+פטור מלא מחובות כלליים: סטודנטים במסלול זה פטורים לחלוטין מכלל קורסי החובה הכלליים של התואר השני.
+
+היקף שעות מצומצם: תוכנית הלימודים מורכבת אך ורק מלימודי התמחות מתקדמים, קורסי בחירה וסמינרים, ועומדת על היקף מופחת וממוקד של 42 נ""ז בלבד (במקום 48 נ""ז).
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_095,accelerated_tracks,מה תנאי הקבלה המרכזיים לאלפא?,"קבלה תחרותית המבוססת על הצטיינות בבוגר: ממוצע כללי של לפחות 85 בתום שנה ב', או ממוצע 90+ בקורסי היסוד והתשתית הרלוונטיים — לפי מסלול השילוב.","שלום וברכה. הקבלה למסלול אלפא היוקרתי היא תחרותית ביותר ומיועדת לסטודנטים המובילים של תואר הבוגר במנהל עסקים, המציגים רף אקדמי יוצא דופן.
+
+הקריטריונים המרכזיים לקבלה כוללים:
+
+ממוצע ציונים גבוה: שמירה על ממוצע ציונים כללי של לפחות 85 בתום שנה ב' ללימודי הבוגר, או לחלופין הצגת ממוצע של 90 לפחות בקורסי היסוד והתשתית הרלוונטיים של התואר הראשון.
+
+התאמה למסלול: תנאי הקבלה המדויקים, המכסות ואפשרויות השילוב מותאמים באופן ספציפי למסלול הלימודים הקיים של הסטודנט בהתאם להחלטות התקנון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_096,accelerated_tracks,מהו המסלול המואץ ל-MBA מכל הפקולטות?,"מסלול מצטיינים לתואר ראשון מכל פקולטה באוניברסיטה (למעט מנהל עסקים): צבירת קורסי MBA במקביל לבוגר, וסיום MBA שנה אחת או יותר לאחר סיום הבוגר.","שלום רב! אנו באוניברסיטה העברית מאמינים כי השילוב בין השכלה מדיסציפלינות מגוונות (כגון משפטים, מדעי המחשב, מדעים מדויקים, רוח או חברה) יחד עם כלים ניהוליים ועסקיים של תואר MBA, מייצר את המנהיגים המובילים במשק.
+
+המסלול מובנה בצורה הבאה:
+
+מסלול מצטיינים רב-תחומי: זהו מסלול ייעודי המיועד לסטודנטים לתואר ראשון מצטיינים מכל פקולטה שהיא באוניברסיטה העברית (למעט תלמידי מנהל עסקים).
+
+גשר ישיר לתואר שני: התוכנית מאפשרת לסטודנטים להתחיל ללמוד ולאחסן קורסי MBA במקביל לחובות הבוגר שלהם, ובצורה זו לסיים את תואר המוסמך במנהל עסקים בתוך שנה אחת או יותר בלבד לאחר סיום התואר הראשון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track-all וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_097,accelerated_tracks,כמה נ״ז יש במסלול המואץ מכל הפקולטות?,"48 נ״ז לתואר — חובה כללית והתמחות. קורסי מתמטיקה וסטטיסטיקה, אם נדרשים, אינם נכללים ב-48 נ״ז ומבוצעים כהשלמה חיצונית.","שלום וברכה. מאחר שהסטודנטים המגיעים למסלול זה מגיעים ללא רקע אקדמי קודם בקורסי הליבה הניהוליים, התוכנית מובנית בצורה רחבה ומלאה על מנת להעניק להם בסיס עסקי איתן.
+
+מכסת השעות במסלול זה מוגדרת כך:
+
+מכסת שעות מלאה: תוכנית ה-MBA במסלול המואץ מכלל הפקולטות בנויה מ-48 נ""ז לתואר, הכוללות את קורסי החובה הכלליים ולימודי ההתמחות.
+
+מעמד קורסי התשתית: קורסי התשתית במתמטיקה וסטטיסטיקה, במידה ותידרש/י אליהם על סמך הרקע שלך, מבוצעים כהשלמה חיצונית ואינם נכללים במניין 48 הנ""ז הללו.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track-all וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_098,accelerated_tracks,אפשר לסגור בוגר ומוסמך באותה שנה במסלול מואץ?,לא. איסור מוחלט על סגירת בוגר ומוסמך באותה שנת לימודים. חובה להשאיר לפחות קורס אחד או חובה אקדמית לשנת המוסמך העוקבת.,"שלום רב. מדובר בנקודה מנהלית קשיחה וחשובה ביותר המשפיעה על תכנון סמסטר הסיום של התואר הראשון שלך, וטוב שאנו מבהירים אותה בצורה מדויקת.
+
+התשובה הרשמית היא לא, חל איסור מוחלט על כך:
+
+איסור חפיפת סגירות: דפי המסלול המואץ ותקנוני לימודי המוסמך מדגישים בצורה ברורה כי לא ניתן לסגור את תואר הבוגר (הראשון) ואת תואר המוסמך (השני) באותה שנת לימודים אקדמית.
+
+חובת השארת קורס: עליך להשאיר לפחות קורס אחד או חובה אקדמית כלשהי המשויכת ל-MBA לשנת הלימודים העוקבת, שבה הסטטוס שלך באוניברסיטה יהיה של תלמיד מוסמך מן המניין.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track-all וכן https://bschool.huji.ac.il/Accelerated-study-track וכן https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track; https://bschool.huji.ac.il/sites/default/files/business/files/academic_regulations_for_masters_programs_01.pdf,TRUE,,
+mba_gt_099,accelerated_tracks,האם משלמים על עצם ההשתתפות במסלול מואץ?,לא משלמים דמי חברות על ההשתתפות במסלול — משלמים שכר לימוד שוטף עבור הקורסים שנרשמים אליהם בפועל. לאחר מעבר רשמי למוסמך — השלמת תשלום לפי נהלי שכר הלימוד.,"שלום וברכה. אנו בבית הספר למנהל עסקים שמחים לעודד סטודנטים מצטיינים להמשיך איתנו לתארים מתקדמים, ולכן הליך הקבלה והחברות בתוכנית המצטיינים עצמה אינו כרוך בעלויות מיוחדות.
+
+הנה הסדר שכר הלימוד המוגדר במסלול:
+
+תשלום לפי קורסים בפועל: הסטודנטים במסלולים המואצים אינם משלמים דמי חברות מיוחדים על עצם ההשתתפות במסלול, אלא משלמים שכר לימוד שוטף ורגיל עבור הקורסים אליהם הם נרשמים בפועל במהלך לימודיהם.
+
+מעבר רשמי לתואר שני: יש לקחת בחשבון כי לאחר המעבר הרשמי למעמד של תלמיד מוסמך (תואר שני), מתבצעת השלמת חישוב ותשלום שכר הלימוד בהתאם לתקנות, הנהלים והתקורות הנהוגים באוניברסיטה לתארים מתקדמים.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track-all וכן https://bschool.huji.ac.il/Accelerated-study-track",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track,TRUE,,
+mba_gt_100,accelerated_tracks,מה זה אחסון קורסים למוסמך?,קורסי MBA שנלמדו ועברו בבוגר נשמרים בתיק ואינם משוקללים בממוצע הבוגר; במעבר למוסמך הם משויכים ל-MBA. אם אופציית האחסון לא מופיעה בסילאן — פנייה מיידית למזכירות.,"שלום רב! ""אחסון קורסים"" (Course Storage) הוא כלי מנהלי נפלא המהווה את לב ליבם של המסלולים המואצים, ומאפשר לך למנף את תקופת התואר הראשון לטובת התואר השני בצורה חכמה.
+
+התהליך מוגדר ומנוהל בצורה הבאה:
+
+שמירת הקורסים בצד: קורסים ברמת מוסמך (MBA) שנלמדים על ידך ועברת אותם בהצלחה במהלך לימודי התואר הראשון, נשמרים ומאוחסנים בתיק האקדמי שלך ואינם משוקללים בממוצע הבוגר. עם המעבר הרשמי לתואר השני, הם נשלפים ומשויכים אוטומטית ל-MBA לצורך מניין נקודות הזכות.
+
+טיפול בתקלות מערכת: במידה ומערכת הרישום הממוחשבת (סילאן) אינה מציעה לך באופן אוטומטי את אופציית האחסון בעת הרישום לקורס ה-MBA, חובה לפנות באופן מיידי למזכירות הרלוונטית כדי להסדיר זאת ידנית ולמנוע שיוך שגוי לתואר הראשון.
+
+קישורים רשמיים למקורות: https://bschool.huji.ac.il/Accelerated-study-track-all וכן https://bschool.huji.ac.il/Accelerated-study-track",https://bschool.huji.ac.il/Accelerated-study-track-all; https://bschool.huji.ac.il/Accelerated-study-track,TRUE,,
