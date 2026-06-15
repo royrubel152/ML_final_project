@@ -228,7 +228,7 @@ Do not try to answer from general knowledge.
 Set Gemini temperature to 0 for maximum factual consistency:
 ```python
 model = genai.GenerativeModel(
-    model_name="gemini-2.5-flash",
+    model_name="gemini-3.0-flash",
     system_instruction=SYSTEM_PROMPT,
     generation_config=genai.GenerationConfig(temperature=0.0)
 )
@@ -288,7 +288,7 @@ async def refresh_content_loop():
         print("[refresh] Refreshing HUJI source content...")
         new_content = await load_all_sources(force=True)
         model_instance["model"] = genai.GenerativeModel(
-            model_name="gemini-2.5-flash",
+            model_name="gemini-3.0-flash",
             system_instruction=SYSTEM_BASE + new_content,
         )
         print("[refresh] Done.")

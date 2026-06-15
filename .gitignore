@@ -23,3 +23,17 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Experiment cache (large generated vector arrays, rebuilt on demand)
+experiments/cache/
+
+# Logs and temp outputs
+server.log
+server_err.log
+scripts/faq_check_out.txt
+scripts/faq_reply.txt
+experiments/results/*.log
+experiments/results/*.txt
+
+# Temp Office files
+~$*

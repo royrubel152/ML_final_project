@@ -121,7 +121,7 @@ The backend is a Python web server built with FastAPI. It:
 async def lifespan(app: FastAPI):
     source_content = await load_all_sources()  # scrape all HUJI pages
     model_instance["model"] = genai.GenerativeModel(
-        model_name="gemini-2.5-flash",
+        model_name="gemini-3.0-flash",
         system_instruction=SYSTEM_BASE + source_content,
     )
     yield
@@ -194,7 +194,7 @@ Each source is capped at 12,000 characters to avoid hitting Gemini's context win
 
 ## 5. AI Layer (Google Gemini)
 
-**Model:** `gemini-2.5-flash`
+**Model:** `gemini-3.0-flash`
 
 ### How Gemini Receives Information
 Gemini does not browse the internet. It only knows what we tell it. We use two mechanisms:

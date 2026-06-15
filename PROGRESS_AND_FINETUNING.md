@@ -78,7 +78,7 @@ Extracted: "85 לש רבטצמ םינויצ עצוממ"
 
 **Challenge 4 — Gemini model not found**
 
-Initial model names (`gemini-1.5-flash`, `gemini-2.0-flash`) returned 404 errors. Used the API to list available models and found `gemini-2.5-flash`.
+Initial model names (`gemini-1.5-flash`, `gemini-2.0-flash`) returned 404 errors. Used the API to list available models and found `gemini-3.0-flash`.
 
 **Challenge 5 — Gemini SDK blocks async loop**
 
@@ -358,7 +358,7 @@ This means Gemini always has the rules, and for each specific question it gets e
 
 | Parameter | Step 1 | Step 2 | Step 3 |
 |---|---|---|---|
-| Model | gemini-2.5-flash | gemini-2.5-flash | gemini-2.5-flash |
+| Model | gemini-3.0-flash | gemini-3.0-flash | gemini-3.0-flash |
 | Temperature | Default (1.0) | 0.0 | 0.0 |
 | Context source | System prompt | System prompt | Retrieved chunks |
 | Tokens/request | ~10,000 | ~10,000 | ~1,500 |

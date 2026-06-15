@@ -135,7 +135,8 @@ def detect_intent(message: str, state: dict) -> dict:
     # request to switch to the Information Science specialization.
     has_active = bool(state.get("active_spec_code"))
     explicit_spec_reference = any(
-        marker in msg for marker in ["בהתמחות", "התמחות של", "התמחות ב", "לגבי ההתמחות"]
+        marker in msg for marker in ["בהתמחות", "התמחות של", "התמחות ב", "לגבי ההתמחות",
+                                     "כהתמחות", "התמחות ראשית", "התמחות משנית"]
     )
     if has_active and detected_spec_code and not explicit_spec_reference and not explicit_switch:
         # Keep active spec — don't switch just because a keyword appeared
@@ -283,7 +284,7 @@ async def lifespan(app: FastAPI):
     state["index"] = index
     state["chunks"] = chunks
     state["model"] = genai.GenerativeModel(
-        model_name="gemini-2.5-flash",
+        model_name="gemini-3.0-flash",
         system_instruction=SYSTEM_PROMPT,
         generation_config=genai.GenerationConfig(temperature=0.0),
     )
@@ -354,7 +355,8 @@ async def chat(request: Request, body: ChatRequest):
         )
 
         # 2b — Fallback: if spec-filtered retrieval returned nothing, retry without
-        #      the spec constraint (user may be asking a general question mid-conversation)
+        #      the spec constraint (user may be asking a general question mid-conversation,
+        #      or a secondary-track question whose data is in the bschool section).
         if not relevant and intent["spec_code"]:
             relevant = await loop.run_in_executor(
                 None,
@@ -363,6 +365,25 @@ async def chat(request: Request, body: ChatRequest):
                     active_spec_code=None,
                 ),
             )
+
+        # 2b2 — For secondary-specialization queries, also try without spec boosting
+        #       even when primary retrieval found something — the answer may be in a
+        #       different section (bschool התמחויות page, not Shnaton spec chunks).
+        if "משנית" in user_message and relevant:
+            general_results = await loop.run_in_executor(
+                None,
+                lambda: retrieve_with_context(
+                    user_message, index, chunks,
+                    active_spec_code=None,
+                ),
+            )
+            seen_ids = {r["chunk_id"] for r in relevant}
+            for r in general_results:
+                if r["chunk_id"] not in seen_ids and "משנית" in r["text"]:
+                    relevant.append(r)
+                    seen_ids.add(r["chunk_id"])
+            relevant.sort(key=lambda x: x["score"], reverse=True)
+            relevant = relevant[:5]
 
         # 2c — For general mandatory questions, prepend the pre-built synthetic chunk
         #      that lists all 8 mandatory courses cleanly (built at startup).

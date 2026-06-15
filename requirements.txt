@@ -14,3 +14,7 @@ numpy
 pydantic-settings
 pytest
 httpx
+rank_bm25
+matplotlib
+sentence-transformers
+pandas

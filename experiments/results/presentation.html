@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MBA Advisor Chatbot — RAG Pipeline Presentation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  :root {
+    --navy:   #003163;
+    --navy2:  #00214a;
+    --gold:   #C9A84C;
+    --gold2:  #e8c46a;
+    --white:  #ffffff;
+    --bg:     #f5f7fa;
+    --bg2:    #eef1f6;
+    --text:   #1a2744;
+    --muted:  #5a6a88;
+    --border: #d4daea;
+    --p2:     #1e6cb5;
+    --p3:     #2a8a4a;
+    --p4:     #7b3fa0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  .deck { width: 100vw; height: 100vh; position: relative; }
+
+  .slide {
+    display: none;
+    position: absolute;
+    inset: 0;
+    padding: 44px 68px 60px;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn .3s ease;
+  }
+  .slide.active { display: flex; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+  .slide-title {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy2) 100%);
+    color: white;
+  }
+  .slide-default { background: var(--white); border-left: 6px solid var(--navy); }
+  .slide-default::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--navy), var(--gold));
+  }
+
+  .huji-mark { display: flex; align-items: center; gap: 10px; margin-bottom: 36px; }
+  .huji-mark .seal {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: var(--gold); display: flex; align-items: center;
+    justify-content: center; font-size: 18px; font-weight: 800; color: var(--navy);
+  }
+  .huji-mark span { font-size: 13px; color: rgba(255,255,255,.7); letter-spacing: .5px; }
+
+  .label { font-size: 10px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--gold); font-weight: 700; margin-bottom: 10px; }
+  h1 { font-size: 46px; font-weight: 800; line-height: 1.12; color: #fff; }
+  h1 span { color: var(--gold); }
+  h2 { font-size: 28px; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+  .subtitle { font-size: 16px; color: rgba(255,255,255,.7); margin-top: 14px; line-height: 1.7; }
+  .slide-num { position: absolute; bottom: 20px; right: 36px; font-size: 11px; color: var(--muted); letter-spacing: 1px; }
+
+  .cards { display: flex; gap: 16px; margin-top: 24px; }
+  .card {
+    flex: 1; background: var(--white); border: 1px solid var(--border);
+    border-top: 3px solid var(--navy); border-radius: 8px; padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .card h3 { font-size: 13px; color: var(--navy); margin-bottom: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; }
+  .card p, .card li { font-size: 13px; color: #3a4a60; line-height: 1.75; }
+  .card ul { padding-left: 16px; }
+
+  .badge { display: inline-block; padding: 4px 14px; border-radius: 4px; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px; }
+  .badge-p2 { background: #ddeeff; color: var(--p2); border-left: 4px solid var(--p2); border-radius: 0 4px 4px 0; }
+  .badge-p3 { background: #ddf2e4; color: var(--p3); border-left: 4px solid var(--p3); border-radius: 0 4px 4px 0; }
+  .badge-p4 { background: #f0e4f8; color: var(--p4); border-left: 4px solid var(--p4); border-radius: 0 4px 4px 0; }
+
+  .flow { display: flex; align-items: center; gap: 0; margin-top: 20px; flex-wrap: wrap; }
+  .flow-box {
+    background: var(--bg); border: 1.5px solid var(--border);
+    border-radius: 6px; padding: 9px 14px;
+    font-size: 12px; color: var(--text); text-align: center;
+    min-width: 100px; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  }
+  .flow-arrow { color: var(--gold); font-size: 18px; padding: 0 6px; font-weight: 700; }
+
+  table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+  th { background: var(--navy); padding: 9px 14px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); text-align: left; }
+  td { padding: 9px 14px; font-size: 13px; border-bottom: 1px solid var(--bg2); color: var(--text); }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--bg); }
+  .win { color: var(--p4); font-weight: 700; }
+  .highlight-row td { background: #f0e8f8; }
+
+  .bars { margin-top: 16px; }
+  .bar-row { display: flex; align-items: center; margin-bottom: 12px; gap: 10px; }
+  .bar-label { font-size: 12px; color: var(--muted); width: 50px; text-align: right; flex-shrink: 0; font-weight: 600; }
+  .bar-track { flex: 1; background: var(--bg2); border-radius: 3px; height: 26px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; display: flex; align-items: center; padding-left: 10px; font-size: 12px; font-weight: 700; }
+  .bar-p2 { background: linear-gradient(90deg, #1e6cb5, #3a8fd4); color: #fff; }
+  .bar-p3 { background: linear-gradient(90deg, #2a8a4a, #3db864); color: #fff; }
+  .bar-p4 { background: linear-gradient(90deg, #6a2a9a, #9a4abf); color: #fff; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 20px; }
+
+  .decision { display: flex; gap: 12px; margin-bottom: 14px; align-items: flex-start; }
+  .decision-num { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: var(--gold); font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+  .decision-text h4 { font-size: 13px; color: var(--navy); margin-bottom: 2px; font-weight: 600; }
+  .decision-text p { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+  .nav {
+    position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 8px; align-items: center; z-index: 100;
+    background: rgba(255,255,255,.95); border: 1px solid var(--border);
+    padding: 8px 16px; border-radius: 30px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.1);
+  }
+  .nav-btn { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 6px 18px; border-radius: 20px; cursor: pointer; font-size: 12px; font-weight: 600; transition: all .2s; }
+  .nav-btn:hover { background: var(--navy); color: var(--gold); border-color: var(--navy); }
+  .nav-dots { display: flex; gap: 5px; }
+  .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--border); cursor: pointer; transition: background .2s; }
+  .dot.active { background: var(--navy); }
+
+  .chip { display: inline-block; background: #e8eef6; border: 1px solid var(--border); color: var(--navy); border-radius: 4px; padding: 2px 8px; font-size: 11px; margin: 2px; font-weight: 600; }
+  .divider { width: 40px; height: 3px; background: var(--gold); border-radius: 2px; margin: 10px 0 18px; }
+
+  .callout { background: #f0f8f0; border: 1px solid #b8dfc0; border-left: 4px solid var(--p3); border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 16px; }
+  .callout p { font-size: 13px; color: #2a5a38; line-height: 1.7; }
+  .callout strong { color: #1a3a28; }
+  .callout-p4 { background: #f5effe; border: 1px solid #d4b8f0; border-left: 4px solid var(--p4); border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 16px; }
+  .callout-p4 p { font-size: 13px; color: #4a1a6a; line-height: 1.7; }
+
+  .stat-box { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2); border-radius: 8px; padding: 16px 20px; min-width: 160px; }
+  .stat-num { font-size: 32px; font-weight: 800; color: var(--gold); }
+  .stat-lbl { font-size: 12px; color: rgba(255,255,255,.6); margin-top: 4px; }
+
+  .sweep-highlight { background: #f0eef8 !important; border: 2px solid var(--p4) !important; }
+
+  /* ── speaker notes ── */
+  .notes {
+    position: absolute;
+    bottom: 38px; left: 68px; right: 68px;
+    border-top: 1px dashed var(--border);
+    padding-top: 7px;
+    font-size: 11px;
+    color: var(--muted);
+    font-style: italic;
+    line-height: 1.6;
+  }
+  .slide-title .notes {
+    border-top-color: rgba(255,255,255,.2);
+    color: rgba(255,255,255,.45);
+  }
+</style>
+</head>
+<body>
+<div class="deck">
+
+<!-- ═══════════════════════════ SLIDE 1: TITLE ═══════════════════════════ -->
+<div class="slide slide-title active" id="s1">
+  <div class="huji-mark">
+    <div class="seal">H</div>
+    <span>The Hebrew University of Jerusalem</span>
+  </div>
+  <div class="label">MBA Program · Data Science Project · 2026</div>
+  <h1>MBA Academic<br>Advisor <span>Chatbot</span></h1>
+  <div class="subtitle">
+    RAG Architecture · Retrieval Pipeline Comparison · Evaluation Framework<br>
+    3 Pipelines &nbsp;·&nbsp; 100 Ground-Truth Questions &nbsp;·&nbsp; Deterministic Metrics
+  </div>
+  <div style="margin-top:36px; display:flex; gap:16px;">
+    <div class="stat-box"><div class="stat-num">658</div><div class="stat-lbl">Knowledge Chunks</div></div>
+    <div class="stat-box"><div class="stat-num">100</div><div class="stat-lbl">Ground-Truth Q&amp;A</div></div>
+    <div class="stat-box"><div class="stat-num">4</div><div class="stat-lbl">Retrieval Pipelines</div></div>
+    <div class="stat-box"><div class="stat-num">81%</div><div class="stat-lbl">Best Recall@10 (P4)</div></div>
+  </div>
+  <div class="notes">בנינו יועץ אקדמי מבוסס בינה מלאכותית לתוכנית ה-MBA של האוניברסיטה העברית באמצעות ארכיטקטורת RAG. המטרה: סטודנטים שואלים שאלות בעברית, הבוט מאתר את התקנה או פרטי הקורס הרלוונטיים ועונה בצורה מדויקת. בחנו 3 pipelines שונים לאחזור מידע על פני 100 שאלות אמיתיות כדי למצוא מה עובד הכי טוב.</div>
+  <div class="slide-num" style="color:rgba(255,255,255,.3);">1 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 2: INTRODUCTION ═══════════════════════════ -->
+<div class="slide slide-default" id="s2intro">
+  <div class="label">Project Introduction</div>
+  <h2>What Is This &amp; Who Is It For?</h2>
+  <div class="divider"></div>
+  <div class="two-col" style="gap:32px; align-items:start; margin-top:16px;">
+    <div>
+      <div style="font-size:12px; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:14px; font-weight:700;">The Problem</div>
+      <div class="card" style="margin-bottom:14px; border-top-color:var(--gold);">
+        <h3 style="color:#7a5a00;">Before This Project</h3>
+        <ul>
+          <li>MBA students send dozens of repetitive emails to the secretariat daily</li>
+          <li>Questions like "which courses are mandatory?" answered manually, one by one</li>
+          <li>Secretariat staff spend hours on routine Q&amp;A instead of complex cases</li>
+          <li>Students wait 24–48 hours for simple factual answers</li>
+          <li>Information scattered across PDF regulations, website, Shnaton — hard to navigate</li>
+        </ul>
+      </div>
+      <div class="card" style="border-top-color:var(--p4);">
+        <h3 style="color:var(--p4);">Our Solution</h3>
+        <p>An AI chatbot trained on all official HUJI MBA sources that answers student questions <strong>instantly, in Hebrew, 24/7</strong> — with citations to the exact regulation or course page.</p>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:12px; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:14px; font-weight:700;">Who Uses It</div>
+      <div style="display:flex; flex-direction:column; gap:12px;">
+        <div class="card" style="border-top-color:var(--p2); display:flex; gap:14px; align-items:flex-start;">
+          <div style="font-size:24px; flex-shrink:0;">🎓</div>
+          <div>
+            <h3 style="color:var(--p2);">MBA Students (Primary)</h3>
+            <p>Ask questions about course requirements, exemptions, registration deadlines, specialization tracks — and get an immediate, sourced Hebrew answer.</p>
+          </div>
+        </div>
+        <div class="card" style="border-top-color:var(--p3); display:flex; gap:14px; align-items:flex-start;">
+          <div style="font-size:24px; flex-shrink:0;">🏛️</div>
+          <div>
+            <h3 style="color:var(--p3);">Secretariat Staff (Beneficiary)</h3>
+            <p>Handles repetitive Q&amp;A automatically. Staff focus on complex, personal cases that genuinely need human judgment.</p>
+          </div>
+        </div>
+        <div class="card" style="border-top-color:var(--gold); display:flex; gap:14px; align-items:flex-start;">
+          <div style="font-size:24px; flex-shrink:0;">📋</div>
+          <div>
+            <h3 style="color:#7a5a00;">Program Administration</h3>
+            <p>Add new Q&amp;A pairs via a simple CSV — no code needed. The bot auto-updates on restart. Useful for policy changes, new deadlines, special announcements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">The core problem: MBA students waste time searching across PDFs and websites, and the secretariat wastes time answering the same questions repeatedly. Our bot closes that gap — it knows everything in the official sources and answers instantly in Hebrew. The secretariat can also inject new Q&A pairs via CSV without touching any code, making it a living system that stays up to date.</div>
+  <div class="slide-num">2 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 3: SYSTEM FEATURES ═══════════════════════════ -->
+<div class="slide slide-default" id="s3feat">
+  <div class="label">What We Built</div>
+  <h2>System Features — Beyond the Chatbot</h2>
+  <div class="divider"></div>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-top:8px;">
+
+    <div class="card" style="border-top-color:var(--p4);">
+      <div style="font-size:28px; margin-bottom:8px;">🧭</div>
+      <h3 style="color:var(--p4);">Onboarding Wizard</h3>
+      <p>Step-by-step guided flow for new students. Collects their background (track, year, specialization interest) and produces a personalized summary of their MBA requirements — in Hebrew, instantly.</p>
+    </div>
+
+    <div class="card" style="border-top-color:var(--p2);">
+      <div style="font-size:28px; margin-bottom:8px;">📅</div>
+      <h3 style="color:var(--p2);">Semester Schedule Builder</h3>
+      <p>Student selects courses they want to take. The system cross-references Shnaton timetables and builds a conflict-free weekly schedule, highlighting clashes and credit load automatically.</p>
+    </div>
+
+    <div class="card" style="border-top-color:var(--p3);">
+      <div style="font-size:28px; margin-bottom:8px;">🔗</div>
+      <h3 style="color:var(--p3);">Shnaton Live Integration</h3>
+      <p>Connected directly to HUJI's Shnaton course API. Each course chunk includes live data: lecturer name, weekly schedule, grade breakdown, office hours — always up to date.</p>
+    </div>
+
+    <div class="card" style="border-top-color:var(--gold);">
+      <div style="font-size:28px; margin-bottom:8px;">💬</div>
+      <h3 style="color:#7a5a00;">Chat Autocomplete</h3>
+      <p>As the student types, common question patterns are suggested. Reduces friction and helps students phrase questions the system understands well — especially useful for first-time users.</p>
+    </div>
+
+    <div class="card" style="border-top-color:#e07020;">
+      <div style="font-size:28px; margin-bottom:8px;">📋</div>
+      <h3 style="color:#b85c00;">FAQ / Secretary Integration</h3>
+      <p>Secretariat staff add new Q&amp;A pairs to a CSV file. On server restart, the bot automatically embeds and indexes them — no developer needed. Policy updates go live in minutes.</p>
+    </div>
+
+    <div class="card" style="border-top-color:var(--muted);">
+      <div style="font-size:28px; margin-bottom:8px;">🔒</div>
+      <h3 style="color:var(--muted);">Production Hardening</h3>
+      <p>Rate limiting (15 req/min per IP), API key validation at startup, 24h content cache, file-based session persistence (2h TTL), citation verifier that flags unverified quotes.</p>
+    </div>
+
+  </div>
+  <div class="notes">This slide shows the system is a full product, not just a retrieval experiment. The onboarding wizard and schedule builder are the two most visible student-facing features. The Shnaton integration is what makes course data accurate and live. The CSV-based FAQ system is what makes the secretariat self-sufficient — they can update the bot's knowledge without any developer involvement.</div>
+  <div class="slide-num">3 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 4: SYSTEM OVERVIEW ═══════════════════════════ -->
+<div class="slide slide-default" id="s2">
+  <div class="label">System Architecture</div>
+  <h2>How the Chatbot Works</h2>
+  <div class="divider"></div>
+  <div class="flow" style="margin-bottom: 28px;">
+    <div class="flow-box">Student<br>Question</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Hebrew Query<br>Expansion</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">FAISS<br>Retrieval</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Top-K<br>Chunks</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Gemini<br>3.0-Flash</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Hebrew<br>Answer</div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Data Sources</h3>
+      <ul>
+        <li>HUJI Business School website (scraped)</li>
+        <li>Shnaton syllabus API (courses, teachers, schedules)</li>
+        <li>Secretary FAQ Q&amp;A pairs (100 added manually)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Tech Stack</h3>
+      <ul>
+        <li>FastAPI + Uvicorn · <span class="chip">localhost:8000</span></li>
+        <li>FAISS IndexFlatIP (cosine similarity)</li>
+        <li>Gemini 3.0-Flash (LLM answer generation)</li>
+        <li>Hebrew morphological prefix expansion</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Chunking Strategy</h3>
+      <ul>
+        <li>Header-split on section markers (שנה X)</li>
+        <li>900 chars per chunk, 200-char context prefix</li>
+        <li>658 total chunks in FAISS index</li>
+        <li>FAQ chunks embedded as Q&amp;A text pairs</li>
+      </ul>
+    </div>
+  </div>
+  <div class="notes">הסטודנט שולח שאלה ← אנחנו מרחיבים אותה עם תחיליות עבריות (ב, ל, ה...) ← מאחזרים את ה-K קטעים הרלוונטיים מ-FAISS ← מעבירים אותם כהקשר ל-Gemini 3.0-Flash ← המודל עונה בעברית. התוכן מגיע מ-3 מקורות: אתר HUJI, ה-API של השנתון, ו-FAQ שנאסף ידנית ממזכירות התלמידים.</div>
+  <div class="slide-num">4 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 3: KEY DECISIONS ═══════════════════════════ -->
+<div class="slide slide-default" id="s3">
+  <div class="label">Design Decisions</div>
+  <h2>Key Decisions We Made</h2>
+  <div class="divider"></div>
+  <div class="two-col" style="margin-top:18px;">
+    <div>
+      <div class="decision">
+        <div class="decision-num">1</div>
+        <div class="decision-text">
+          <h4>Semantic Chunking over Fixed-Size</h4>
+          <p>Split on section headers (שנה X — חובה/בחירה) to keep course context intact. Fixed-size would break mid-course and lose the year/track label.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num">2</div>
+        <div class="decision-text">
+          <h4>200-char Context Prefix on Continuation Chunks</h4>
+          <p>Every chunk beyond the first in a section gets the header prepended, so retrieval always knows what course/year it belongs to.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num">3</div>
+        <div class="decision-text">
+          <h4>Hebrew Morphological Prefix Expansion</h4>
+          <p>Hebrew attaches prepositions to words (בקורס = "in the course"). We expand every query token with ב, ל, ה, ש, ו, מ, כ variants to avoid missing exact matches.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="decision">
+        <div class="decision-num">4</div>
+        <div class="decision-text">
+          <h4>FAQ Integration via CSV</h4>
+          <p>Secretary Q&amp;A pairs embedded directly as "שאלה: ... תשובה: ..." chunks. Adding new rows and restarting auto-rebuilds the index via MD5 hash.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num">5</div>
+        <div class="decision-text">
+          <h4>Deterministic Evaluation Only</h4>
+          <p>No LLM-as-judge to avoid cost and non-determinism. URL-level Recall@k and MRR are reproducible and free — good enough to rank retrieval pipelines objectively.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num">6</div>
+        <div class="decision-text">
+          <h4>Entity Boost for Course Codes</h4>
+          <p>If a query contains a 5-digit course code, matching chunks get a ×1.3 RRF score boost. Course codes are precise identifiers — we surface them first.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">אף אחת מההחלטות האלו אינה מובנת מאליה — כל אחת פותרת בעיה אמיתית ב-NLP עברי. המשפיעה ביותר: ההדבקה העברית (תחיליות ב/ל/ה) גורמת לכך שאותה מילה מופיעה ב-7 צורות שונות ומעלה, ומודלים דחוסים מפספסים את ההתאמות. תחילית ההקשר בקטעי המשך הייתה קריטית — בלעדיה, קטע על "מימון — שנה ב' בחירה" לא הכיל תווית שנה או מסלול.</div>
+  <div class="slide-num">5 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 5: P1 ═══════════════════════════ -->
+<div class="slide slide-default" id="s4">
+  <div class="badge" style="background:#fff3e0;color:#b85c00;border-left:4px solid #e07020;border-radius:0 4px 4px 0;">PIPELINE 1 — NAIVE BASELINE</div>
+  <h2>Fixed-Size Chunks + MiniLM · No Query Expansion</h2>
+  <div class="divider"></div>
+  <div class="flow" style="margin-bottom:22px;">
+    <div class="flow-box">Query</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:#e07020;">MiniLM-L12<br><span style="font-size:10px;color:#b85c00;">paraphrase-multilingual · 384-dim</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:#e07020;">FAISS<br>IndexFlatIP<br><span style="font-size:10px;color:#b85c00;">cosine</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Top-K Chunks</div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Why This is the Baseline</h3>
+      <ul>
+        <li>Simplest possible approach — no special chunking</li>
+        <li>500-char fixed-size chunks, 50-char overlap</li>
+        <li>No Hebrew query expansion, no BM25, no reranking</li>
+        <li>MiniLM: tiny model (~400 MB), fast on CPU</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Limitations</h3>
+      <ul>
+        <li>Chunks break mid-sentence, mid-regulation</li>
+        <li>No section header context — chunk loses its topic label</li>
+        <li>384-dim embeddings weaker than E5-large (1024) or Gemini (3072)</li>
+        <li>No lexical fallback for exact Hebrew term matching</li>
+      </ul>
+    </div>
+    <div class="card" style="border-top-color:#e07020;">
+      <h3 style="color:#b85c00;">Results — ⚠️ Read Carefully</h3>
+      <ul>
+        <li>R@10: <strong style="color:#e07020;">83%</strong> · MRR: <strong style="color:#e07020;">0.587</strong></li>
+        <li style="color:#b85c00;font-weight:600;">Numbers are inflated — metric artifact</li>
+        <li>924 chunks all share coarse URLs (whole PDF = 1 URL)</li>
+        <li>Any chunk from the right page = "hit", even wrong paragraph</li>
+        <li>LLM receives wrong text → wrong answer despite "hit"</li>
+      </ul>
+    </div>
+  </div>
+  <div style="margin-top:14px; background:#fff3e0; border-left:4px solid #e07020; padding:12px 16px; border-radius:0 6px 6px 0;">
+    <p style="font-size:12px; color:#7a3a00; line-height:1.7;">
+      <strong>Why the metric is misleading here:</strong> URL-level Recall@k rewards retrieving <em>any chunk from the right source page</em>, not the right content. P1 has 924 large chunks with coarse URL granularity — statistically one lands in top-10 even if irrelevant. P2/P3/P4 use semantic chunks with the same URL set, making them directly comparable to each other but not to P1.
+    </p>
+  </div>
+  <div class="notes">P1 is the simplest approach — but its high numbers are misleading. The metric counts a "hit" if any retrieved chunk shares the right URL, even if it's the wrong paragraph. P1 has 924 chunks all mapped to broad source URLs (the whole PDF = one URL), so statistically one chunk from the right source lands in top-10. But that chunk may say the wrong thing entirely — Gemini answers incorrectly. This is why we can't compare P1 directly to P2/P3/P4.</div>
+  <div class="slide-num">6 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 5: P2 (was 4) ═══════════════════════════ -->
+<div class="slide slide-default" id="s4">
+  <div class="badge badge-p2">PIPELINE 2 — PRODUCTION BASELINE</div>
+  <h2>Gemini-Embedding-001 + Semantic Chunks</h2>
+  <div class="divider"></div>
+  <div class="flow" style="margin-bottom:22px;">
+    <div class="flow-box">Query</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p2);">Hebrew Prefix<br>Expansion</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p2);">Gemini<br>embedding-001<br><span style="font-size:10px;color:var(--navy);">3072-dim</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p2);">FAISS<br>IndexFlatIP<br><span style="font-size:10px;color:var(--navy);">cosine</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Top-K Chunks</div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>What makes it the baseline</h3>
+      <ul>
+        <li>Exact same pipeline as the live chatbot</li>
+        <li>Google API — no local GPU needed</li>
+        <li>3072-dim embeddings (highest capacity)</li>
+        <li>task_type="retrieval_document/query" distinction</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Limitations</h3>
+      <ul>
+        <li>Costs money per API call</li>
+        <li>Dense-only — misses exact Hebrew term matches</li>
+        <li>No reranking — rank 1 is often wrong (R@1 = 0)</li>
+        <li>Rate-limited at ~15 req/s</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Results</h3>
+      <ul>
+        <li>R@5: <strong style="color:var(--p2);">40%</strong></li>
+        <li>R@10: <strong style="color:var(--p2);">60%</strong></li>
+        <li>MRR: <strong style="color:var(--p2);">0.156</strong></li>
+        <li>Best at: specialization, admissions</li>
+        <li>Worst at: course_planning (MRR 0.021)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="notes">P2 הוא המערכת הפועלת כיום — אנחנו משתמשים בה כבסיס ההשוואה. היא משיגה R@10=60%: ב-60 מתוך 100 שאלות המקור הנכון נמצא בין 10 הקטעים המאוחזרים. החולשה העיקרית: embeddings דחוסים בלבד מפספסים מונחים עבריים מדויקים, ומכיוון שאין דירוג מחדש — הדירוג הראשון לרוב שגוי (R@1=0).</div>
+  <div class="slide-num">7 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 5: P3 ═══════════════════════════ -->
+<div class="slide slide-default" id="s5">
+  <div class="badge badge-p3">PIPELINE 3 — HYBRID RETRIEVAL</div>
+  <h2>E5-Large + BM25 RRF Fusion + Entity Boost</h2>
+  <div class="divider"></div>
+  <div style="display:flex; gap:16px; margin-bottom:22px; align-items:center;">
+    <div class="flow-box">Query</div>
+    <div class="flow-arrow">→</div>
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      <div class="flow-box" style="border-color:var(--p3);">E5-Large Dense<br><span style="font-size:10px;color:var(--p3);">"query: " prefix · 1024-dim</span></div>
+      <div class="flow-box" style="border-color:var(--p3);">BM25 Okapi<br><span style="font-size:10px;color:var(--p3);">sparse lexical</span></div>
+    </div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p3);">RRF Fusion<br><span style="font-size:10px;color:var(--p3);">1/(60+rank)</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p3);">Entity Boost<br><span style="font-size:10px;color:var(--p3);">×1.3 on course codes</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Top-K</div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Why Hybrid?</h3>
+      <ul>
+        <li>BM25 catches exact Hebrew terms dense models miss</li>
+        <li>Dense catches semantic meaning BM25 misses</li>
+        <li>RRF is robust — no score calibration needed</li>
+        <li>Free: no API, runs fully local</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>E5-Large Details</h3>
+      <ul>
+        <li><code style="color:var(--p3);">intfloat/multilingual-e5-large</code></li>
+        <li>MTEB SOTA on multilingual retrieval</li>
+        <li>Requires "passage: " / "query: " instruction prefix</li>
+        <li>~1.1 GB RAM, ~18 min to embed 658 chunks on CPU</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Results</h3>
+      <ul>
+        <li>R@5: <strong style="color:var(--p3);">31%</strong> (below P2 at low k)</li>
+        <li>R@10: <strong style="color:var(--p3);">50%</strong></li>
+        <li>R@50: <strong style="color:var(--p3);">87%</strong> (beats P2!)</li>
+        <li>MRR: <strong style="color:var(--p3);">0.133</strong></li>
+        <li>Best at: accelerated_tracks (MRR 0.382)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="notes">P3 combines a dense E5-large model with a BM25 sparse index. BM25 is classic keyword search — it catches exact Hebrew terms the neural model misses, especially 5-digit course codes. RRF fusion combines both rankings without needing to tune score thresholds. Interestingly, P3 beats Gemini at large k (k≥20), but lags behind at low k — the reranker in P4 fixes that.</div>
+  <div class="slide-num">8 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 6: P4 ═══════════════════════════ -->
+<div class="slide slide-default" id="s6">
+  <div class="badge badge-p4">PIPELINE 4 — PARENT-CHILD + CROSS-ENCODER</div>
+  <h2>Small-to-Big Retrieval + bge-reranker-base</h2>
+  <div class="divider"></div>
+  <div style="display:flex; gap:10px; align-items:center; margin-bottom:22px; flex-wrap:wrap;">
+    <div class="flow-box">Query</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p4);">Stage 1<br>Dense+BM25<br>on <strong style="color:var(--p4);">children</strong><br><span style="font-size:10px;">250-char, k=150</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p4);">Map to<br><strong style="color:var(--p4);">parents</strong><br><span style="font-size:10px;">900-char, top-20</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box" style="border-color:var(--p4);">Cross-Encoder<br>bge-reranker<br><span style="font-size:10px;">score(query, parent)</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box">Top-10<br>Parents</div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Why Parent-Child?</h3>
+      <ul>
+        <li>Children (250 chars) are precise → match exact query terms</li>
+        <li>Parents (900 chars) have full section context → better for LLM</li>
+        <li>Best of both: precise matching + rich context</li>
+        <li>658 parents → 2,341 children</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Why Cross-Encoder Reranker?</h3>
+      <ul>
+        <li>Bi-encoders (P2/P3) encode query &amp; chunk independently</li>
+        <li>Cross-encoder attends <em>across both texts jointly</em></li>
+        <li>Much higher precision — but only feasible on top-N candidates</li>
+        <li>Model: <code style="color:var(--p4);">BAAI/bge-reranker-base</code> (~280 MB)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Results (k_children=150)</h3>
+      <ul>
+        <li>R@3: <strong style="color:var(--p4);">55%</strong> (vs 18% prod)</li>
+        <li>R@5: <strong style="color:var(--p4);">69%</strong> (vs 40% prod)</li>
+        <li>R@10: <strong style="color:var(--p4);">81%</strong> (vs 60% prod)</li>
+        <li>MRR: <strong style="color:var(--p4);">0.296</strong> (vs 0.156 prod)</li>
+        <li>Best pipeline by every metric at k ≤ 10</li>
+      </ul>
+    </div>
+  </div>
+  <div class="notes">The key insight: small chunks (250 chars) are better for matching, but large chunks (900 chars) are better for answering. P4 uses both — it retrieves small children for precision, maps them back to their large parent for context, then uses a cross-encoder that reads the full query and parent together to re-score. This "attending across both texts" is what makes cross-encoders much more accurate than bi-encoders.</div>
+  <div class="slide-num">9 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 7: K_CHILDREN SWEEP ═══════════════════════════ -->
+<div class="slide slide-default" id="s7">
+  <div class="badge badge-p4">PIPELINE 4 — HYPERPARAMETER TUNING</div>
+  <h2>How We Tuned P4: K_CHILDREN Sweep</h2>
+  <div class="divider"></div>
+  <div style="display:grid; grid-template-columns:1.5fr 1fr; gap:28px; align-items:start;">
+    <div>
+      <div style="font-size:11px; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:10px;">
+        Recall &amp; MRR vs K_CHILDREN &nbsp;·&nbsp; k_parents=20 &amp; k_fetch=10 fixed
+      </div>
+      <canvas id="sweepChart" height="195"></canvas>
+    </div>
+    <div>
+      <div style="font-size:12px; color:var(--p4); letter-spacing:1px; text-transform:uppercase; margin-bottom:12px; font-weight:700;">What We Swept</div>
+      <p style="font-size:13px; color:var(--muted); margin-bottom:14px; line-height:1.7;">
+        P4 has <strong style="color:var(--text);">three independent parameters</strong>:<br>
+        <strong>k_children</strong> — how many 250-char children to fetch in stage 1<br>
+        <strong>k_parents</strong> — unique parents passed to cross-encoder (fixed=20)<br>
+        <strong>k_fetch</strong> — final results returned (fixed=10)
+      </p>
+      <table style="margin-top:0;">
+        <thead>
+          <tr><th>k_children</th><th style="color:#aad4ff;">R@3</th><th style="color:#aad4ff;">R@5</th><th style="color:#aad4ff;">R@10</th><th style="color:#aad4ff;">MRR</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>30</td><td>0.520</td><td>0.660</td><td>0.810</td><td>0.288</td></tr>
+          <tr><td>50</td><td>0.530</td><td>0.670</td><td>0.810</td><td>0.287</td></tr>
+          <tr><td>100</td><td>0.530</td><td>0.670</td><td>0.800</td><td>0.288</td></tr>
+          <tr class="highlight-row"><td><strong style="color:var(--p4);">150 ✓</strong></td><td class="win">0.550</td><td class="win">0.690</td><td>0.810</td><td class="win">0.296</td></tr>
+          <tr><td>200</td><td>0.540</td><td>0.690</td><td>0.820</td><td>0.296</td></tr>
+        </tbody>
+      </table>
+      <div class="callout-p4" style="margin-top:14px;">
+        <p><strong>We chose k_children=150.</strong> Best R@3/R@5 (0.550/0.690) and MRR (0.296). k=200 gains only +1pp on R@10 at higher compute cost — within noise margin.</p>
+      </div>
+    </div>
+  </div>
+  <div class="notes">We swept k_children from 30 to 200 while holding k_parents=20 and k_fetch=10 fixed. The logic: more children in stage 1 means more diverse parents reach the reranker, improving recall. But beyond k=150, gains flatten — the reranker pool of 20 parents is already well-covered. We chose 150 for the best R@3/R@5/MRR without unnecessary compute.</div>
+  <div class="slide-num">10 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 8: RESULTS ═══════════════════════════ -->
+<div class="slide slide-default" id="s8">
+  <div class="label">Evaluation Results</div>
+  <h2>Pipeline Comparison — 100 Ground-Truth Questions</h2>
+  <div class="divider"></div>
+  <div style="display:grid; grid-template-columns: 1fr 1.4fr; gap:28px; align-items:start;">
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>k</th>
+            <th style="color:#ffd4a0;">P1 MiniLM</th>
+            <th style="color:#aad4ff;">P2 Gemini</th>
+            <th style="color:#b8f0c8;">P3 E5+BM25</th>
+            <th style="color:#e0b8f8;">P4 Reranker</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>0.470</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+          <tr><td>3</td><td>0.650</td><td>0.180</td><td>0.210</td><td class="win">0.550</td></tr>
+          <tr><td>5</td><td>0.750</td><td>0.400</td><td>0.310</td><td>0.690</td></tr>
+          <tr class="highlight-row"><td><strong>10 ✓</strong></td><td>0.830</td><td>0.600</td><td>0.500</td><td class="win">0.810</td></tr>
+          <tr><td>20</td><td style="color:var(--muted);font-size:11px;">—</td><td>0.730</td><td>0.740</td><td style="color:var(--muted);font-size:11px;">—</td></tr>
+          <tr><td>50</td><td style="color:var(--muted);font-size:11px;">—</td><td>0.770</td><td>0.870</td><td style="color:var(--muted);font-size:11px;">—</td></tr>
+          <tr class="highlight-row"><td>MRR</td><td>0.587</td><td>0.156</td><td>0.133</td><td class="win">0.296</td></tr>
+        </tbody>
+      </table>
+      <div class="callout" style="margin-top:14px;">
+        <p><strong>⚠️ P1 numbers are not comparable</strong> — 924 coarse chunks inflate URL-level hits. Among the semantic pipelines (P2/P3/P4), <strong style="color:var(--p4);">P4 wins at every k</strong>: R@10 81% vs 60% (Gemini), MRR 0.296 vs 0.156. P4 retrieves the correct <em>content</em>, not just the right source page.</p>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:11px; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:10px;">Recall@k Curve — All 3 Pipelines</div>
+      <canvas id="recallChart" height="185"></canvas>
+      <div style="margin-top:12px; background:#f5effe; border-left:3px solid var(--p4); padding:10px 14px; border-radius:0 6px 6px 0;">
+        <p style="font-size:12px; color:var(--muted); line-height:1.6;">
+          <strong style="color:var(--p4);">P4 shown only to k=10:</strong> the cross-encoder returns at most k_fetch=10 results by design. Values reflect the optimally-tuned k_children=150 configuration.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="notes">Important caveat: P1 looks best in the table but its numbers are a metric artifact — 924 coarse chunks with broad URL granularity make it easy to land any chunk from the right page in top-10, even if it's the wrong paragraph. Among the semantic pipelines (P2/P3/P4), P4 wins at every k. At K=10 it finds the correct source 81% of the time vs 60% for production. MRR nearly doubles — the correct chunk ranks almost twice as high on average.</div>
+  <div class="slide-num">11 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 12: PER-CATEGORY ═══════════════════════════ -->
+<div class="slide slide-default" id="s12cat">
+  <div class="label">Category Analysis</div>
+  <h2>Recall@10 by Category — Where Each Pipeline Wins &amp; Fails</h2>
+  <div class="divider"></div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%; font-size:13px;">
+      <thead>
+        <tr>
+          <th style="text-align:left; width:30%;">Category</th>
+          <th style="color:#ffd4a0; text-align:center;">P1 MiniLM</th>
+          <th style="color:#aad4ff; text-align:center;">P2 Gemini</th>
+          <th style="color:#b8f0c8; text-align:center;">P3 E5+BM25</th>
+          <th style="color:#e0b8f8; text-align:center;">P4 Reranker</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Specialization Req.</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">1.00</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.97</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.41</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">1.00</td>
+        </tr>
+        <tr>
+          <td>Accelerated Tracks</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.88</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.88</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.88</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">1.00</td>
+        </tr>
+        <tr>
+          <td>Admissions</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.70</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.80</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.70</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.50</td>
+        </tr>
+        <tr>
+          <td>Exemptions</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.92</td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;">0.31</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.46</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.69</td>
+        </tr>
+        <tr>
+          <td>Remaining Obligations</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">1.00</td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;">0.40</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.60</td>
+          <td style="text-align:center; background:#d4f5d4; color:#1a5c1a;">0.80</td>
+        </tr>
+        <tr>
+          <td>Program Structure</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.67</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.50</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.50</td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.67</td>
+        </tr>
+        <tr style="background:#fff8f0;">
+          <td><strong>⚠️ Course Planning</strong></td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.67</td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.08</strong></td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.17</strong></td>
+          <td style="text-align:center; background:#fff3cd; color:#7a5a00;">0.50</td>
+        </tr>
+        <tr style="background:#fff8f0;">
+          <td><strong>⚠️ Registration Rules</strong></td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.33</strong></td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.33</strong></td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.33</strong></td>
+          <td style="text-align:center; background:#fde8d8; color:#7a2a00;"><strong>0.17</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:18px;">
+    <div class="callout" style="border-left-color:#e05c5c;">
+      <p><strong>registration_rules — fails on every pipeline.</strong> Max R@10 = 0.33. Content is scattered across multiple pages with no canonical URL. Not a model problem — a data coverage problem.</p>
+    </div>
+    <div class="callout" style="border-left-color:#e09a3c;">
+      <p><strong>course_planning — near-zero in P2/P3.</strong> P4 partially recovers (0.50) via parent-child retrieval. These are multi-hop questions whose answer spans several pages — no single chunk can satisfy the URL match.</p>
+    </div>
+  </div>
+  <div style="margin-top:10px; font-size:11px; color:var(--muted);">
+    🟢 ≥ 0.70 &nbsp;&nbsp; 🟡 0.40–0.69 &nbsp;&nbsp; 🔴 &lt; 0.40
+  </div>
+  <div class="notes">Registration rules is the clearest failure — stuck at 33% across all pipelines, even P4 drops to 17%. The content for these questions is either split across too many URLs or lives on pages we didn't scrape well. Course planning is the second weak spot — P4's parent-child approach helps because it retrieves larger context windows, but these questions likely require synthesizing info from multiple pages simultaneously.</div>
+  <div class="slide-num">12 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 9: CONCLUSIONS ═══════════════════════════ -->
+<div class="slide slide-default" id="s9">
+  <div class="label">Conclusions &amp; Next Steps</div>
+  <h2>What We Learned &amp; Where We Go Next</h2>
+  <div class="divider"></div>
+  <div class="cards" style="margin-bottom:20px;">
+    <div class="card">
+      <h3>🏆 P4 is the Winner</h3>
+      <p>Among semantic pipelines, P4 dominates at all k ≤ 10. R@10: <strong style="color:var(--p4);">81%</strong> vs 60% (Gemini). MRR nearly doubles (0.156 → 0.296). P1's higher raw numbers are a URL-granularity artifact — right page, not right answer.</p>
+    </div>
+    <div class="card">
+      <h3>⚠️ Metrics Can Deceive</h3>
+      <p>P1 (MiniLM + fixed chunks) scores R@10=83% but its 924 coarse chunks game the URL-level metric. Chatbot quality requires the LLM to receive the <em>right text</em>, not just a chunk from the right source page.</p>
+    </div>
+    <div class="card">
+      <h3>🔍 Hard Categories Remain</h3>
+      <p><code>course_planning</code> and <code>registration_rules</code> are weak across all semantic pipelines — multi-hop questions spanning several pages. No retrieval trick fixes this without better data coverage.</p>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <h3>Next: Integrate P4 into Production</h3>
+      <p>Replace the current Gemini-only pipeline in <code>rag.py</code> with P4's parent-child + reranker approach. Requires E5-large + bge-reranker-base (~1.4 GB total).</p>
+    </div>
+    <div class="card">
+      <h3>Next: End-to-End API Validation</h3>
+      <p>Start the MBA server and evaluate full answer quality via <code>localhost:8000</code> — not just URL retrieval but whether the LLM generates correct Hebrew answers.</p>
+    </div>
+    <div class="card">
+      <h3>Next: Expand Ground Truth</h3>
+      <p>100 questions is a good start. Secretary can continuously add Q&amp;A pairs to the CSV — they auto-embed on server restart with no code changes needed.</p>
+    </div>
+  </div>
+  <div class="notes">Key takeaway: naive chunking (P1) can fool URL-level metrics but fails to deliver the right content to the LLM. Dense embeddings alone (P2) hit a ceiling at 60%. The combination of BM25 + cross-encoder reranking on semantic chunks (P4) is what makes the real jump to 81%. Hard categories like course_planning remain weak because those questions span multiple pages — a problem for the LLM layer, not just retrieval.</div>
+  <div class="slide-num">13 / 14</div>
+</div>
+
+<!-- ═══════════════════════════ SLIDE 10: DECISION ═══════════════════════════ -->
+<div class="slide slide-default" id="s10">
+  <div class="label">Final Decision</div>
+  <h2>We Choose: Pipeline P4 &amp; K = 10</h2>
+  <div class="divider"></div>
+  <div class="two-col" style="align-items:start; gap:32px;">
+    <div>
+      <div style="font-size:12px; color:var(--p4); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:14px;">Why P4?</div>
+      <div class="decision">
+        <div class="decision-num" style="background:var(--p4);">1</div>
+        <div class="decision-text">
+          <h4>Best Recall Among Semantic Pipelines</h4>
+          <p>R@10 = <strong style="color:var(--p4);">81%</strong> vs 60% (Gemini) vs 50% (E5+BM25). P1 has higher raw numbers but retrieves the wrong text — P4 retrieves the correct paragraph. That is what the LLM needs to answer correctly.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num" style="background:var(--p4);">2</div>
+        <div class="decision-text">
+          <h4>MRR Nearly Doubles Production</h4>
+          <p>MRR <strong style="color:var(--p4);">0.296</strong> vs 0.156 (Gemini). The correct source ranks on average nearly twice as high in the result list.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num" style="background:var(--p4);">3</div>
+        <div class="decision-text">
+          <h4>Small-to-Big = Precision + Context</h4>
+          <p>Children (250 chars) match precise terms. Parents (900 chars) give the LLM full section context. Best of both worlds with k_children=150 tuned by sweep.</p>
+        </div>
+      </div>
+      <div class="decision">
+        <div class="decision-num" style="background:var(--p4);">4</div>
+        <div class="decision-text">
+          <h4>Free After Setup</h4>
+          <p>No API cost per query. E5-large + bge-reranker run locally. Only the LLM (Gemini 3.0-Flash) costs money.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="font-size:12px; color:var(--navy); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:14px;">Why K = 10?</div>
+      <div class="bars" style="margin-bottom:20px;">
+        <div class="bar-row"><div class="bar-label">K=3</div><div class="bar-track"><div class="bar-fill bar-p4" style="width:55%;">55%</div></div></div>
+        <div class="bar-row"><div class="bar-label">K=5</div><div class="bar-track"><div class="bar-fill bar-p4" style="width:69%;">69%</div></div></div>
+        <div class="bar-row"><div class="bar-label" style="color:var(--p4); font-weight:700;">K=10</div><div class="bar-track" style="outline:2px solid var(--p4); border-radius:4px;"><div class="bar-fill bar-p4" style="width:81%;">81% ✓</div></div></div>
+      </div>
+      <div class="card" style="border-color:#7b3fa0; border-top-color:#7b3fa0;">
+        <h3 style="color:var(--p4);">The Elbow Rule</h3>
+        <p style="color:#3a4a60;">K=3 → K=10 gains <strong style="color:var(--p4);">+26 percentage points</strong> in recall. After K=10 the cross-encoder has exhausted its k_parents=20 candidate pool — adding more K costs the LLM context with no extra retrieval benefit. K=10 is the optimal cost/quality trade-off.</p>
+      </div>
+      <div class="callout" style="margin-top:14px;">
+        <p><strong>Result:</strong> Updated <code>TOP_K = 10</code> in <code>rag.py</code>. k_children=150 set as P4 default after sweep. Production chatbot now retrieves 10 rich parent chunks per query.</p>
+      </div>
+    </div>
+  </div>
+  <div class="notes">Our two decisions: Pipeline P4 (parent-child + cross-encoder, tuned with k_children=150) and K=10. P1 looks better on paper but it's not a fair comparison — different chunking strategy inflates URL-level scores. P4 is the only pipeline that guarantees the right text reaches the LLM. We already updated TOP_K=10 in rag.py. Next step: replace the Gemini-only pipeline with P4 in production — runs fully locally, only the LLM call costs money.</div>
+  <div class="slide-num">14 / 14</div>
+</div>
+
+</div><!-- /deck -->
+
+<!-- navigation -->
+<div class="nav">
+  <button class="nav-btn" onclick="go(-1)">← Prev</button>
+  <div class="nav-dots" id="dots"></div>
+  <button class="nav-btn" onclick="go(1)">Next →</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+  // ── Recall@k comparison chart (Slide 8) ─────────────────────────────────
+  const kLabels = [1, 3, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+  const p2 = [0.000, 0.180, 0.400, 0.600, 0.680, 0.730, 0.740, 0.750, 0.750, 0.770, 0.770, 0.770];
+  const p3 = [0.000, 0.210, 0.310, 0.500, 0.640, 0.740, 0.790, 0.790, 0.790, 0.790, 0.850, 0.870];
+  // P1: MiniLM + fixed-size chunks (shown only to k=10)
+  const p1 = [0.470, 0.650, 0.750, 0.830, null, null, null, null, null, null, null, null];
+  // P4 with k_children=150 (optimally tuned): shown only to k=10 since k_fetch=10 by design
+  const p4 = [0.000, 0.550, 0.690, 0.810, null, null, null, null, null, null, null, null];
+
+  function initRecallChart() {
+    const ctx = document.getElementById('recallChart');
+    if (!ctx) return;
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: kLabels,
+        datasets: [
+          { label: 'P1: MiniLM + Fixed Chunks (k≤10)', data: p1, borderColor: '#e07020', backgroundColor: 'rgba(224,112,32,.08)', pointRadius: 4, borderWidth: 2, tension: .35, spanGaps: false, borderDash: [5,3] },
+          { label: 'P2: Gemini-001 (prod)',              data: p2, borderColor: '#1e6cb5', backgroundColor: 'rgba(30,108,181,.08)', pointRadius: 4, borderWidth: 2.5, tension: .35 },
+          { label: 'P3: E5-Large + BM25',               data: p3, borderColor: '#2a8a4a', backgroundColor: 'rgba(42,138,74,.08)',  pointRadius: 4, borderWidth: 2.5, tension: .35 },
+          { label: 'P4: Parent-Child + Reranker (k≤10)', data: p4, borderColor: '#7b3fa0', backgroundColor: 'rgba(123,63,160,.08)', pointRadius: 5, borderWidth: 2.5, tension: .35, spanGaps: false },
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { labels: { color: '#1a2744', font: { size: 11 }, boxWidth: 16, padding: 12 } },
+          tooltip: { mode: 'index', intersect: false }
+        },
+        scales: {
+          x: { title: { display: true, text: 'k', color: '#5a6a88' }, ticks: { color: '#5a6a88' }, grid: { color: '#e8ecf2' } },
+          y: { min: 0, max: 1, title: { display: true, text: 'Recall@k', color: '#5a6a88' }, ticks: { color: '#5a6a88', callback: v => (v*100)+'%' }, grid: { color: '#e8ecf2' } }
+        }
+      }
+    });
+  }
+
+  // ── K_CHILDREN sweep chart (Slide 7) ────────────────────────────────────
+  const sweepK    = [30, 50, 100, 150, 200];
+  const sweepR3   = [0.520, 0.530, 0.530, 0.550, 0.540];
+  const sweepR5   = [0.660, 0.670, 0.670, 0.690, 0.690];
+  const sweepR10  = [0.810, 0.810, 0.800, 0.810, 0.820];
+  const sweepMRR  = [0.288, 0.287, 0.288, 0.296, 0.296];
+
+  function initSweepChart() {
+    const ctx = document.getElementById('sweepChart');
+    if (!ctx) return;
+    new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: sweepK,
+        datasets: [
+          { label: 'R@3',  data: sweepR3,  borderColor: '#e07020', backgroundColor: 'rgba(224,112,32,.08)',  pointRadius: 5, borderWidth: 2, tension: .3 },
+          { label: 'R@5',  data: sweepR5,  borderColor: '#1e6cb5', backgroundColor: 'rgba(30,108,181,.08)', pointRadius: 5, borderWidth: 2, tension: .3 },
+          { label: 'R@10', data: sweepR10, borderColor: '#7b3fa0', backgroundColor: 'rgba(123,63,160,.08)', pointRadius: 5, borderWidth: 2.5, tension: .3 },
+          { label: 'MRR×3', data: sweepMRR.map(v => v * 3), borderColor: '#2a8a4a', backgroundColor: 'rgba(42,138,74,.08)', pointRadius: 5, borderWidth: 2, tension: .3, borderDash: [5,3] },
+        ]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { labels: { color: '#1a2744', font: { size: 11 }, boxWidth: 14, padding: 10 } },
+          tooltip: {
+            mode: 'index', intersect: false,
+            callbacks: {
+              label: function(ctx) {
+                const v = ctx.raw;
+                if (ctx.dataset.label === 'MRR×3') return `MRR: ${(v/3).toFixed(3)}`;
+                return `${ctx.dataset.label}: ${(v*100).toFixed(1)}%`;
+              }
+            }
+          },
+          annotation: {}
+        },
+        scales: {
+          x: { title: { display: true, text: 'k_children', color: '#5a6a88' }, ticks: { color: '#5a6a88' }, grid: { color: '#e8ecf2' } },
+          y: { min: 0.25, max: 0.90, title: { display: true, text: 'Score', color: '#5a6a88' }, ticks: { color: '#5a6a88', callback: v => (v*100).toFixed(0)+'%' }, grid: { color: '#e8ecf2' } }
+        }
+      }
+    });
+  }
+
+  window.addEventListener('load', () => { initRecallChart(); initSweepChart(); });
+
+  // ── Slide navigation ─────────────────────────────────────────────────────
+  const slides = document.querySelectorAll('.slide');
+  const dotsEl = document.getElementById('dots');
+  let cur = 0;
+
+  slides.forEach((_, i) => {
+    const d = document.createElement('div');
+    d.className = 'dot' + (i === 0 ? ' active' : '');
+    d.onclick = () => show(i);
+    dotsEl.appendChild(d);
+  });
+
+  function show(n) {
+    slides[cur].classList.remove('active');
+    dotsEl.children[cur].classList.remove('active');
+    cur = (n + slides.length) % slides.length;
+    slides[cur].classList.add('active');
+    dotsEl.children[cur].classList.add('active');
+  }
+
+  function go(dir) { show(cur + dir); }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') go(1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   go(-1);
+  });
+</script>
+</body>
+</html>

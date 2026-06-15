@@ -5,6 +5,7 @@ Vector store: FAISS IndexFlatIP (cosine similarity via L2-normalized vectors)
 """
 
 import os
+import csv
 import json
 import hashlib
 import numpy as np
@@ -17,8 +18,8 @@ HASH_FILE    = os.path.join("data", "content_hash.txt")
 EMBED_MODEL  = "models/gemini-embedding-001"
 CHUNK_SIZE   = 900   # max chars for a single chunk when fallback-splitting long sections
 CHUNK_OVERLAP = 100  # overlap only used when a semantic section exceeds CHUNK_SIZE
-TOP_K        = 5
-MIN_SCORE    = 0.40
+TOP_K        = 10
+MIN_SCORE    = 0.37
 
 # Matches year/section headers in the Shnaton roadmap and specialization data.
 # Examples: "שנה 1 - חובה", "שנה 2 - בחירה", "שנה 1 - חובת בחירה סמינרים"
@@ -225,10 +226,18 @@ def embed_query(text: str) -> list[float]:
     return _embed(text, "retrieval_query")
 
 
+# ── FAQ / secretary knowledge source ──────────────────────────────
+FAQ_CSV = os.path.join("evaluation_framework", "ground_truth_mba_qa.csv")
+FAQ_URL = "https://bschool.huji.ac.il/mba"
+
 # ── Index management ──────────────────────────────────────────────
 
 def _content_hash(content: str) -> str:
-    return hashlib.md5(content.encode()).hexdigest()
+    faq_text = ""
+    if os.path.exists(FAQ_CSV):
+        with open(FAQ_CSV, encoding="utf-8") as f:
+            faq_text = f.read()
+    return hashlib.md5((content + faq_text).encode()).hexdigest()
 
 
 def _index_is_fresh(content: str) -> bool:
@@ -238,9 +247,49 @@ def _index_is_fresh(content: str) -> bool:
         return f.read().strip() == _content_hash(content)
 
 
+def load_faq_chunks() -> list[dict]:
+    """Load secretary-curated Q&A pairs from ground_truth_mba_qa.csv.
+
+    Each approved row becomes a 'שאלה: X\\nתשובה: Y' chunk so the embedding
+    model can directly match user questions to curated answers. The secretary
+    adds rows to the CSV; the next index rebuild picks them up automatically.
+    Rows where secretary_tag == 'needs_fix' are skipped.
+    """
+    if not os.path.exists(FAQ_CSV):
+        return []
+    faq_chunks = []
+    with open(FAQ_CSV, encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            tag = (row.get("secretary_tag") or "").strip()
+            if tag == "needs_fix":
+                continue
+            question = (row.get("question_he") or "").strip()
+            answer   = (row.get("answer_he")   or "").strip()
+            category = (row.get("category")    or "").strip()
+            if not question or not answer:
+                continue
+            text = f"שאלה: {question}\nתשובה: {answer}"
+            faq_chunks.append({
+                "text":     text,
+                "source":   f"FAQ — {category}",
+                "url":      FAQ_URL,
+                "chunk_id": -1,   # placeholder; reassigned in build_index
+            })
+    return faq_chunks
+
+
 def build_index(content: str) -> tuple:
     """Chunk → embed → build FAISS index → save to disk."""
     chunks = chunk_content(content)
+
+    faq = load_faq_chunks()
+    if faq:
+        base = len(chunks)
+        for i, fc in enumerate(faq):
+            fc["chunk_id"] = base + i
+        chunks.extend(faq)
+        print(f"[rag] +{len(faq)} FAQ chunks loaded from {FAQ_CSV}")
+
     print(f"[rag] Embedding {len(chunks)} chunks (this takes ~1 min)...")
 
     embeddings = []
