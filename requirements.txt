@@ -18,3 +18,7 @@ rank_bm25
 matplotlib
 sentence-transformers
 pandas
+# experiments/v2 (RAG improvement experiment)
+torch                 # backend for sentence-transformers / NeoDictaBERT / cross-encoder
+FlagEmbedding         # BAAI/bge-m3 dense + learned-sparse (Stage B sparse_rrf, Stage C)
+# ragatouille         # OPTIONAL: ColBERT-v2 late interaction (Stage B arm B2b); skipped if absent
