@@ -118,9 +118,9 @@ def stage_b_arms(winning_chunking: str) -> list[ArmConfig]:
     arms = [
         ArmConfig(arm_id="B0_dense", retrieval="dense", **base),
         ArmConfig(arm_id="B1a_bm25_rrf", retrieval="bm25_rrf", **base),
-        ArmConfig(arm_id="B1b_sparse_rrf", retrieval="sparse_rrf", **base),
+        # B1b_sparse_rrf skipped: bge-m3 sparse OOMs on this machine
+        # B2b_rerank_colbert skipped: ragatouille not installed
         ArmConfig(arm_id="B2a_rerank_ce", retrieval="rerank_ce", **base),
-        ArmConfig(arm_id="B2b_rerank_colbert", retrieval="rerank_colbert", **base),
         ArmConfig(arm_id="B3_rerank_ce_qe", retrieval="rerank_ce_qe", **base),
     ]
     check_ovat(arms, varying="retrieval")
@@ -133,7 +133,7 @@ def stage_c_arms(winning_chunking: str, winning_retrieval: str) -> list[ArmConfi
     arms = [
         ArmConfig(arm_id="C0_gemini2", embedding="gemini-embedding-2", **base),
         ArmConfig(arm_id="C1_neodictabert", embedding="neodictabert", **base),
-        ArmConfig(arm_id="C2_bge_m3", embedding="bge-m3", **base),
+        # C2_bge_m3 skipped: bge-m3 segfaults on this machine (OOM)
     ]
     check_ovat(arms, varying="embedding")
     return arms

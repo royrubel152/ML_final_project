@@ -33,7 +33,14 @@ from experiments.v2 import harness, retrievers
 from experiments.v2.configs import ArmConfig
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-OUT_CSV = ROOT / "evaluation_framework" / "chunk_ground_truth.csv"
+GT_DIR = ROOT / "evaluation_framework"
+
+
+def chunk_gt_path(chunking: str) -> Path:
+    """Return the chunk GT CSV path for a given chunking strategy."""
+    if chunking == "baseline":
+        return GT_DIR / "chunk_ground_truth.csv"
+    return GT_DIR / f"chunk_ground_truth_{chunking}.csv"
 
 _COURSE_CODE = re.compile(r"\b\d{5}\b")
 _CREDITS = re.compile(r"\d+(?:\.\d+)?\s*נ[\"״׳']?ז")
@@ -57,21 +64,37 @@ def score_chunk(chunk_text: str, facts: list[str]) -> int:
 
 
 def main() -> None:
+    from experiments.v2.configs import CHUNKING_STRATEGIES
+
     ap = argparse.ArgumentParser(description="Build draft chunk-level ground truth")
     ap.add_argument("--pool-k", type=int, default=30, help="retrieval pool size per question")
     ap.add_argument("--min-facts", type=int, default=1, help="min fact overlap to propose a chunk")
     ap.add_argument("--max-chunks", type=int, default=3, help="max proposed chunks per question")
+    ap.add_argument("--chunking", nargs="*", default=list(CHUNKING_STRATEGIES),
+                    help="chunking strategies to build GT for (default: all)")
     args = ap.parse_args()
 
-    # Reuse the harness machinery: baseline chunks + dense gemini index, top-K dense.
-    config = ArmConfig(
-        arm_id="gt_builder", chunking="baseline", embedding="gemini-embedding-2",
-        retrieval="dense", pool_k=args.pool_k, rerank_k=args.pool_k, context_k=args.pool_k,
-    )
+    for chunking_strategy in args.chunking:
+        print(f"\n{'='*60}\nBuilding chunk GT for: {chunking_strategy}\n{'='*60}")
+        _build_for_chunking(chunking_strategy, args)
+
+
+def _build_for_chunking(chunking_strategy: str, args) -> None:
     from experiments.v2 import chunkers
+
+    config = ArmConfig(
+        arm_id=f"gt_builder_{chunking_strategy}", chunking=chunking_strategy,
+        embedding="gemini-embedding-2", retrieval="dense",
+        pool_k=args.pool_k, rerank_k=args.pool_k, context_k=args.pool_k,
+    )
     chunks = chunkers.build_chunks(config.chunking, enrich_meta=config.enrich)
     ctx = harness.build_context(config, chunks)
-    samples = harness.load_in_corpus_samples()
+    # Load samples without chunk GT (we're building it)
+    from evaluation_framework import io_ground_truth
+    all_samples = io_ground_truth.load_qa(harness.GT_CSV)
+    in_corpus, _ = io_ground_truth.segment_samples(all_samples)
+    samples = in_corpus
+    print(f"  [gt] {len(samples)} in-corpus questions")
 
     rows: list[dict] = []
     for i, sample in enumerate(samples):
@@ -102,8 +125,9 @@ def main() -> None:
         if (i + 1) % 25 == 0:
             print(f"  {i + 1}/{len(samples)} questions labeled")
 
-    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT_CSV, "w", newline="", encoding="utf-8") as f:
+    out_csv = chunk_gt_path(chunking_strategy)
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f, fieldnames=["sample_id", "chunk_ids", "match_score", "matched_preview", "needs_review"],
         )
@@ -111,7 +135,7 @@ def main() -> None:
         writer.writerows(rows)
 
     labeled = sum(1 for r in rows if r["chunk_ids"])
-    print(f"\nWrote {OUT_CSV}")
+    print(f"\nWrote {out_csv}")
     print(f"  {labeled}/{len(rows)} questions got >=1 proposed chunk; review needs_review=TRUE rows.")
 
 

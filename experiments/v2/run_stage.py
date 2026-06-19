@@ -70,9 +70,8 @@ def main() -> None:
     for arm in arms:
         try:
             results[arm.arm_id] = harness.run_arm(arm)
-        except RuntimeError as exc:
-            # e.g. ColBERT-v2 optional dependency missing for arm B2b
-            print(f"  [skip] {arm.arm_id}: {exc}")
+        except (RuntimeError, ImportError, Exception) as exc:
+            print(f"  [skip] {arm.arm_id}: {type(exc).__name__}: {exc}")
 
     _print_table(results)
     if results:

@@ -1,0 +1,101 @@
+sample_id,chunk_ids,match_score,matched_preview,needs_review
+mba_gt_001,baseline_215;baseline_23;baseline_19,8,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_002,baseline_213;baseline_28;baseline_215,4,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_003,baseline_214;baseline_44;baseline_31,13,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_004,baseline_44;baseline_214;baseline_14,18,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_005,baseline_214;baseline_44;baseline_30,10,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_006,baseline_214;baseline_213;baseline_44,15,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_007,baseline_43;baseline_62;baseline_44,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_008,baseline_43;baseline_44;baseline_35,17,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_009,baseline_6;baseline_5;baseline_10,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_010,baseline_215;baseline_19;baseline_44,6,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_011,baseline_7;baseline_13;baseline_60,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_012,baseline_25;baseline_7;baseline_13,13,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_013,baseline_42;baseline_39;baseline_176,11,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_014,baseline_9;baseline_278;baseline_269,25,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_015,baseline_8;baseline_27;baseline_9,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_016,baseline_9;baseline_28;baseline_46,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_017,baseline_10;baseline_48;baseline_14,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_018,baseline_5;baseline_19;baseline_59,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_019,baseline_7;baseline_61;baseline_547,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_020,baseline_7;baseline_47;baseline_269,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_021,baseline_12;baseline_13;baseline_26,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_022,baseline_15;baseline_58;baseline_60,13,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_023,baseline_56;baseline_51;baseline_354,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_024,baseline_56;baseline_51;baseline_12,11,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_025,baseline_53;baseline_52;baseline_389,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_026,baseline_48;baseline_49;baseline_11,13,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_027,baseline_10;baseline_47;baseline_48,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_028,baseline_10;baseline_519;baseline_527,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_029,baseline_51;baseline_53;baseline_50,7,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_030,baseline_54;baseline_53;baseline_47,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_031,baseline_54;baseline_556;baseline_557,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_032,baseline_56;baseline_12;baseline_52,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_033,baseline_12;baseline_51;baseline_56,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_034,baseline_12;baseline_52;baseline_53,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_035,baseline_48;baseline_11;baseline_75,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_036,baseline_10;baseline_11;baseline_47,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_037,baseline_508;baseline_512;baseline_513,5,"שנה 1 - חובה (סה""כ 9 נ""ז) הערה: שנה א- בהתמחות משנית בחקר ביצועים וניהול התפעול יש ללמוד לפחות 18 נ""ז מקורסי ההתמחות. בו",TRUE
+mba_gt_038,baseline_11;baseline_450;baseline_316,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_039,baseline_11;baseline_53;baseline_10,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_040,baseline_438;baseline_11;baseline_10,5,"שנה 1 - חובה (סה""כ 12 נ""ז) הערה: שנה א - התמחות באנליטיקה של נתוני עתק. התמחות ראשית בלבד. בוגרי/תלמידי מדעי המחשב אינם ",TRUE
+mba_gt_041,baseline_217;baseline_317;baseline_433,4,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_042,baseline_11;baseline_547;baseline_549,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_043,baseline_12;baseline_11;baseline_10,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_044,baseline_224;baseline_12;baseline_56,7,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_045,baseline_53;baseline_10;baseline_218,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_046,baseline_228;baseline_227;baseline_53,10,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_047,baseline_225;baseline_226;baseline_56,8,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_048,baseline_219;baseline_223;baseline_218,9,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_049,baseline_48;baseline_221;baseline_75,10,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_050,baseline_223;baseline_226;baseline_338,12,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_051,baseline_28;baseline_9;baseline_50,11,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_052,baseline_481;baseline_488;baseline_487,6,"שנה 1 - חובת בחירה סמינרים (סה""כ 4 נ""ז) הערה: שנה ב - בהתמחות באסטרטגיה, יש לבחור סמינר אחד (אחרי לימוד קורסי החובה בהתמ",TRUE
+mba_gt_053,baseline_16;baseline_44;baseline_45,4,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_054,baseline_62;baseline_28;baseline_45,5,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_055,baseline_62;baseline_43;baseline_44,9,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_056,baseline_63;baseline_155;baseline_151,6,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_057,baseline_155;baseline_210;baseline_64,5,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_058,baseline_50;baseline_26;baseline_45,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_059,baseline_12;baseline_46;baseline_47,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_060,baseline_42;baseline_63;baseline_46,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_061,baseline_14;baseline_43;baseline_62,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_062,baseline_62;baseline_44;baseline_63,8,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_063,baseline_233;baseline_234;baseline_63,14,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_064,baseline_45;baseline_14;baseline_16,4,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_065,baseline_424;baseline_419;baseline_521,3,"שנה 1 - בחירה הערה: . קורסי בחירה של ההתמחות במדע המידע - 55983: בינה מלאכותית אחראית (3 נ""ז, סמסטר א) מרצה: פרופסור קלא",TRUE
+mba_gt_066,baseline_28;baseline_242;baseline_235,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_067,baseline_243;baseline_462;baseline_234,3,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_068,baseline_232;baseline_28;baseline_236,7,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_069,baseline_40;baseline_14;baseline_25,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_070,baseline_10;baseline_450;baseline_459,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_071,baseline_12;baseline_13;baseline_234,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_072,baseline_10;baseline_34;baseline_26,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_073,baseline_234;baseline_142;baseline_193,2,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_074,baseline_46;baseline_89;baseline_54,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_075,baseline_28;baseline_243;baseline_235,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_076,baseline_26;baseline_504;baseline_10,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_077,baseline_16;baseline_25;baseline_1,4,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_078,baseline_241;baseline_235;baseline_240,4,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_079,baseline_8;baseline_26;baseline_62,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_080,baseline_534;baseline_13;baseline_16,6,"שנה 1 - חובה (סה""כ 24 נ""ז) הערה: . קורסי חובה כלליים (חובה במסגרת לימודי MBA) - ציון עובר בקורסים אלו 70. ניתן ללמוד עד ",TRUE
+mba_gt_081,baseline_13;baseline_26;baseline_12,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_082,baseline_13;baseline_26;baseline_12,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_083,baseline_14;baseline_12;baseline_13,9,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_084,baseline_14;baseline_25;baseline_18,7,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_085,baseline_7;baseline_42;baseline_40,7,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_086,baseline_57;baseline_26;baseline_15,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_087,baseline_22;baseline_23;baseline_33,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_088,baseline_33;baseline_243;baseline_34,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_089,baseline_13;baseline_34;baseline_36,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_090,baseline_46;baseline_13;baseline_28,6,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_091,baseline_33;baseline_10;baseline_13,7,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_092,baseline_28;baseline_62;baseline_534,2,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_093,baseline_17;baseline_31;baseline_18,12,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_094,baseline_18;baseline_25;baseline_17,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_095,baseline_230;baseline_20;baseline_30,7,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_096,baseline_24;baseline_17;baseline_31,12,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_097,baseline_7;baseline_26;baseline_18,7,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_098,baseline_37;baseline_19;baseline_36,8,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE
+mba_gt_099,baseline_236;baseline_232;baseline_29,13,-Place the sidebar in two different places due to the page tpl logic. sidebar first region beg - מתעניינים/ות תואר ראשון,TRUE
+mba_gt_100,baseline_24;baseline_36;baseline_27,5,1 תקנון לימודים לתואר מוסמך במנהל עסקים – MBA המסמך שלהלן מיועד לסטודנטים ולסטודנטיות המתחילים את לימודיהם בשנת הלימודים,TRUE

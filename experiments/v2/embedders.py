@@ -88,6 +88,9 @@ class GeminiEmbedder(BaseEmbedder):
 
     def _embed_one(self, text: str, instruction: str) -> list[float]:
         import google.generativeai as genai
+        api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
+        if api_key:
+            genai.configure(api_key=api_key)
         kwargs = {}
         if self.output_dim:
             kwargs["output_dimensionality"] = self.output_dim

@@ -25,7 +25,6 @@ from experiments.v2.configs import ArmConfig
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 GT_CSV = ROOT / "evaluation_framework" / "ground_truth_mba_qa.csv"
-CHUNK_GT_CSV = ROOT / "evaluation_framework" / "chunk_ground_truth.csv"
 RESULTS_DIR = ROOT / "experiments" / "results"
 RUNS_CSV = RESULTS_DIR / "runs.csv"
 
@@ -40,11 +39,12 @@ _RUN_COLUMNS = [
 
 # ── Ground truth ────────────────────────────────────────────────────────────
 
-def load_in_corpus_samples() -> list:
-    """Load GT, attach chunk-level labels, return only the in-corpus subset."""
+def load_in_corpus_samples(chunking: str = "baseline") -> list:
+    """Load GT, attach chunk-level labels for the given chunking strategy."""
     from evaluation_framework import io_ground_truth
+    from experiments.v2.build_chunk_gt import chunk_gt_path
     samples = io_ground_truth.load_qa(GT_CSV)
-    io_ground_truth.attach_chunk_gt(samples, CHUNK_GT_CSV)
+    io_ground_truth.attach_chunk_gt(samples, chunk_gt_path(chunking))
     in_corpus, secretariat_only = io_ground_truth.segment_samples(samples)
     print(f"  [gt] {len(in_corpus)} in-corpus, {len(secretariat_only)} secretariat-only (excluded)")
     return in_corpus
@@ -114,7 +114,7 @@ def run_arm(config: ArmConfig, write: bool = True) -> dict:
     chunks = chunkers.build_chunks(config.chunking, enrich_meta=config.enrich)
     print(f"  [chunks] {len(chunks)} retrieval units ({config.chunking})")
     ctx = build_context(config, chunks)
-    samples = load_in_corpus_samples()
+    samples = load_in_corpus_samples(config.chunking)
 
     per_metric: dict[str, list[float]] = {}
     latencies: list[float] = []

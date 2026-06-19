@@ -1,7 +1,13 @@
 """
 RAG module — chunking, embedding, FAISS index, retrieval.
-Embedding model: gemini-embedding-001 (dim=3072, Hebrew support)
+Embedding model: gemini-embedding-2 (dim=3072, inline task instructions)
 Vector store: FAISS IndexFlatIP (cosine similarity via L2-normalized vectors)
+
+Pipeline selected by OVAT experiment (experiments/v2):
+  Chunking:  breadcrumb (baseline + source>spec prefix)
+  Embedding: gemini-embedding-2
+  Retrieval: dense (FAISS cosine)
+  K:         pool=40, context=8
 """
 
 import os
@@ -15,10 +21,12 @@ import google.generativeai as genai
 CHUNKS_FILE  = os.path.join("data", "chunks.json")
 INDEX_FILE   = os.path.join("data", "faiss_index.bin")
 HASH_FILE    = os.path.join("data", "content_hash.txt")
-EMBED_MODEL  = "models/gemini-embedding-001"
+EMBED_MODEL  = "models/gemini-embedding-2"
 CHUNK_SIZE   = 900   # max chars for a single chunk when fallback-splitting long sections
 CHUNK_OVERLAP = 100  # overlap only used when a semantic section exceeds CHUNK_SIZE
-TOP_K        = 10
+POOL_K       = 40    # candidates pulled from FAISS
+CONTEXT_K    = 8     # final chunks handed to the generator
+TOP_K        = CONTEXT_K  # backward compat alias
 MIN_SCORE    = 0.37
 
 # Matches year/section headers in the Shnaton roadmap and specialization data.
@@ -129,7 +137,7 @@ def _split_on_headers_with_pattern(text: str, pattern) -> list[str]:
     return blocks
 
 
-def _fixed_split(text: str, source: str, url: str, all_chunks: list):
+def _fixed_split(text: str, source: str, url: str, all_chunks: list, breadcrumb: str = ""):
     """Fallback: split a long block with overlapping fixed-size windows.
 
     Continuation chunks (all except the first) get the block's first line
@@ -137,9 +145,6 @@ def _fixed_split(text: str, source: str, url: str, all_chunks: list):
     present in every chunk and the embedding model can match retrieval queries
     even when a long mandatory-course block is split across multiple windows.
     """
-    # Use the first ~200 chars as context prefix (includes section header + הערה note).
-    # This ensures continuation chunks carry the specialization name, e.g.
-    # "אנליטיקה של נתוני עתק", so the embedding matches the right specialization query.
     context_prefix = text[:200].strip()
     start = 0
     chunk_num = 0
@@ -147,6 +152,7 @@ def _fixed_split(text: str, source: str, url: str, all_chunks: list):
         piece = text[start:start + CHUNK_SIZE].strip()
         if chunk_num > 0 and context_prefix:
             piece = f"{context_prefix}\n...\n{piece}"
+        piece = breadcrumb + piece
         if len(piece) > 80:
             all_chunks.append({
                 "text": piece,
@@ -158,24 +164,32 @@ def _fixed_split(text: str, source: str, url: str, all_chunks: list):
         chunk_num += 1
 
 
+def _breadcrumb(source: str, url: str) -> str:
+    """Build a 'source > spec' breadcrumb prefix from chunk metadata."""
+    spec_name = source.strip() if source else ""
+    m = _re.search(r"/specialization/\d+", url or "")
+    crumbs = [x for x in (source, spec_name) if x]
+    breadcrumb = " > ".join(dict.fromkeys(crumbs))
+    return f"[{breadcrumb}]\n" if breadcrumb else ""
+
+
 def chunk_content(content: str) -> list[dict]:
     """
-    Semantic chunking: split each source section on year/type headers
-    (שנה 1 - חובה, שנה 1 - בחירה, etc.) so mandatory and elective courses
-    never share a chunk. Blocks that exceed CHUNK_SIZE are further split
-    with a small fixed-size window (elective lists can be very long).
+    Semantic chunking with breadcrumb prefix (OVAT Stage A winner).
+
+    Each chunk is prefixed with '[source > spec]' so split chunks retain
+    structural context for the embedding model. Splits each source section
+    on year/type headers (שנה 1 - חובה, שנה 1 - בחירה, etc.).
 
     Special handling:
     - פטורים source: split on regulatory section headers (_REGULATORY_HDR)
-      because the exemptions page is 20,021 words with 304 RTL/LTR switches.
-    - Post-processing: exact-text deduplication removes near-identical chunks
-      from מחקרי/עיוני MBA pair (Jaccard 0.969 per Bar's EDA).
+    - Post-processing: exact-text deduplication (מחקרי/עיוני pair)
     """
     all_chunks = []
     for section in _parse_sections(content):
         text, source, url = section["text"], section["source"], section["url"]
+        prefix = _breadcrumb(source, url)
 
-        # Choose header pattern: regulatory for exemptions, semantic for everything else
         if "פטורים" in source:
             blocks = _split_on_headers_with_pattern(text, _REGULATORY_HDR)
         else:
@@ -185,23 +199,20 @@ def chunk_content(content: str) -> list[dict]:
             if len(block) <= CHUNK_SIZE:
                 if len(block) > 80:
                     all_chunks.append({
-                        "text": block,
+                        "text": prefix + block,
                         "source": source,
                         "url": url,
                         "chunk_id": len(all_chunks),
                     })
             else:
-                _fixed_split(block, source, url, all_chunks)
+                _fixed_split(block, source, url, all_chunks, breadcrumb=prefix)
 
-    # P1: Drop exact-text duplicates (handles מחקרי/עיוני near-identical pair).
-    # Keep first occurrence (which will be מחקרי if sorted alphabetically by source).
     seen_texts: dict[str, bool] = {}
     merged = []
     for ch in all_chunks:
         if ch["text"] not in seen_texts:
             seen_texts[ch["text"]] = True
             merged.append(ch)
-    # Re-assign sequential chunk_ids after dedup
     for i, ch in enumerate(merged):
         ch["chunk_id"] = i
     return merged
@@ -209,21 +220,20 @@ def chunk_content(content: str) -> list[dict]:
 
 # ── Embedding ─────────────────────────────────────────────────────
 
-def _embed(text: str, task: str) -> list[float]:
+def _embed(text: str, instruction: str) -> list[float]:
     result = genai.embed_content(
         model=EMBED_MODEL,
-        content=text,
-        task_type=task,
+        content=instruction + text,
     )
     return result["embedding"]
 
 
 def embed_document(text: str) -> list[float]:
-    return _embed(text, "retrieval_document")
+    return _embed(text, "task: search document | ")
 
 
 def embed_query(text: str) -> list[float]:
-    return _embed(text, "retrieval_query")
+    return _embed(text, "task: search query | ")
 
 
 # ── FAQ / secretary knowledge source ──────────────────────────────
@@ -360,7 +370,7 @@ def enrich_chunks_metadata(chunks: list[dict], spec_map: dict) -> list[dict]:
 
 # ── Retrieval ─────────────────────────────────────────────────────
 
-def retrieve(query: str, index, chunks: list[dict], top_k: int = TOP_K) -> list[dict]:
+def retrieve(query: str, index, chunks: list[dict], top_k: int = CONTEXT_K) -> list[dict]:
     return retrieve_with_context(query, index, chunks, active_spec_code=None, top_k=top_k)
 
 
@@ -369,18 +379,16 @@ def retrieve_with_context(
     index,
     chunks: list[dict],
     active_spec_code: str = None,
-    top_k: int = TOP_K,
+    top_k: int = CONTEXT_K,
 ) -> list[dict]:
     """
     Retrieve chunks with optional specialization boosting.
-    When active_spec_code is set, fetches 4× more candidates,
-    boosts chunks from the active specialization (+0.20),
-    and mildly penalises chunks from other specializations (-0.08).
+    Pulls POOL_K candidates from FAISS, applies spec boosting if active,
+    then returns the top context_k results.
     """
-    # P2: Expand query with Hebrew prefix variants before embedding.
     query = _expand_query(query)
 
-    candidates = min(top_k * 4, len(chunks)) if active_spec_code else top_k
+    candidates = min(POOL_K, len(chunks))
 
     q_vec = np.array([embed_query(query)], dtype="float32")
     faiss.normalize_L2(q_vec)
