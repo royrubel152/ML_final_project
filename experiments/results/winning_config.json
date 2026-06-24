@@ -1,0 +1,11 @@
+{
+  "arm_id": "winner",
+  "notes": "",
+  "chunking": "breadcrumb",
+  "embedding": "gemini-embedding-2",
+  "retrieval": "dense",
+  "pool_k": 20,
+  "rerank_k": 15,
+  "context_k": 5,
+  "enrich": true
+}

@@ -284,7 +284,7 @@ async def lifespan(app: FastAPI):
     state["index"] = index
     state["chunks"] = chunks
     state["model"] = genai.GenerativeModel(
-        model_name="gemini-3.0-flash",
+        model_name="gemini-3.1-flash-lite",
         system_instruction=SYSTEM_PROMPT,
         generation_config=genai.GenerationConfig(temperature=0.0),
     )
